@@ -21,7 +21,9 @@ This project is done in the context of the course NLP.
 - (optional): build a pipeline to use external knowledge, scrape actual data from internet or use a RAG system
 
 # Project architecture
-The following structure is aimed to create during this project.
+The following structure is aimed to create during this project. 
+
+![image](Doc/Assets/Untitled%20Diagram-3.jpg)
 
 ## Datasets:
 - Subset of the US2016 corpus: [AIFdb US2016](https://corpora.aifdb.org/US2016)
