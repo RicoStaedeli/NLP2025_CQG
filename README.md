@@ -1,8 +1,4 @@
-# NLP2025_CQG
-
-We propose a system that is able to generate critical questions for a given text.
-
-# Project Goals
+# Critical Question Generation: A novel approach by Cédric & Rico
 
 We aim to generate useful critical questions for a given argumentative text.
 
@@ -13,30 +9,124 @@ attack its inference.
 This project is a development for the following shared
 task: [CQG shared task](https://hitz-zentroa.github.io/shared-task-critical-questions-generation/)
 
-# Project constraints
+## Table of Contents
 
-This project is done in the context of the course NLP.
+1. [Project Description](#project-description)
+2. [Project Structure](#project-structure)
+3. [Setup Instructions](#setup-instructions)
+4. [Running the Project](#running-the-project)
+6. [Team Contributions](#team-contributions)
+7. [Results & Evaluation](#results--evaluation)
+8. [References](#references)
 
-- Time limit of 5 Weeks
-- Computing ressources: No GPU on development computer
+---
 
-# Project focus
+## Project Description
+> [!WARNING]  
+> Describe Project overview with image
+> Tell which model and dataset was used.
 
-- Develop a pipeline to infere with different pretrained LLMs
-- Evaluate performance for zero-shot prompting, few-shot prompting and CoT
-  prompting [Prompt techniques](https://www.promptingguide.ai/techniques)
-- Finetune one LLM with a dataset containing critical Questions and evaluate this performance
-- (optional): build a pipeline to use external knowledge, scrape actual data from internet or use a RAG system
+### 1. Data Preprocessing
+First step of the project is the creation of a valid dataset for training the model. 
 
-# Project architecture
+### 2. Baseline
+We generate baseline critical questions with pretrained LLMs for the validation dataset.
 
-The following structure is aimed to create during this project.
+### 3. Training
+We fine-tune a pretrained LLM with the generated dataset. 
 
-![image](Doc/Assets/Untitled%20Diagram-3.jpg)
+### 4. Evaluation
+We define evaluation metrics and generate scores for the baseline models and the fine-tuned model.
 
-## Datasets:
+### 5. RAG System
+We create a complete pipeline to retrieve relevant information from open source document stores like Arxiv. 
+This retrieved documents are stored in a vector database and retrieved when needed during the generation of the critical 
+questions.
 
-- Subset of the US2016 corpus: [AIFdb US2016](https://corpora.aifdb.org/US2016)
-- Subset of the Moral Maze corpus: [AIFdb MM2012](https://corpora.aifdb.org/mm2012)
-- Subset of the args.me corpus: [zenodo Args.me](https://zenodo.org/records/4139439)
-- Subset of the QT30 corpus: [AIFdb QT30](https://corpora.aifdb.org/qt30)
+---
+
+## Project Structure
+
+```
+.
+├── Data/
+│   ├── Raw/                  # Raw dataset
+│   └── Processed/            # Processed dataset
+├── Training/                 
+│   ├── Checkpoints/          # Checkpoints of models
+│   ├── Logs/                 # Logs of training
+├── Evluation/                
+│   ├── Results/              # Evaluation metrics and results
+├── Models/                   # Model checkpoints and exports
+├── Utils/
+├── .gitignore
+├── 1_Preprocessing.ipynb
+├── 2_Baseline.ipynb
+├── 3_Training.ipynb
+├── 4_Evaluation.ipynb
+├── README.MD
+└── requirements.txt
+```
+
+---
+
+## Setup Instructions
+
+> [!NOTE]  
+> This is only a Template. And you can add notes, Warnings and stuff with this format style. ([!NOTE], [!WARNING], [!IMPORTANT] )
+
+### Clone Repository
+```bash
+git clone https://github.com/RicoStaedeli/NLP2025_CQG.git
+cd NLP2025_CQG
+```
+
+### Create Environment
+```bash
+python -m venv venv
+source venv/bin/activate  # Unix or MacOS
+venv\Scripts\activate     # Windows
+```
+
+### Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Running the Project
+
+Follow these notebooks in order:
+1. `1_Preprocessing.ipynb` - Data preprocessing
+2. `2_Baseline.ipynb` - Establishing a baseline model
+3. `3_Training.ipynb` - Model training
+4. `4_Evaluation.ipynb` - Evaluating model performance
+
+---
+
+## Team Contributions
+
+| Name          | Contributions                                  |
+|---------------|------------------------------------------------|
+| Rico Städeli  | Data preprocessing, baseline model evaluation. |
+| Cédric Bohni  | Model training, hyperparameter tuning.         |
+
+
+---
+
+## Results & Evaluation
+
+- [Briefly summarize your evaluation metrics, improvements from baseline, and insights drawn from experiments.]
+- All detailed results are documented in `metrics/firstResults.json`.
+
+---
+
+## References
+
+[List here any relevant papers, sources, libraries, or resources used in your project.]
+
+- Doe, J. (2024). *Great NLP Paper*. Conference Name.
+- [Library Used](https://example-library.com)
+
+---
