@@ -71,9 +71,7 @@ questions.
 ---
 
 ## Setup Instructions
-
-> [!NOTE]  
-> This is only a Template. And you can add notes, Warnings and stuff with this format style. ([!NOTE], [!WARNING], [!IMPORTANT] )
+To reproduce the proposed solution please run follow this instruction.
 
 ### Clone Repository
 ```bash
