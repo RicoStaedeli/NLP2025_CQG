@@ -3,16 +3,18 @@ from transformers import AutoTokenizer, LlamaForCausalLM, GenerationConfig
 import logging
 import tqdm
 import re
+import torch
 
 logging.basicConfig()
 logger = logging.getLogger()
+device = torch.device("mps" if torch.backends.mps.is_available() else "cuda" if torch.cuda.is_available() else "cpu")
 
 def output_cqs(model_name, text, prefix, model, tokenizer, new_params, remove_instruction=False):
 
     instruction = prefix.format(**{'intervention':text})
 
     inputs = tokenizer(instruction, return_tensors="pt")
-    inputs = inputs.to('cuda')
+    inputs = inputs.to(device)
 
     if new_params:
         outputs = model.generate(**inputs, **new_params) 
@@ -74,10 +76,10 @@ def main():
                 
                 Give one question per line. Make the questions simple, and do not give any explanation reagrding why the question is relevant."""]
     
-    with open('shared_task/data_splits/sample.json') as f:
+    with open('../../Datasets/sharedTask/sample.json') as f:
         data=json.load(f)
 
-    models = ['meta-llama/Meta-Llama-3-8B-Instruct'] 
+    models = ['../../Models/Meta-Llama-3-8B-Instruct']
 
     out = {}
     for model_name in models:
@@ -98,7 +100,7 @@ def main():
                 line['cqs'] = structure_output(cqs)
                 out[line['intervention_id']]=line
 
-    with open('shared_task/trial_submission/output_llama8.json', 'w') as o:
+    with open('../../Evaluation/Results/output_llama8.json', 'w') as o:
         json.dump(out, o, indent=4)
 
 if __name__ == "__main__":
