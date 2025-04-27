@@ -1,27 +1,31 @@
 #!/bin/bash
 
-# Create folders
-mkdir -p Datasets
-mkdir -p Evaluation/Evaluation
-mkdir -p Evaluation/Results
+# Create main Models folder
 mkdir -p Models
-
 echo "Project structure created successfully."
 
-# Define model directory
-MODEL_DIR="Models/Meta-Llama-3-8B-Instruct"
+# Define models: "HuggingFace repo" "local directory"
+models=(
+    "meta-llama/Meta-Llama-3-8B-Instruct ../Models/Meta-Llama-3-8B-Instruct"
+    "Qwen/Qwen2.5-7B-Instruct ../Models/Qwen2.5-7B-Instruct"
+)
 
-# Download model if not already present
-if [ ! -d "$MODEL_DIR" ]; then
-    echo "Downloading Meta-Llama-3-8B-Instruct model..."
-    huggingface-cli download meta-llama/Meta-Llama-3-8B-Instruct \
-        --exclude "original/*" \
-        --local-dir "$MODEL_DIR"
-else
-    echo "Model already exists at $MODEL_DIR. Skipping download."
-fi
+# Loop through models and download if not already present
+for model_info in "${models[@]}"; do
+    repo=$(echo "$model_info" | awk '{print $1}')
+    local_dir=$(echo "$model_info" | awk '{print $2}')
 
-echo "All models downloaded."
+    if [ ! -d "$local_dir" ]; then
+        echo "Downloading model from $repo into $local_dir..."
+        huggingface-cli download "$repo" \
+            --exclude "original/*" \
+            --local-dir "$local_dir"
+    else
+        echo "Model already exists at $local_dir. Skipping download."
+    fi
+done
+
+echo "All models processed."
 
 # Install Python requirements if requirements.txt exists
 if [ -f "requirements.txt" ]; then
