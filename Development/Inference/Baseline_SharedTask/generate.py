@@ -74,12 +74,12 @@ def main():
                 
                 "{intervention}"
                 
-                Give one question per line. Make the questions simple, and do not give any explanation reagrding why the question is relevant."""]
+                Give one question per line. Make the questions simple, and do not give any explanation regarding why the question is relevant."""]
     
-    with open('../../Datasets/sharedTask/sample.json') as f:
+    with open('../../../Datasets/sharedTask/sample.json') as f:
         data=json.load(f)
 
-    models = ['../../Models/Meta-Llama-3-8B-Instruct']
+    models = ['../../../Models/Meta-Llama-3-8B-Instruct']
 
     out = {}
     for model_name in models:
@@ -92,7 +92,7 @@ def main():
         remove_instruction = True
         tokenizer = AutoTokenizer.from_pretrained(model_name)
 
-        logger.info('Loaded '+model_name)
+        logger.info('Loaded ' + model_name)
         for key,line in tqdm.tqdm(data.items()):
             for prefix in prefixes:
                 text = line['intervention']
@@ -100,7 +100,7 @@ def main():
                 line['cqs'] = structure_output(cqs)
                 out[line['intervention_id']]=line
 
-    with open('../../Evaluation/Results/output_llama8.json', 'w') as o:
+    with open('../../../Evaluation/Results/output_llama8.json', 'w') as o:
         json.dump(out, o, indent=4)
 
 if __name__ == "__main__":
