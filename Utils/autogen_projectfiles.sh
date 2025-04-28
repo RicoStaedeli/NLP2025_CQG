@@ -6,7 +6,7 @@ echo "Project structure created successfully."
 
 # Define models: "HuggingFace repo" "local directory"
 models=(
-    "meta-llama/Meta-Llama-3-8B-Instruct ../Models/Meta-Llama-3-8B-Instruct"
+    "meta-llama/Meta-Llama-3.1-8B-Instruct ../Models/Meta-Llama-3.1-8B-Instruct"
     "Qwen/Qwen2.5-7B-Instruct ../Models/Qwen2.5-7B-Instruct"
 )
 
