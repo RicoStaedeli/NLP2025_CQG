@@ -24,19 +24,28 @@ task: [CQG shared task](https://hitz-zentroa.github.io/shared-task-critical-ques
 ## Project Description
 > [!WARNING]  
 > Describe Project overview with image
-> Tell which model and dataset was used.
+> Tell which model and dataset were used.
 
-### 1. Data Preprocessing
-First step of the project is the creation of a valid dataset for training the model. 
+### 1. Data Preprocessing - [Notebook Data Preprocessing](1_Preprocessing.ipynb)
+First step of the project is the creation of a valid dataset for training the model.
+For this phase we use the dataset SocraticQ: [SocraticQ](https://github.com/NUS-IDS/eacl23_soqg/tree/main)
 
-### 2. Baseline
-We generate baseline critical questions with pretrained LLMs for the validation dataset.
+### 2. Baseline - [Notebook Baseline](2_Baseline.ipynb)
+We generate baseline critical questions with pretrained LLMs for the validation dataset. To generate the baseline questions we use:
+- LLama 3.1 8B Instruct 
+- Qwen2.5 7B Instruct
 
-### 3. Training
-We fine-tune a pretrained LLM with the generated dataset. 
+Questions are generated for the interventions of the following dataset: [validation.json](Data/Raw/sharedTask/validation.json)
 
-### 4. Evaluation
-We define evaluation metrics and generate scores for the baseline models and the fine-tuned model.
+### 3. Training - [Notebook Training](3_Training.ipynb)
+We fine-tune a pretrained LLM with the generated dataset. We use unsloth to fine-tune the LLM. 
+
+### 4. Evaluation - [Notebook Evaluation](4_Evaluation.ipynb)
+We define evaluation metrics and generate scores for the baseline models and the fine-tuned model. We evaluate the model with the following metrices:
+- similarity
+- bleurt
+- ChatGPT 4.0
+- Human evaluation
 
 ### 5. RAG System
 We create a complete pipeline to retrieve relevant information from open source document stores like Arxiv. 

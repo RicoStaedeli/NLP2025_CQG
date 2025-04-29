@@ -1,0 +1,12 @@
+2025-04-29 21:30:16,914 - INFO - --------  Start with Baseline Predictions  -------------
+2025-04-29 21:30:16,914 - INFO - Device selected: mps
+2025-04-29 21:30:18,073 - INFO - --------  Start with Baseline Predictions  -------------
+2025-04-29 21:30:18,074 - INFO - Device selected: mps
+2025-04-29 21:30:37,605 - INFO - Loading model: Models/Finetuned-llama-3.1-8B-Instruct
+2025-04-29 21:45:12,937 - INFO - Loading model: Models/Finetuned-llama-3.1-8B-Instruct
+2025-04-29 21:45:27,082 - INFO - Generated CLINTON_1_1: [{'id': 0, 'cq': 'What is the definition of "good jobs" and how will that be measured?'}, {'id': 1, 'cq': 'How will the government ensure that small businesses are created and not just large corporations?'}, {'id': 2, 'cq': 'How will the national minimum wage be raised and what will be the impact on inflation?'}]
+2025-04-29 21:45:32,073 - INFO - Generated Javier_84: [{'id': 0, 'cq': 'What exactly does the author mean by "known" delays?'}, {'id': 1, 'cq': 'How would airlines determine when they are aware of a delay?'}, {'id': 2, 'cq': "Why do the author think flyers can't have both the option to delay their trip and the option to blame the airlines for poor planning?"}]
+2025-04-29 21:45:43,340 - INFO - Generated TRUMP_125_1: [{'id': 0, 'cq': 'What does "law and order" mean to you?"'}, {'id': 1, 'cq': 'Is a city with investments of yours a good enough reason to claim you love it?"'}, {'id': 2, 'cq': 'Why does having endorsements from police groups make you more qualified to be president?"'}]
+2025-04-29 21:45:48,235 - INFO - Generated travellots_133_1: [{'id': 0, 'cq': 'What exactly does the author mean by "Airline tickets are not lottery tickets."?'}, {'id': 1, 'cq': "Does the author's analogy of buying a cup of coffee to buying an airline ticket hold in this situation?"}, {'id': 2, 'cq': 'Should the airline be held responsible if they sell more tickets than they have available seats?'}]
+2025-04-29 21:45:52,715 - INFO - Generated Zewstain__641: [{'id': 0, 'cq': 'What policy differences does Hillary mention in the conversation?'}, {'id': 1, 'cq': "Is Hillary's argument about being a woman enough to differentiate her from Obama?"}, {'id': 2, 'cq': "Does Hillary's argument address the issue of whether being a woman is a relevant qualification for the presidency?"}]
+2025-04-29 21:45:52,716 - INFO - Output saved to Evaluation/Results/results_zeroshot_llama_3.1-8B-instruct-finetuned.json

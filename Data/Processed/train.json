@@ -1,38 +1,23 @@
-[
-  {
-    "id": "",
-    "input_text": "",
-    "cqs": [
+{
+    "CLINTON_1_1": {
+        "cqs": [
             {
-                "id": 0,
-                "cq": ""
+                "cq": "What specific economic policies would be implemented to create new jobs?",
+                "label": "Invalid"
             },
             {
-                "id": 1,
-                "cq": ""
+                "cq": "How would the national minimum wage be raised, and what would be its new value?",
+                "label": "Useful",
+                "metrics": {
+                  "similarity": 0.3,
+                  "bleurt": 0.8,
+                  "truthfullness": 0.5,
+                  "score": "useful"
+                }
             },
             {
-                "id": 2,
-                "cq": "?"
+                "cq": "What steps would be taken to ensure companies actually implement profit-sharing?",
+                "label": "Useful"
             }
-      ]
-  },
-  {
-    "id": "",
-    "input_text": "",
-    "cqs": [
-            {
-                "id": 0,
-                "cq": ""
-            },
-            {
-                "id": 1,
-                "cq": ""
-            },
-            {
-                "id": 2,
-                "cq": ""
-            }
-      ]
-  }
-]
+        ]
+    },
