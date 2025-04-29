@@ -1,0 +1,137 @@
+{
+    "CLINTON_1_1": {
+        "cqs": [
+            {
+                "cq": "What is the definition of \"good jobs\" and how will that be measured?",
+                "sim_label": "Invalid",
+                "sim_score": 0.7799105644226074,
+                "bleurt_label": "not_able_to_evaluate",
+                "bleurt_score": -0.2689991593360901
+            },
+            {
+                "cq": "How will the government ensure that small businesses are created and not just large corporations?",
+                "sim_label": "Invalid",
+                "sim_score": 0.6690421104431152,
+                "bleurt_label": "not_able_to_evaluate",
+                "bleurt_score": -0.598077654838562
+            },
+            {
+                "cq": "How will the national minimum wage be raised and what will be the impact on inflation?",
+                "sim_label": "Useful",
+                "sim_score": 0.655119776725769,
+                "bleurt_label": "not_able_to_evaluate",
+                "bleurt_score": -0.3222644031047821
+            }
+        ],
+        "sim_score": 0.3333333333333333,
+        "bleurt_score": 0
+    },
+    "Javier_84": {
+        "cqs": [
+            {
+                "cq": "What exactly does the author mean by \"known\" delays?",
+                "sim_label": "Useful",
+                "sim_score": 0.6165981292724609,
+                "bleurt_label": "not_able_to_evaluate",
+                "bleurt_score": -0.6668305397033691
+            },
+            {
+                "cq": "How would airlines determine when they are aware of a delay?",
+                "sim_label": "Useful",
+                "sim_score": 0.852477490901947,
+                "bleurt_label": "not_able_to_evaluate",
+                "bleurt_score": -0.1444583386182785
+            },
+            {
+                "cq": "Why do the author think flyers can't have both the option to delay their trip and the option to blame the airlines for poor planning?",
+                "sim_label": "Useful",
+                "sim_score": 0.7030363082885742,
+                "bleurt_label": "not_able_to_evaluate",
+                "bleurt_score": -0.2531222999095917
+            }
+        ],
+        "sim_score": 1.0,
+        "bleurt_score": 0
+    },
+    "TRUMP_125_1": {
+        "cqs": [
+            {
+                "cq": "What does \"law and order\" mean to you?\"",
+                "sim_label": "Invalid",
+                "sim_score": 0.7108811140060425,
+                "bleurt_label": "not_able_to_evaluate",
+                "bleurt_score": -0.7412489652633667
+            },
+            {
+                "cq": "Is a city with investments of yours a good enough reason to claim you love it?\"",
+                "sim_label": "Invalid",
+                "sim_score": 0.4619654715061188,
+                "bleurt_label": "not_able_to_evaluate",
+                "bleurt_score": -0.9698957204818726
+            },
+            {
+                "cq": "Why does having endorsements from police groups make you more qualified to be president?\"",
+                "sim_label": "Invalid",
+                "sim_score": 0.5956908464431763,
+                "bleurt_label": "not_able_to_evaluate",
+                "bleurt_score": -0.6657822728157043
+            }
+        ],
+        "sim_score": 0,
+        "bleurt_score": 0
+    },
+    "travellots_133_1": {
+        "cqs": [
+            {
+                "cq": "What exactly does the author mean by \"Airline tickets are not lottery tickets.\"?",
+                "sim_label": "Invalid",
+                "sim_score": 0.5202197432518005,
+                "bleurt_label": "not_able_to_evaluate",
+                "bleurt_score": -1.008724570274353
+            },
+            {
+                "cq": "Does the author's analogy of buying a cup of coffee to buying an airline ticket hold in this situation?",
+                "sim_label": "Useful",
+                "sim_score": 0.7585766315460205,
+                "bleurt_label": "not_able_to_evaluate",
+                "bleurt_score": -0.43158480525016785
+            },
+            {
+                "cq": "Should the airline be held responsible if they sell more tickets than they have available seats?",
+                "sim_label": "Useful",
+                "sim_score": 0.5806145668029785,
+                "bleurt_label": "not_able_to_evaluate",
+                "bleurt_score": -0.078732430934906
+            }
+        ],
+        "sim_score": 0.3333333333333333,
+        "bleurt_score": 0
+    },
+    "Zewstain__641": {
+        "cqs": [
+            {
+                "cq": "What policy differences does Hillary mention in the conversation?",
+                "sim_label": "Unhelpful",
+                "sim_score": 0.8227837681770325,
+                "bleurt_label": "not_able_to_evaluate",
+                "bleurt_score": -0.05174819752573967
+            },
+            {
+                "cq": "Is Hillary's argument about being a woman enough to differentiate her from Obama?",
+                "sim_label": "Unhelpful",
+                "sim_score": 0.7670918107032776,
+                "bleurt_label": "not_able_to_evaluate",
+                "bleurt_score": -0.5247964859008789
+            },
+            {
+                "cq": "Does Hillary's argument address the issue of whether being a woman is a relevant qualification for the presidency?",
+                "sim_label": "Unhelpful",
+                "sim_score": 0.7407946586608887,
+                "bleurt_label": "not_able_to_evaluate",
+                "bleurt_score": 0.03379504010081291
+            }
+        ],
+        "sim_score": 0,
+        "bleurt_score": 0
+    }
+}

@@ -1,0 +1,137 @@
+{
+    "CLINTON_1_1": {
+        "cqs": [
+            {
+                "cq": "What specific economic policies would be implemented to create new jobs?",
+                "sim_label": "Invalid",
+                "bleurt_label": "not_able_to_evaluate",
+                "sim_score": 0.6911354064941406,
+                "bleurt_score": -0.0878465324640274
+            },
+            {
+                "cq": "How would the national minimum wage be raised, and what would be its new value?",
+                "sim_label": "Useful",
+                "bleurt_label": "not_able_to_evaluate",
+                "sim_score": 0.6958229541778564,
+                "bleurt_score": -0.3775794506072998
+            },
+            {
+                "cq": "What steps would be taken to ensure companies actually implement profit-sharing?",
+                "sim_label": "Useful",
+                "bleurt_label": "Useful",
+                "sim_score": 0.6926138997077942,
+                "bleurt_score": 0.21764588356018066
+            }
+        ],
+        "sim_score": 0.6666666666666666,
+        "bleurt_score": 0.3333333333333333
+    },
+    "Javier_84": {
+        "cqs": [
+            {
+                "cq": "What constitutes a \"known\" delay according to the airlines?",
+                "sim_label": "Useful",
+                "bleurt_label": "not_able_to_evaluate",
+                "sim_score": 0.8622167110443115,
+                "bleurt_score": -0.2850572168827057
+            },
+            {
+                "cq": "How would the airlines determine the exact time they become aware of a delay?",
+                "sim_label": "Useful",
+                "sim_score": 0.8372112512588501,
+                "bleurt_label": "not_able_to_evaluate",
+                "bleurt_score": -0.0820300281047821
+            },
+            {
+                "cq": "What are the potential consequences for flyers if they wait at home and then arrive late to the airport?",
+                "sim_label": "Unhelpful",
+                "sim_score": 0.7130352854728699,
+                "bleurt_label": "not_able_to_evaluate",
+                "bleurt_score": -0.264530211687088
+            }
+        ],
+        "sim_score": 0.6666666666666666,
+        "bleurt_score": 0
+    },
+    "TRUMP_125_1": {
+        "cqs": [
+            {
+                "cq": "What is the definition of \"law and order\" in this context?",
+                "sim_label": "Invalid",
+                "sim_score": 0.8804359436035156,
+                "bleurt_label": "not_able_to_evaluate",
+                "bleurt_score": -0.5163940787315369
+            },
+            {
+                "cq": "How does Trump's personal investment in Charlotte relate to his argument about the city?",
+                "sim_label": "Useful",
+                "sim_score": 0.8510125875473022,
+                "bleurt_label": "not_able_to_evaluate",
+                "bleurt_score": 0.10640612244606018
+            },
+            {
+                "cq": "What evidence supports Trump's claim that African-Americans and Hispanics are living in \"hell\" in inner cities?",
+                "sim_label": "Useful",
+                "sim_score": 0.8110509514808655,
+                "bleurt_label": "not_able_to_evaluate",
+                "bleurt_score": -0.40388816595077515
+            }
+        ],
+        "sim_score": 0.6666666666666666,
+        "bleurt_score": 0
+    },
+    "travellots_133_1": {
+        "cqs": [
+            {
+                "cq": "Is the comparison between airline tickets and products like coffee accurate?",
+                "sim_label": "Useful",
+                "sim_score": 0.8415396213531494,
+                "bleurt_label": "not_able_to_evaluate",
+                "bleurt_score": -0.2519676387310028
+            },
+            {
+                "cq": "Does the airline's decision to sell a ticket at a certain price guarantee its fulfillment?",
+                "sim_label": "Useful",
+                "sim_score": 0.6109755039215088,
+                "bleurt_label": "not_able_to_evaluate",
+                "bleurt_score": -0.009716648608446121
+            },
+            {
+                "cq": "Can a passenger reasonably assume that a ticket is guaranteed to fulfill its promise?",
+                "sim_label": "Useful",
+                "sim_score": 0.5715996026992798,
+                "bleurt_label": "not_able_to_evaluate",
+                "bleurt_score": -0.14406533539295197
+            }
+        ],
+        "sim_score": 0.6666666666666666,
+        "bleurt_score": 0
+    },
+    "Zewstain__641": {
+        "cqs": [
+            {
+                "cq": "What specific policies does Hillary plan to implement differently from Obama?",
+                "sim_label": "Unhelpful",
+                "sim_score": 0.7543883919715881,
+                "bleurt_label": "Unhelpful",
+                "bleurt_score": 0.20479387044906616
+            },
+            {
+                "cq": "Is being a woman a sufficient reason to vote for Hillary?",
+                "sim_label": "Unhelpful",
+                "sim_score": 0.7841670513153076,
+                "bleurt_label": "not_able_to_evaluate",
+                "bleurt_score": -0.6040360927581787
+            },
+            {
+                "cq": "Is Hillary's response an effective way to address the question about policy differences?",
+                "sim_label": "Unhelpful",
+                "sim_score": 0.8748077154159546,
+                "bleurt_label": "not_able_to_evaluate",
+                "bleurt_score": 0.011120487004518509
+            }
+        ],
+        "sim_score": 0,
+        "bleurt_score": 0
+    }
+}

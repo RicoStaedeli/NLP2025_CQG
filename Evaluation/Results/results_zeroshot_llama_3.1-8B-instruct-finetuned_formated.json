@@ -1,0 +1,68 @@
+
+{
+  "CLINTON_1_1": {
+    "cqs": [
+      {
+        "cq": "What is the definition of \"good jobs\" and how will that be measured?"
+      },
+      {
+        "cq": "How will the government ensure that small businesses are created and not just large corporations?"
+      },
+      {
+        "cq": "How will the national minimum wage be raised and what will be the impact on inflation?"
+      }
+    ]
+  },
+  "Javier_84": {
+    "cqs": [
+      {
+        "cq": "What exactly does the author mean by \"known\" delays?"
+      },
+      {
+        "cq": "How would airlines determine when they are aware of a delay?"
+      },
+      {
+        "cq": "Why do the author think flyers can't have both the option to delay their trip and the option to blame the airlines for poor planning?"
+      }
+    ]
+  },
+  "TRUMP_125_1": {
+    "cqs": [
+      {
+        "cq": "What does \"law and order\" mean to you?\""
+      },
+      {
+        "cq": "Is a city with investments of yours a good enough reason to claim you love it?\""
+      },
+      {
+        "cq": "Why does having endorsements from police groups make you more qualified to be president?\""
+      }
+    ]
+  },
+  "travellots_133_1": {
+    "cqs": [
+      {
+        "cq": "What exactly does the author mean by \"Airline tickets are not lottery tickets.\"?"
+      },
+      {
+        "cq": "Does the author's analogy of buying a cup of coffee to buying an airline ticket hold in this situation?"
+      },
+      {
+        "cq": "Should the airline be held responsible if they sell more tickets than they have available seats?"
+      }
+    ]
+  },
+  "Zewstain__641": {
+    "cqs": [
+      {
+        "cq": "What policy differences does Hillary mention in the conversation?"
+      },
+      {
+        "cq": "Is Hillary's argument about being a woman enough to differentiate her from Obama?"
+      },
+      {
+        "cq": "Does Hillary's argument address the issue of whether being a woman is a relevant qualification for the presidency?"
+      }
+    ]
+  }
+}
