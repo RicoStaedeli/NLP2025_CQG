@@ -1,18 +1,1180 @@
 [
   {
-    "CLINTON_1_1": {
+    "CLINTON_199_2": {
       "cqs": [
         {
-          "id": 0,
-          "cq": "What is the definition of \"good jobs\" and how will that be measured?"
+          "cq": "Do you have any evidence that Clinton has been more effective at this?"
         },
         {
-          "id": 1,
-          "cq": "How will the government ensure that small businesses are created and not just large corporations?"
+          "cq": "What is the evidence that Trump has been dismissive of NATO?"
         },
         {
-          "id": 2,
-          "cq": "How will the national minimum wage be raised and what will be the impact on inflation?"
+          "cq": "What is the evidence that Trump has been alienating Muslims?"
+        }
+      ]
+    }
+  },
+  {
+    "CLINTON_1_2": {
+      "cqs": "Missing CQs"
+    }
+  },
+  {
+    "CLINTON_21": {
+      "cqs": [
+        {
+          "cq": "Do you consider the policies that failed you to be the policies that caused the Great Recession?"
+        },
+        {
+          "cq": "What makes you think that you are better at making economic decisions than the people who voted for Donald?"
+        },
+        {
+          "cq": "Do you have any evidence that the policies you are proposing will actually work?"
+        }
+      ]
+    }
+  },
+  {
+    "CLINTON_223_1": {
+      "cqs": [
+        {
+          "cq": "What is the relevance of the fact that Iran was weeks away from having enough nuclear material to form a bomb?"
+        },
+        {
+          "cq": "Why is the fact that NATO invoked Article 5 after 9/11 relevant to the discussion of Iran?"
+        },
+        {
+          "cq": "What does the fact that NATO has Article 5 have to do with the argument regarding Iran?"
+        }
+      ]
+    }
+  },
+  {
+    "CLINTON_223_2": {
+      "cqs": [
+        {
+          "cq": "What sanctions were you referring to in the Senate?"
+        },
+        {
+          "cq": "How did you drive them to the negotiating table?"
+        },
+        {
+          "cq": "What do you mean by \"put a lid on Iran's nuclear program\"?"
+        }
+      ]
+    }
+  },
+  {
+    "CLINTON_225": {
+      "cqs": "Missing CQs"
+    }
+  },
+  {
+    "CLINTON_231": {
+      "cqs": "Missing CQs"
+    }
+  },
+  {
+    "CLINTON_235": {
+      "cqs": "Missing CQs"
+    }
+  },
+  {
+    "CLINTON_244_2": {
+      "cqs": [
+        {
+          "cq": "Why does the author think a plan is necessary to defeat ISIS?"
+        },
+        {
+          "cq": "What is the author's alternative to the current deal with Iran?"
+        },
+        {
+          "cq": "Why does the author think people can't rely on the current president?"
+        }
+      ]
+    }
+  },
+  {
+    "CLINTON_25": {
+      "cqs": [
+        {
+          "cq": "What is the goal of deploying more solar panels?"
+        },
+        {
+          "cq": "How will deploying solar panels help the economy?"
+        },
+        {
+          "cq": "What does it mean to \"get the economy really moving again\"?"
+        }
+      ]
+    }
+  },
+  {
+    "CLINTON_37": {
+      "cqs": [
+        {
+          "cq": "What is the relevance of the fact that Clinton voted against CAFTA?"
+        },
+        {
+          "cq": "How does enforcing trade deals create new jobs?"
+        },
+        {
+          "cq": "What is the relationship between increasing exports and creating new jobs?"
+        }
+      ]
+    }
+  },
+  {
+    "CLINTON_39": {
+      "cqs": "Missing CQs"
+    }
+  },
+  {
+    "CLINTON_55": {
+      "cqs": [
+        {
+          "cq": "What is the source of the view that tax cuts add to the debt?"
+        },
+        {
+          "cq": "What is the source of the view that tax cuts are not a good way to stimulate the economy?"
+        },
+        {
+          "cq": "What is the source of the view that investments are a better way to stimulate the economy than tax cuts?"
+        }
+      ]
+    }
+  },
+  {
+    "CLINTON_57": {
+      "cqs": [
+        {
+          "cq": "What does \"strong growth, fair growth, sustained growth\" mean in this context?"
+        },
+        {
+          "cq": "How do you define \"fair growth\"?"
+        },
+        {
+          "cq": "How do you define \"robust set of plans\"?"
+        }
+      ]
+    }
+  },
+  {
+    "CLINTON_66": {
+      "cqs": [
+        {
+          "cq": "Do you consider the wealthy to be a single entity?"
+        },
+        {
+          "cq": "Is there any evidence that corporations are not already paying their fair share?"
+        },
+        {
+          "cq": "Are you saying that corporations are not already paying their fair share?"
+        }
+      ]
+    }
+  },
+  {
+    "CLINTON_6_1": {
+      "cqs": [
+        {
+          "cq": "What is the definition of trickle-down economics?"
+        },
+        {
+          "cq": "What is the definition of a financial transaction?"
+        },
+        {
+          "cq": "What does \"trumpeted-up trickle-down\" mean?"
+        }
+      ]
+    }
+  },
+  {
+    "CLINTON_6_2": {
+      "cqs": [
+        {
+          "cq": "What does this have to do with the topic of helping the wealthy?"
+        },
+        {
+          "cq": "What is the definition of the middle class in this context?"
+        },
+        {
+          "cq": "What does \"invest in you\" mean in this context?"
+        }
+      ]
+    }
+  },
+  {
+    "CLINTON_85": {
+      "cqs": "Missing CQs"
+    }
+  },
+  {
+    "CLINTON_87": {
+      "cqs": "Missing CQs"
+    }
+  },
+  {
+    "CLINTON_92": {
+      "cqs": [
+        {
+          "cq": "Why do you think the economy is a mess?"
+        },
+        {
+          "cq": "Why do you think top-down works?"
+        },
+        {
+          "cq": "Why do you think the economy would be boosted by making college debt-free?"
+        }
+      ]
+    }
+  },
+  {
+    "CL_57": {
+      "cqs": [
+        {
+          "cq": "Why is the suppression of moral hazard bad?"
+        },
+        {
+          "cq": "Why is moral hazard a natural part of the process of lending and borrowing?"
+        },
+        {
+          "cq": "Why is fool\u2019s gold not real wealth?"
+        }
+      ]
+    }
+  },
+  {
+    "Doctor-Mom_205": {
+      "cqs": [
+        {
+          "cq": "Why should airlines be responsible for protecting people with peanut allergies?"
+        },
+        {
+          "cq": "Are there any other foods that are commonly served on airlines that pose a risk to people with certain allergies?"
+        },
+        {
+          "cq": "How common is it for people to have severe allergic reactions from inhaling peanut residue?"
+        }
+      ]
+    }
+  },
+  {
+    "Elmattador__92": {
+      "cqs": "Missing CQs"
+    }
+  },
+  {
+    "FoodAllergyMom_199_1": {
+      "cqs": [
+        {
+          "cq": "Is the child's peanut allergy severe enough to be considered a disability?"
+        },
+        {
+          "cq": "Is the child's peanut allergy severe enough to warrant the restrictions he is advocating for?"
+        },
+        {
+          "cq": "Are peanuts the only food that can cause an allergic reaction in the air?"
+        }
+      ]
+    }
+  },
+  {
+    "Frequent-Flyer_157": {
+      "cqs": [
+        {
+          "cq": "Should people who have a medical condition that requires them to carry medication with them everywhere they go be exempt from flying?"
+        },
+        {
+          "cq": "Should airlines be able to set aside seating blocks for people with peanut allergies?"
+        },
+        {
+          "cq": "Should people who have a peanut allergy be allowed to fly if they are not prepared for an emergency?"
+        }
+      ]
+    }
+  },
+  {
+    "Glblwrmingisfak__552": {
+      "cqs": [
+        {
+          "cq": "What is the definition of \"common sense gun solutions\"?"
+        },
+        {
+          "cq": "How did the DOJ determine that an assault weapons ban won't do shit for addressing homicide rates in the US?"
+        },
+        {
+          "cq": "Why is an assault weapons ban not a solution to any of our problems?"
+        }
+      ]
+    }
+  },
+  {
+    "HOLT_126": {
+      "cqs": "Missing CQs"
+    }
+  },
+  {
+    "HOLT_239": {
+      "cqs": [
+        {
+          "cq": "What is the current policy on first use of nuclear weapons?"
+        },
+        {
+          "cq": "Why is the current policy on first use of nuclear weapons a good policy?"
+        },
+        {
+          "cq": "What are the implications of changing the policy on first use of nuclear weapons?"
+        }
+      ]
+    }
+  },
+  {
+    "HOLT_94": {
+      "cqs": "Missing CQs"
+    }
+  },
+  {
+    "Helen__66": {
+      "cqs": [
+        {
+          "cq": "What is the definition of \"effective parenting\"?"
+        },
+        {
+          "cq": "How would you measure the success of your intervention?"
+        },
+        {
+          "cq": "Why do you think your intervention would be effective?"
+        }
+      ]
+    }
+  },
+  {
+    "17th_knight__247": {
+      "cqs": [
+        {
+          "cq": "Why should immigrants get the same benefits as citizens?"
+        },
+        {
+          "cq": "How does providing healthcare to immigrants affect citizens?"
+        },
+        {
+          "cq": "What is xenophobia?"
+        }
+      ]
+    }
+  },
+  {
+    "AFCHF_154": {
+      "cqs": [
+        {
+          "cq": "Do you have experience with military contract flights?"
+        },
+        {
+          "cq": "Is customs screening the same as airport security screening?"
+        },
+        {
+          "cq": "How long is \"open-ended delay\"?"
+        }
+      ]
+    }
+  },
+  {
+    "AK-traveler_186": {
+      "cqs": [
+        {
+          "cq": "Do you have any evidence that airlines are discriminating against people with pets?"
+        },
+        {
+          "cq": "Is it not your choice to bring a pet on the plane?"
+        },
+        {
+          "cq": "Is the cost of bringing a pet on the plane not a factor you should consider?"
+        }
+      ]
+    }
+  },
+  {
+    "AllergyDad_200": {
+      "cqs": [
+        {
+          "cq": "Why do you think a ban on peanut and tree nut products on flights would be effective?"
+        },
+        {
+          "cq": "How often do you think people will try to sneak peanuts on the plane?"
+        },
+        {
+          "cq": "Do you think people who are not allergic should be banned from flying because they might have peanuts on them?"
+        }
+      ]
+    }
+  },
+  {
+    "AngelComa__638": {
+      "cqs": [
+        {
+          "cq": "What does a politician's website have to do with the plan?"
+        },
+        {
+          "cq": "Why does a politician's website have to be complete?"
+        },
+        {
+          "cq": "Why is it bad for a politician to say things without having a plan?"
+        }
+      ]
+    }
+  },
+  {
+    "Antanagoge_104": {
+      "cqs": [
+        {
+          "cq": "What is the definition of \"selfmonitor\"?"
+        },
+        {
+          "cq": "What is the source of these studies?"
+        },
+        {
+          "cq": "What is the source of these stories?"
+        }
+      ]
+    }
+  },
+  {
+    "Antanagoge_111": {
+      "cqs": [
+        {
+          "cq": "Why should I accept the arguments presented in the text?"
+        },
+        {
+          "cq": "What evidence would be required to change the opinion of the author of the text?"
+        },
+        {
+          "cq": "Why should I accept the author's assessment of the motivations of others?"
+        }
+      ]
+    }
+  },
+  {
+    "Antanagoge_227": {
+      "cqs": [
+        {
+          "cq": "Are peanuts always served on all flights?"
+        },
+        {
+          "cq": "What is the exact definition of \"cleaner\"?"
+        },
+        {
+          "cq": "How often do peanuts cause anaphylactic shock?"
+        }
+      ]
+    }
+  },
+  {
+    "Antanagoge_239": {
+      "cqs": [
+        {
+          "cq": "Do peanuts cause more deaths than other foods?"
+        },
+        {
+          "cq": "Do peanuts cause more deaths than other foods?"
+        },
+        {
+          "cq": "Are peanuts the only food that causes anaphylaxis?"
+        }
+      ]
+    }
+  },
+  {
+    "Bill_106": {
+      "cqs": "Missing CQs"
+    }
+  },
+  {
+    "CF_29": {
+      "cqs": [
+        {
+          "cq": "What is the argument that the rich should be encouraged to take more risk?"
+        },
+        {
+          "cq": "How does this relate to the previous discussion about the rich being the bad guys?"
+        },
+        {
+          "cq": "What is the argument that the banks should be loaning more money?"
+        }
+      ]
+    }
+  },
+  {
+    "CF_46": {
+      "cqs": "Missing CQs"
+    }
+  },
+  {
+    "CLINTON_103": {
+      "cqs": "Missing CQs"
+    }
+  },
+  {
+    "CLINTON_123_1": {
+      "cqs": [
+        {
+          "cq": "What makes you think that this is a race issue?"
+        },
+        {
+          "cq": "What is the best training for police officers?"
+        },
+        {
+          "cq": "How do you plan to make sure police officers are using the best training?"
+        }
+      ]
+    }
+  },
+  {
+    "CLINTON_123_2": {
+      "cqs": "Missing CQs"
+    }
+  },
+  {
+    "CLINTON_130_1": {
+      "cqs": [
+        {
+          "cq": "Why should we not use stop-and-frisk if it is effective?"
+        },
+        {
+          "cq": "Why is violent crime a problem?"
+        },
+        {
+          "cq": "Why is 25 years of cooperation a good thing?"
+        }
+      ]
+    }
+  },
+  {
+    "CLINTON_130_2": {
+      "cqs": [
+        {
+          "cq": "What are the specific statistics that support this claim?"
+        },
+        {
+          "cq": "What are the specific statistics that support this claim?"
+        },
+        {
+          "cq": "What are the specific statistics that support this claim?"
+        }
+      ]
+    }
+  },
+  {
+    "CLINTON_147": {
+      "cqs": "Missing CQs"
+    }
+  },
+  {
+    "CLINTON_17": {
+      "cqs": [
+        {
+          "cq": "Do you have any evidence for this?"
+        },
+        {
+          "cq": "What does the housing crisis have to do with the financial crisis?"
+        },
+        {
+          "cq": "How did this \"perfect storm\" come to be?"
+        }
+      ]
+    }
+  },
+  {
+    "CLINTON_176_1": {
+      "cqs": [
+        {
+          "cq": "Why are you focusing on Russia?"
+        },
+        {
+          "cq": "Why should the US government be the one to deal with cyber attacks?"
+        },
+        {
+          "cq": "Why is this a problem that the president should be involved in?"
+        }
+      ]
+    }
+  },
+  {
+    "CLINTON_176_2": {
+      "cqs": [
+        {
+          "cq": "Why should the US not engage in a different kind of warfare?"
+        },
+        {
+          "cq": "What does it mean to defend the citizens of this country?"
+        },
+        {
+          "cq": "Why was Donald's invitation to Putin to hack into Americans unacceptable?"
+        }
+      ]
+    }
+  },
+  {
+    "CLINTON_186": {
+      "cqs": [
+        {
+          "cq": "What is the plan to defeat ISIS?"
+        },
+        {
+          "cq": "Question 2: How will the plan be implemented?"
+        },
+        {
+          "cq": "Question 3: What are the potential risks of the plan?"
+        }
+      ]
+    }
+  },
+  {
+    "CLINTON_193": {
+      "cqs": [
+        {
+          "cq": "What is the definition of \"invaded\"?"
+        },
+        {
+          "cq": "Did Clinton vote for the invasion of Iraq?"
+        },
+        {
+          "cq": "Does the text mention that Clinton voted for the invasion of Iraq?"
+        }
+      ]
+    }
+  },
+  {
+    "CLINTON_199_1": {
+      "cqs": [
+        {
+          "cq": "Is the US not already doing an intelligence surge?"
+        },
+        {
+          "cq": "How does the intelligence surge stop attacks?"
+        },
+        {
+          "cq": "What is the criteria for being a \"terrorist\"?"
+        }
+      ]
+    }
+  },
+  {
+    "TRUMP_240_2": {
+      "cqs": [
+        {
+          "cq": "What are the terms of the Iran deal?"
+        },
+        {
+          "cq": "What is the relationship between Iran and North Korea?"
+        },
+        {
+          "cq": "What is the relationship between Iran and Yemen?"
+        }
+      ]
+    }
+  },
+  {
+    "TRUMP_249": {
+      "cqs": "Missing CQs"
+    }
+  },
+  {
+    "TRUMP_251": {
+      "cqs": [
+        {
+          "cq": "What does \"presidential look\" mean?"
+        },
+        {
+          "cq": "What does \"business ability\" mean?"
+        },
+        {
+          "cq": "What does \"basic ability\" mean?"
+        }
+      ]
+    }
+  },
+  {
+    "TRUMP_253": {
+      "cqs": "Missing CQs"
+    }
+  },
+  {
+    "TRUMP_26": {
+      "cqs": [
+        {
+          "cq": "What is the definition of a \"disaster\"?"
+        },
+        {
+          "cq": "What is the definition of \"keeping our jobs\"?"
+        },
+        {
+          "cq": "What is the definition of \"giving companies incentives\"?"
+        }
+      ]
+    }
+  },
+  {
+    "TRUMP_275": {
+      "cqs": [
+        {
+          "cq": "Why is it inappropriate to criticize her?"
+        },
+        {
+          "cq": "What does this have to do with her campaign?"
+        },
+        {
+          "cq": "Is this a fair characterization of her ads?"
+        }
+      ]
+    }
+  },
+  {
+    "TRUMP_279": {
+      "cqs": "Missing CQs"
+    }
+  },
+  {
+    "TRUMP_3_1": {
+      "cqs": [
+        {
+          "cq": "Why are jobs fleeing to Mexico?"
+        },
+        {
+          "cq": "What does China doing to the US in terms of making its product have to do with jobs fleeing to Mexico?"
+        },
+        {
+          "cq": "What is the relationship between the US losing its good jobs and China devaluing its currency?"
+        }
+      ]
+    }
+  },
+  {
+    "TRUMP_3_2": {
+      "cqs": [
+        {
+          "cq": "What is the argument for the current tax rate?"
+        },
+        {
+          "cq": "Question 2: What is the evidence for the claim that a lower tax rate will be a job creator?"
+        },
+        {
+          "cq": "Question 3: What is the argument for the claim that trade deals are being stolen from us?"
+        }
+      ]
+    }
+  },
+  {
+    "TRUMP_44": {
+      "cqs": [
+        {
+          "cq": "What is the definition of \"devastation\"?"
+        },
+        {
+          "cq": "How does the speaker define a \"good\" trade deal?"
+        },
+        {
+          "cq": "How is the TPP similar to NAFTA?"
+        }
+      ]
+    }
+  },
+  {
+    "TRUMP_52": {
+      "cqs": "Missing CQs"
+    }
+  },
+  {
+    "TRUMP_58": {
+      "cqs": [
+        {
+          "cq": "What is the definition of a \"disaster\"?"
+        },
+        {
+          "cq": "What is the impact of the tax cut on the economy?"
+        },
+        {
+          "cq": "What are the specific regulations being referred to?"
+        }
+      ]
+    }
+  },
+  {
+    "TRUMP_70": {
+      "cqs": [
+        {
+          "cq": "Why is it a bad thing to tell the enemy everything you want to do?"
+        },
+        {
+          "cq": "Why is it a bad thing to put a plan on a website?"
+        },
+        {
+          "cq": "Why is it a bad thing to put a plan on a website?"
+        }
+      ]
+    }
+  },
+  {
+    "TRUMP_77_1": {
+      "cqs": [
+        {
+          "cq": "Why is it a great thing for the middle class?"
+        },
+        {
+          "cq": "Why is it a great thing for companies to expand?"
+        },
+        {
+          "cq": "Why do politicians like Secretary Clinton not allow the money to be brought back?"
+        }
+      ]
+    }
+  },
+  {
+    "TRUMP_77_2": {
+      "cqs": [
+        {
+          "cq": "Why would you need a president to sit them around a table?"
+        },
+        {
+          "cq": "Why would it be so beautiful to bring that money back into the country?"
+        },
+        {
+          "cq": "Why would bringing back the money solve the problems of the inner cities?"
+        }
+      ]
+    }
+  },
+  {
+    "TRUMP_9": {
+      "cqs": [
+        {
+          "cq": "Why do you think that is a good thing?"
+        },
+        {
+          "cq": "How does that relate to your presidency?"
+        },
+        {
+          "cq": "What do you mean by \"defective agreement\"?"
+        }
+      ]
+    }
+  },
+  {
+    "TRUMP_93": {
+      "cqs": [
+        {
+          "cq": "Do you have any evidence that the Fed is being political?"
+        },
+        {
+          "cq": "Why is this a bad thing?"
+        },
+        {
+          "cq": "What is the basis for your claim that the economy is in a bubble?"
+        }
+      ]
+    }
+  },
+  {
+    "TRUMP_95": {
+      "cqs": "Missing CQs"
+    }
+  },
+  {
+    "Tuatho__98": {
+      "cqs": [
+        {
+          "cq": "What is the definition of a \"smooth\" speaker?"
+        },
+        {
+          "cq": "What are the political issues that the speaker is basing their opinion on?"
+        },
+        {
+          "cq": "What does the speaker mean by \"no one wants Clinton\"?"
+        }
+      ]
+    }
+  },
+  {
+    "Vec_164": {
+      "cqs": [
+        {
+          "cq": "Do you have any experience with airlines that have such rules?"
+        },
+        {
+          "cq": "Do you have any evidence that airlines would not enforce their own policies?"
+        },
+        {
+          "cq": "Do you have any evidence that airlines would not compensate customers in this situation?"
+        }
+      ]
+    }
+  },
+  {
+    "Velshtein__565": {
+      "cqs": [
+        {
+          "cq": "Why does popularity on reddit constitute a good reason to support a candidate?"
+        },
+        {
+          "cq": "Why is Hillary a better candidate than Bernie?"
+        },
+        {
+          "cq": "What makes Hillary a better candidate than Bernie?"
+        }
+      ]
+    }
+  },
+  {
+    "Zewstain__641": {
+      "cqs": "Missing CQs"
+    }
+  },
+  {
+    "aimwill_178": {
+      "cqs": [
+        {
+          "cq": "Why would the airline be allowed to sell the seat twice?"
+        },
+        {
+          "cq": "How would disallowing overbooking solve the problem?"
+        },
+        {
+          "cq": "Why would the airline be allowed to sell the seat twice?"
+        }
+      ]
+    }
+  },
+  {
+    "ambersky_145": {
+      "cqs": [
+        {
+          "cq": "Is the risk of a child having an anaphylactic reaction to a peanut oil covered armrest significant?"
+        },
+        {
+          "cq": "Is the risk of a child having an anaphylactic reaction to a peanut oil covered armrest higher than the risk of a child being killed in a plane crash?"
+        },
+        {
+          "cq": "Is the risk of a child having an anaphylactic reaction to a peanut oil covered armrest worth banning peanuts on an airplane?"
+        }
+      ]
+    }
+  },
+  {
+    "annoyed_177": {
+      "cqs": "Missing CQs"
+    }
+  },
+  {
+    "atraveller_82_1": {
+      "cqs": [
+        {
+          "cq": "What makes you think the crew on US airlines are not trained in the proper usage of epipens?"
+        },
+        {
+          "cq": "What does the crew's training have to do with the airline serving peanuts?"
+        },
+        {
+          "cq": "Why should the crew be trained to treat people with allergies or disabilities?"
+        }
+      ]
+    }
+  },
+  {
+    "atraveller_82_2": {
+      "cqs": [
+        {
+          "cq": "Do you know the exact wording of the option on the Delta website?"
+        },
+        {
+          "cq": "How did the flight attendants know the boy was allergic to nuts?"
+        },
+        {
+          "cq": "Would you have wanted the flight to make an emergency landing if a nut-allergic passenger had an anaphylactic reaction?"
+        }
+      ]
+    }
+  },
+  {
+    "cd38_220_1": {
+      "cqs": "Missing CQs"
+    }
+  },
+  {
+    "cd38_220_2": {
+      "cqs": [
+        {
+          "cq": "Do you have a peanut allergy?"
+        },
+        {
+          "cq": "Do you think it's reasonable to expect airlines to accommodate a peanut allergy?"
+        },
+        {
+          "cq": "Is it reasonable to expect people to not eat peanuts on a plane?"
+        }
+      ]
+    }
+  },
+  {
+    "citizen-s_134": {
+      "cqs": [
+        {
+          "cq": "What if the airline is not responsible for the delay?"
+        },
+        {
+          "cq": "What if the airline is offering a reasonable alternative flight?"
+        },
+        {
+          "cq": "What if the airline cannot afford to pay the compensation?"
+        }
+      ]
+    }
+  },
+  {
+    "citizen-s_176": {
+      "cqs": "Missing CQs"
+    }
+  },
+  {
+    "darawayne_121": {
+      "cqs": "Missing CQs"
+    }
+  },
+  {
+    "darawayne_182": {
+      "cqs": [
+        {
+          "cq": "Why should the airline be responsible for passengers' plans?"
+        },
+        {
+          "cq": "Why should the airline be forced to fully reimburse passengers?"
+        },
+        {
+          "cq": "Why should the airline provide satisfactory alternate travel arrangements?"
+        }
+      ]
+    }
+  },
+  {
+    "JDwyer_17": {
+      "cqs": [
+        {
+          "cq": "What are the specific conditions that make a small aircraft dangerous?"
+        },
+        {
+          "cq": "What are the specific conditions that make a big aircraft safe?"
+        },
+        {
+          "cq": "What is the specific threat being described in the text?"
+        }
+      ]
+    }
+  },
+  {
+    "JJMurray_140": {
+      "cqs": [
+        {
+          "cq": "What about people who are not able to afford a ticket at the double price?"
+        },
+        {
+          "cq": "What about people who have already purchased the ticket?"
+        },
+        {
+          "cq": "How would this affect people who are not paying with cash?"
+        }
+      ]
+    }
+  },
+  {
+    "JJMurray_143": {
+      "cqs": [
+        {
+          "cq": "Do you have an allergy to peanuts?"
+        },
+        {
+          "cq": "Is it a significant burden for you to avoid peanuts?"
+        },
+        {
+          "cq": "Would you be willing to pay extra for a peanut-free flight?"
+        }
+      ]
+    }
+  },
+  {
+    "JJMurray_166": {
+      "cqs": [
+        {
+          "cq": "Why should airlines be required to make their policies accessible to the general public?"
+        },
+        {
+          "cq": "Why would it be easier to find and read airline policies if they are mandated by government?"
+        },
+        {
+          "cq": "Why would government mandated policies be more understandable than airline policies?"
+        }
+      ]
+    }
+  },
+  {
+    "JJMurray_180": {
+      "cqs": [
+        {
+          "cq": "Why should airlines be required to remove peanuts from their planes?"
+        },
+        {
+          "cq": "Are peanuts the most significant allergy risk on an airplane?"
+        },
+        {
+          "cq": "Why should airlines be required to remove peanuts from their planes?"
+        }
+      ]
+    }
+  },
+  {
+    "JL_15": {
+      "cqs": "Missing CQs"
+    }
+  },
+  {
+    "JL_3": {
+      "cqs": [
+        {
+          "cq": "What is the definition of an interest rate?"
+        },
+        {
+          "cq": "How does the interest rate change over time?"
+        },
+        {
+          "cq": "Why does the interest rate vary by the amount of the charge for the credit?"
+        }
+      ]
+    }
+  },
+  {
+    "JL_5": {
+      "cqs": [
+        {
+          "cq": "How does the interest rate change over time?"
+        },
+        {
+          "cq": "Is the interest rate the only factor that determines the amount of money you pay back?"
+        },
+        {
+          "cq": "Is there any difference between paying back \u00a3250 in 30 days and paying back \u00a3250 in 30 years?"
+        }
+      ]
+    }
+  },
+  {
+    "JW_41": {
+      "cqs": [
+        {
+          "cq": "Why would the lack of government guarantees cause people to be interested in the prudence of bankers?"
+        },
+        {
+          "cq": "How did government guarantees lead to a lack of interest in the prudence of bankers?"
+        },
+        {
+          "cq": "Why would a government guarantee make people less interested in the prudence of bankers?"
         }
       ]
     }
@@ -21,34 +1183,733 @@
     "Javier_84": {
       "cqs": [
         {
-          "id": 0,
-          "cq": "What exactly does the author mean by \"known\" delays?"
+          "cq": "Why can't the airlines just notify when they can be certain about the flight?"
         },
         {
-          "id": 1,
-          "cq": "How would airlines determine when they are aware of a delay?"
+          "cq": "What are the problems that the airlines will be blamed for?"
         },
         {
-          "id": 2,
-          "cq": "Why do the author think flyers can't have both the option to delay their trip and the option to blame the airlines for poor planning?"
+          "cq": "Why should flyers need to \"grow up\" and stop blaming the airlines?"
         }
       ]
     }
   },
   {
-    "TRUMP_125_1": {
+    "JetJock_156_1": {
       "cqs": [
         {
-          "id": 0,
-          "cq": "What does \"law and order\" mean to you?\""
+          "cq": "What does the pay structure have to do with the ground delay limitation?"
         },
         {
-          "id": 1,
-          "cq": "Is a city with investments of yours a good enough reason to claim you love it?\""
+          "cq": "What is the purpose of the ground delay limitation?"
         },
         {
-          "id": 2,
-          "cq": "Why does having endorsements from police groups make you more qualified to be president?\""
+          "cq": "Why is the pay structure poorly designed?"
+        }
+      ]
+    }
+  },
+  {
+    "JetJock_156_2": {
+      "cqs": [
+        {
+          "cq": "Why should airlines be responsible for passengers who miss their flights due to ATC, weather, or VIP movement?"
+        },
+        {
+          "cq": "Why is a 3 hour limit being imposed on flights instead of a more flexible time limit?"
+        },
+        {
+          "cq": "Why would it be better to have a fixed 3 hour limit instead of a more flexible time limit?"
+        }
+      ]
+    }
+  },
+  {
+    "KHenrickson_172": {
+      "cqs": [
+        {
+          "cq": "Is the problem with the frequency of updates?"
+        },
+        {
+          "cq": "Can the airlines accurately estimate flight delays?"
+        },
+        {
+          "cq": "Is the goal to make the airlines come up with an accurate estimate?"
+        }
+      ]
+    }
+  },
+  {
+    "MP_22": {
+      "cqs": [
+        {
+          "cq": "What about the bank's role in lending?"
+        },
+        {
+          "cq": "How does this affect the banks' profit margins?"
+        },
+        {
+          "cq": "How does this affect the banks' profit margins?"
+        }
+      ]
+    }
+  },
+  {
+    "MP_48": {
+      "cqs": "Missing CQs"
+    }
+  },
+  {
+    "MR_TELEVOID__178": {
+      "cqs": "Missing CQs"
+    }
+  },
+  {
+    "MT_10": {
+      "cqs": "Missing CQs"
+    }
+  },
+  {
+    "MT_40": {
+      "cqs": [
+        {
+          "cq": "Do you think the state should intervene in all cases where knowledge is bounded?"
+        },
+        {
+          "cq": "Are you saying that a cup of coffee is a less demanding task than working up a long-term interest rate?"
+        },
+        {
+          "cq": "Are you saying that the state should intervene in cases where people are making decisions that are substantially less demanding than working up a long-term interest rate?"
+        }
+      ]
+    }
+  },
+  {
+    "Melanie_64": {
+      "cqs": [
+        {
+          "cq": "What do you mean by \"non-judgmentalism\"?"
+        },
+        {
+          "cq": "What makes you think the state has taken a moral position?"
+        },
+        {
+          "cq": "How do you define \"capacity for independence and personal responsibility\"?"
+        }
+      ]
+    }
+  },
+  {
+    "Mpogoda_184": {
+      "cqs": [
+        {
+          "cq": "Is this a business model?"
+        },
+        {
+          "cq": "Are you a frequent flyer?"
+        },
+        {
+          "cq": "Why do you think the airline model is bad?"
+        }
+      ]
+    }
+  },
+  {
+    "MrFordization__82": {
+      "cqs": "Missing CQs"
+    }
+  },
+  {
+    "Mulder_112": {
+      "cqs": [
+        {
+          "cq": "What is the definition of a \"strawman\"?"
+        },
+        {
+          "cq": "How many people does it take to be considered a \"small number\" of people?"
+        },
+        {
+          "cq": "Why is the founding of the U.S. relevant to this topic?"
+        }
+      ]
+    }
+  },
+  {
+    "Mulder_226": {
+      "cqs": [
+        {
+          "cq": "Why should airlines be responsible for preventing peanut allergies?"
+        },
+        {
+          "cq": "How do you know the air onboard an airliner is cleaner than in most public buildings?"
+        },
+        {
+          "cq": "Why should people with peanut allergies be forced to take responsibility for their condition?"
+        }
+      ]
+    }
+  },
+  {
+    "Mulder_240": {
+      "cqs": [
+        {
+          "cq": "Do you consider peanuts to be a public health menace?"
+        },
+        {
+          "cq": "Is the risk of peanuts on airplanes a public health menace comparable to the risk of tobacco smoking?"
+        },
+        {
+          "cq": "Do you think peanuts should be banned on airplanes?"
+        }
+      ]
+    }
+  },
+  {
+    "ND_28": {
+      "cqs": "Missing CQs"
+    }
+  },
+  {
+    "NYCMuscleman18_161": {
+      "cqs": [
+        {
+          "cq": "Why is the weight of the person relevant?"
+        },
+        {
+          "cq": "Why should the airline be able to discriminate based on weight?"
+        },
+        {
+          "cq": "What if the airline can't determine the weight of the person?"
+        }
+      ]
+    }
+  },
+  {
+    "NYCMuscleman18_187": {
+      "cqs": [
+        {
+          "cq": "Why should the government regulate seat size?"
+        },
+        {
+          "cq": "Why should the government regulate pet fees?"
+        },
+        {
+          "cq": "Why should the government regulate bumping fees?"
+        }
+      ]
+    }
+  },
+  {
+    "PeanutAllergy_232": {
+      "cqs": [
+        {
+          "cq": "Why is it that peanuts are the only food item that should be banned?"
+        },
+        {
+          "cq": "Is it possible to create a peanut-free buffer zone without banning peanuts entirely?"
+        },
+        {
+          "cq": "Wouldn\u2019t a peanut-free buffer zone be more effective than a peanut-free airline?"
+        }
+      ]
+    }
+  },
+  {
+    "PracticalJo_179_1": {
+      "cqs": [
+        {
+          "cq": "What are the risks of peanuts on planes?"
+        },
+        {
+          "cq": "Is the risk of peanuts on planes greater than the risk of other foods?"
+        },
+        {
+          "cq": "Should peanuts be banned in all public places?"
+        }
+      ]
+    }
+  },
+  {
+    "PracticalJo_179_2": {
+      "cqs": [
+        {
+          "cq": "Why should peanuts be removed from the aircraft?"
+        },
+        {
+          "cq": "What constitutes a \"good faith effort\" at cleaning the fleets?"
+        },
+        {
+          "cq": "What is the motivation behind requiring airlines to clean their fleets?"
+        }
+      ]
+    }
+  },
+  {
+    "Qubbin_80": {
+      "cqs": [
+        {
+          "cq": "What is the definition of a variable fee?"
+        },
+        {
+          "cq": "How does this impact the consumer?"
+        },
+        {
+          "cq": "What is the point of having a variable fee?"
+        }
+      ]
+    }
+  },
+  {
+    "SWong_118_1": {
+      "cqs": [
+        {
+          "cq": "Do you have a peanut allergy?"
+        },
+        {
+          "cq": "Can you prove that the peanut dust was the cause of the reaction?"
+        },
+        {
+          "cq": "How do you know that the peanuts eaten by other passengers caused the reaction?"
+        }
+      ]
+    }
+  },
+  {
+    "SWong_118_2": {
+      "cqs": [
+        {
+          "cq": "Do you have a peanut allergy?"
+        },
+        {
+          "cq": "Would the airline be able to guarantee the absence of peanuts on the plane?"
+        },
+        {
+          "cq": "Would banning peanuts on flights be effective in preventing peanut allergy reactions?"
+        }
+      ]
+    }
+  },
+  {
+    "Sithsaber__198": {
+      "cqs": "Missing CQs"
+    }
+  },
+  {
+    "SofieM_128": {
+      "cqs": [
+        {
+          "cq": "Do you have any experience with flight delays?"
+        },
+        {
+          "cq": "Do you have any experience with flight cancellations?"
+        },
+        {
+          "cq": "Do you have any experience with flight deplaning?"
+        }
+      ]
+    }
+  },
+  {
+    "SofieM_73": {
+      "cqs": [
+        {
+          "cq": "What are the airline\u2019s incentives to provide flight status notifications?"
+        },
+        {
+          "cq": "How does the fact that airlines provide flight status notifications prove that they are motivated by customer satisfaction?"
+        },
+        {
+          "cq": "What is the relationship between the airline\u2019s profit margins and the price of air fares?"
+        }
+      ]
+    }
+  },
+  {
+    "SofieM_8": {
+      "cqs": [
+        {
+          "cq": "Why should airlines have the option to make their own rules?"
+        },
+        {
+          "cq": "Why should parents be allowed to make their own decisions about their children?"
+        },
+        {
+          "cq": "Why should there be a blanket policy?"
+        }
+      ]
+    }
+  },
+  {
+    "TRUMP_101": {
+      "cqs": "Missing CQs"
+    }
+  },
+  {
+    "dberger_74_1": {
+      "cqs": [
+        {
+          "cq": "Critical question 1: How do you know the allergy is airborne?"
+        },
+        {
+          "cq": "Critical question 2: Are peanuts the only nuts you're allergic to?"
+        },
+        {
+          "cq": "Critical question 3: Would a nut-free airline be a significant burden on the airline industry?"
+        }
+      ]
+    }
+  },
+  {
+    "dberger_74_2": {
+      "cqs": [
+        {
+          "cq": "Do you have any evidence that nuts are a significant health risk on planes?"
+        },
+        {
+          "cq": "Do you think the airline industry should be able to dictate what you eat on a plane?"
+        },
+        {
+          "cq": "Is it not reasonable to expect a person to eat their food before getting on the plane?"
+        }
+      ]
+    }
+  },
+  {
+    "dlpoole_223_1": {
+      "cqs": [
+        {
+          "cq": "How do we ensure that the airline will pay the passenger?"
+        },
+        {
+          "cq": "How do we ensure that the airline will pay the passenger?"
+        },
+        {
+          "cq": "How would the auction system work?"
+        }
+      ]
+    }
+  },
+  {
+    "dlpoole_223_2": {
+      "cqs": [
+        {
+          "cq": "What exactly is the problem with the current system?"
+        },
+        {
+          "cq": "Why should passengers be forced to bid against each other?"
+        },
+        {
+          "cq": "Wouldn't this increase the cost of flying?"
+        }
+      ]
+    }
+  },
+  {
+    "drgreg_181_1": {
+      "cqs": [
+        {
+          "cq": "Why should airlines be forced to fully reimburse passengers for schedule changes?"
+        },
+        {
+          "cq": "Why would airlines be able to offer satisfactory alternate travel arrangements if they didn't have to change their schedules in the first place?"
+        },
+        {
+          "cq": "Why would the airlines be required to offer satisfactory alternate travel arrangements?"
+        }
+      ]
+    }
+  },
+  {
+    "elizwestley_222": {
+      "cqs": "Missing CQs"
+    }
+  },
+  {
+    "elizwestley_68": {
+      "cqs": "Missing CQs"
+    }
+  },
+  {
+    "golff4fun_155": {
+      "cqs": [
+        {
+          "cq": "What is the current maximum allowed tarmac delay time?"
+        },
+        {
+          "cq": "How does the DOT setting a maximum tarmac delay trigger change the current situation?"
+        },
+        {
+          "cq": "Why would passengers be required to remain in the immediate area?"
+        }
+      ]
+    }
+  },
+  {
+    "golff4fun_162": {
+      "cqs": [
+        {
+          "cq": "What is the basis for the assumption that weight is the issue?"
+        },
+        {
+          "cq": "Why should weight be the basis for charging extra fees for checked luggage?"
+        },
+        {
+          "cq": "Why should the DOT regulate this?"
+        }
+      ]
+    }
+  },
+  {
+    "grayk47__302": {
+      "cqs": [
+        {
+          "cq": "What is the definition of \"illegally acquired\"?"
+        },
+        {
+          "cq": "How is this scenario similar to the Snowden case?"
+        },
+        {
+          "cq": "What is the definition of \"responsible\"?"
+        }
+      ]
+    }
+  },
+  {
+    "hgranato_211": {
+      "cqs": [
+        {
+          "cq": "What are the consequences of not banning peanuts on airplanes?"
+        },
+        {
+          "cq": "How do we ensure the person with the allergy takes responsibility for their allergy?"
+        },
+        {
+          "cq": "How do we determine the likelihood of a serious reaction to peanuts versus tree nuts?"
+        }
+      ]
+    }
+  },
+  {
+    "howie_201": {
+      "cqs": [
+        {
+          "cq": "Why do you think your child's allergies are not overblown?"
+        },
+        {
+          "cq": "Why do you think your child's allergies are not imaginary?"
+        },
+        {
+          "cq": "Why do you think your child's allergies are not the result of clever advertising by allergists?"
+        }
+      ]
+    }
+  },
+  {
+    "howie_208": {
+      "cqs": [
+        {
+          "cq": "What are the chances of a peanut allergy causing a life-threatening reaction on an airplane?"
+        },
+        {
+          "cq": "Do peanuts provide any benefits to the airline that outweigh the risks?"
+        },
+        {
+          "cq": "Can a peanut-free airline still provide a similar product to peanuts?"
+        }
+      ]
+    }
+  },
+  {
+    "howie_213": {
+      "cqs": [
+        {
+          "cq": "Why should the airlines be responsible for the allergy sufferers?"
+        },
+        {
+          "cq": "Why is the severity of the reaction relevant to the decision of banning peanuts?"
+        },
+        {
+          "cq": "Why are tree nuts more acceptable than peanuts?"
+        }
+      ]
+    }
+  },
+  {
+    "howie_238": {
+      "cqs": [
+        {
+          "cq": "What is the evidence for this claim?"
+        },
+        {
+          "cq": "Is this a matter of public safety?"
+        },
+        {
+          "cq": "How do you define a medically diagnosed severe allergy?"
+        }
+      ]
+    }
+  },
+  {
+    "kateinhawaii_103": {
+      "cqs": [
+        {
+          "cq": "Do you have any evidence that peanuts are being served on flights?"
+        },
+        {
+          "cq": "Why do you think peanuts are being served on flights?"
+        },
+        {
+          "cq": "Do you think a buffer zone would be effective for you?"
+        }
+      ]
+    }
+  },
+  {
+    "lauraclare_136": {
+      "cqs": [
+        {
+          "cq": "What are the chances of an anaphylactic reaction occurring on a plane?"
+        },
+        {
+          "cq": "How does banning peanuts on planes help to prevent anaphylactic reactions?"
+        },
+        {
+          "cq": "How would banning peanuts on planes be enforced?"
+        }
+      ]
+    }
+  },
+  {
+    "mcliverty_188_1": {
+      "cqs": [
+        {
+          "cq": "Do you think airlines should prioritise comfort over other factors like cost and space?"
+        },
+        {
+          "cq": "Would airlines be able to save space by using more comfortable materials?"
+        },
+        {
+          "cq": "Are you saying that air travel has become less enjoyable?"
+        }
+      ]
+    }
+  },
+  {
+    "mcliverty_188_2": {
+      "cqs": [
+        {
+          "cq": "Are you considering the risks to other passengers?"
+        },
+        {
+          "cq": "Do you have a good reason for believing that your dog would behave better than some humans in the cabin?"
+        },
+        {
+          "cq": "Would you be willing to pay extra for the airline to ensure your dog's safety?"
+        }
+      ]
+    }
+  },
+  {
+    "mfball__143": {
+      "cqs": [
+        {
+          "cq": "Do you think Bernie Sanders was a competitive candidate at the time?"
+        },
+        {
+          "cq": "Do you think Hillary Clinton was getting more airtime than the other candidates?"
+        },
+        {
+          "cq": "Do you think the lowest of the Republicans are still being talked about?"
+        }
+      ]
+    }
+  },
+  {
+    "msrocker_127": {
+      "cqs": [
+        {
+          "cq": "Why should the rule apply to all flights regardless of airport, airline, destination, etc.?"
+        },
+        {
+          "cq": "Why should people be subjected to being miserable after paying a fee to fly somewhere?"
+        },
+        {
+          "cq": "Why should airlines be forced to prevent delays?"
+        }
+      ]
+    }
+  },
+  {
+    "secretcurse__137": {
+      "cqs": [
+        {
+          "cq": "Why is the network not a public place?"
+        },
+        {
+          "cq": "Why should the network not give them equal time?"
+        },
+        {
+          "cq": "Why is the network not obligated to give them equal time?"
+        }
+      ]
+    }
+  },
+  {
+    "secretcurse__139": {
+      "cqs": [
+        {
+          "cq": "Do you think every single person in the country deserves their fair shot at expressing themselves in a debate?"
+        },
+        {
+          "cq": "Do you think every single person in the country deserves their fair shot at expressing themselves in a debate?"
+        },
+        {
+          "cq": "Do you think every single person in the country deserves their fair shot at expressing themselves in a debate?"
+        }
+      ]
+    }
+  },
+  {
+    "smg_72": {
+      "cqs": [
+        {
+          "cq": "What kind of regulations do you have in mind?"
+        },
+        {
+          "cq": "Why do you believe that airlines are currently undercutting each other?"
+        },
+        {
+          "cq": "How would you enforce the regulations you are proposing?"
+        }
+      ]
+    }
+  },
+  {
+    "smr_174_1": {
+      "cqs": [
+        {
+          "cq": "What is the definition of excessive?"
+        },
+        {
+          "cq": "Is the flight cancelled?"
+        },
+        {
+          "cq": "Is the airline required to provide food and drink?"
+        }
+      ]
+    }
+  },
+  {
+    "smr_174_2": {
+      "cqs": [
+        {
+          "cq": "Why does the fact that food is not served until over the Atlantic matter?"
+        },
+        {
+          "cq": "Why would allowing passengers off the plane be a bad thing?"
+        },
+        {
+          "cq": "Why would the lack of food and drink be hazardous to passengers' health?"
         }
       ]
     }
@@ -57,34 +1918,483 @@
     "travellots_133_1": {
       "cqs": [
         {
-          "id": 0,
-          "cq": "What exactly does the author mean by \"Airline tickets are not lottery tickets.\"?"
+          "cq": "Should airlines have the right to sell tickets at a price they are not willing to honor?"
         },
         {
-          "id": 1,
-          "cq": "Does the author's analogy of buying a cup of coffee to buying an airline ticket hold in this situation?"
+          "cq": "Does the airline's decision to sell a ticket imply that they will provide the service promised?"
         },
         {
-          "id": 2,
-          "cq": "Should the airline be held responsible if they sell more tickets than they have available seats?"
+          "cq": "Do passengers have any other options besides paying for the ticket?"
         }
       ]
     }
   },
   {
-    "Zewstain__641": {
+    "travellots_133_2": {
       "cqs": [
         {
-          "id": 0,
-          "cq": "What policy differences does Hillary mention in the conversation?"
+          "cq": "What does it mean for a passenger to be bumped from a flight?"
         },
         {
-          "id": 1,
-          "cq": "Is Hillary's argument about being a woman enough to differentiate her from Obama?"
+          "cq": "What is the relationship between the price of a ticket and the incentive to schedule properly?"
         },
         {
-          "id": 2,
-          "cq": "Does Hillary's argument address the issue of whether being a woman is a relevant qualification for the presidency?"
+          "cq": "Why would the airline be incentivized to schedule properly if the compensation is not high enough?"
+        }
+      ]
+    }
+  },
+  {
+    "zuclinator_125": {
+      "cqs": [
+        {
+          "cq": "Why is it the airline's responsibility to inform passengers about peanuts being served?"
+        },
+        {
+          "cq": "Why is the two row minimum around a person with a peanut allergy a joke?"
+        },
+        {
+          "cq": "What is the appropriate solution for someone with a peanut allergy who is flying?"
+        }
+      ]
+    }
+  },
+  {
+    "TRUMP_114_1": {
+      "cqs": [
+        {
+          "cq": "How does the fact that he is underleveraged prove that he is not in debt?"
+        },
+        {
+          "cq": "How does the fact that his buildings are worth $3.9 billion prove that he does not owe $650 million?"
+        },
+        {
+          "cq": "What is the basis for the claim that Trump is in a position to give a list of banks that he owes money to?"
+        }
+      ]
+    }
+  },
+  {
+    "TRUMP_114_2": {
+      "cqs": [
+        {
+          "cq": "What exactly does it mean to be a \"debtor nation\"?"
+        },
+        {
+          "cq": "How is being a debtor nation a problem?"
+        },
+        {
+          "cq": "What does it mean to be a \"third world country\"?"
+        }
+      ]
+    }
+  },
+  {
+    "TRUMP_121_1": {
+      "cqs": [
+        {
+          "cq": "What does \"taken advantage of the laws of the nation\" mean?"
+        },
+        {
+          "cq": "How does Trump's response to the accusation of not paying contractors address the accusation?"
+        },
+        {
+          "cq": "How does Trump's business success prove he would be a good president?"
+        }
+      ]
+    }
+  },
+  {
+    "TRUMP_121_2": {
+      "cqs": [
+        {
+          "cq": "What does this have to do with the budget?"
+        },
+        {
+          "cq": "How is this related to the current administration?"
+        },
+        {
+          "cq": "How does this relate to the current state of the country?"
+        }
+      ]
+    }
+  },
+  {
+    "TRUMP_125_1": {
+      "cqs": [
+        {
+          "cq": "What is the relationship between the number of shootings in Chicago and the number of people killed?"
+        },
+        {
+          "cq": "How does the fact that Donald Trump has investments in Charlotte affect the issue?"
+        },
+        {
+          "cq": "What is the definition of \"hell\" that Donald Trump is using?"
+        }
+      ]
+    }
+  },
+  {
+    "TRUMP_125_2": {
+      "cqs": [
+        {
+          "cq": "How do you know that the crime rate in New York went down because of Giuliani's stop and frisk policy?"
+        },
+        {
+          "cq": "How do you know that the people in Chicago who were killed were all criminals?"
+        },
+        {
+          "cq": "What evidence do you have that illegal immigrants are responsible for the crime in Chicago?"
+        }
+      ]
+    }
+  },
+  {
+    "TRUMP_127": {
+      "cqs": [
+        {
+          "cq": "What was the judge's stance on police?"
+        },
+        {
+          "cq": "How does the mayor's stance on the case relate to the law?"
+        },
+        {
+          "cq": "What does \"many places\" mean in this context?"
+        }
+      ]
+    }
+  },
+  {
+    "TRUMP_129": {
+      "cqs": [
+        {
+          "cq": "Is it fair to generalise all the people in Chicago as bad people?"
+        },
+        {
+          "cq": "Does the US have a better relationship between the communities and the police than other countries?"
+        },
+        {
+          "cq": "Is stop-and-frisk a solution to the violence in Chicago?"
+        }
+      ]
+    }
+  },
+  {
+    "TRUMP_13": {
+      "cqs": [
+        {
+          "cq": "Why do you think the US should have been doing this for years?"
+        },
+        {
+          "cq": "What is the source of the claim that the US owes $20 trillion?"
+        },
+        {
+          "cq": "Why do you think a movement is relevant to the economic situation?"
+        }
+      ]
+    }
+  },
+  {
+    "TRUMP_140_1": {
+      "cqs": [
+        {
+          "cq": "What is the difference between a watch list and a no-fly list?"
+        },
+        {
+          "cq": "What is the definition of a \"very, very good person\"?"
+        },
+        {
+          "cq": "What is the definition of \"super-predator\"?"
+        }
+      ]
+    }
+  },
+  {
+    "TRUMP_140_2": {
+      "cqs": [
+        {
+          "cq": "Why is it a good thing to have less murders?"
+        },
+        {
+          "cq": "What is the impact on the safety of New York City when there are less murders?"
+        },
+        {
+          "cq": "Why is it good that stop-and-frisk was continued by Mayor Bloomberg?"
+        }
+      ]
+    }
+  },
+  {
+    "TRUMP_166": {
+      "cqs": [
+        {
+          "cq": "What is the basis for the claim that Clinton fought Trump's claims?"
+        },
+        {
+          "cq": "Why does Trump claim to have done a good job on getting Obama to produce the birth certificate?"
+        },
+        {
+          "cq": "Why does Trump claim that Clinton can't bring back jobs?"
+        }
+      ]
+    }
+  },
+  {
+    "TRUMP_170": {
+      "cqs": [
+        {
+          "cq": "What is the birth certificate you are talking about?"
+        },
+        {
+          "cq": "What is the service you are talking about?"
+        },
+        {
+          "cq": "What is the relationship you are talking about?"
+        }
+      ]
+    }
+  },
+  {
+    "TRUMP_174_2": {
+      "cqs": [
+        {
+          "cq": "Why is the club in Palm Beach a good example of his character?"
+        },
+        {
+          "cq": "What does his club in Palm Beach have to do with discrimination?"
+        },
+        {
+          "cq": "What does he mean by \"given great credit for it\"?"
+        }
+      ]
+    }
+  },
+  {
+    "TRUMP_183": {
+      "cqs": [
+        {
+          "cq": "Why is a endorsement from a group of people relevant to the presidency?"
+        },
+        {
+          "cq": "What does being endorsed by ICE mean?"
+        },
+        {
+          "cq": "What is the relevance of the endorsement of the 16,500 Border Patrol agents?"
+        }
+      ]
+    }
+  },
+  {
+    "TRUMP_192": {
+      "cqs": [
+        {
+          "cq": "What is the source of the claim that ISIS was formed because of the US withdrawal from Iraq?"
+        },
+        {
+          "cq": "Why would ISIS not have been formed if the US had left a larger number of troops in Iraq?"
+        },
+        {
+          "cq": "What is the source of the claim that ISIS was formed because the US did not take the oil in Iraq?"
+        }
+      ]
+    }
+  },
+  {
+    "TRUMP_202_1": {
+      "cqs": [
+        {
+          "cq": "Why is a lack of payment from other NATO countries relevant to the question of NATO's usefulness?"
+        },
+        {
+          "cq": "Why should a businessman be more qualified to run a country than a politician?"
+        },
+        {
+          "cq": "Why is the ability of a country to be a major power relevant to the question of NATO's usefulness?"
+        }
+      ]
+    }
+  },
+  {
+    "TRUMP_202_2": {
+      "cqs": [
+        {
+          "cq": "Why should the US pay for NATO?"
+        },
+        {
+          "cq": "Why should the US have to pay for NATO at all?"
+        },
+        {
+          "cq": "Why is the US responsible for the creation of ISIS?"
+        }
+      ]
+    }
+  },
+  {
+    "TRUMP_222": {
+      "cqs": [
+        {
+          "cq": "What exactly does \"winning temperament\" mean?"
+        },
+        {
+          "cq": "How is Clinton out of control?"
+        },
+        {
+          "cq": "What is the AFL-CIO?"
+        }
+      ]
+    }
+  },
+  {
+    "TRUMP_236": {
+      "cqs": [
+        {
+          "cq": "What do you mean by \"tremendous service\"?"
+        },
+        {
+          "cq": "What do you mean by \"fair share\"?"
+        },
+        {
+          "cq": "Why do you think that countries that are defended by the US should pay the US for this defense?"
+        }
+      ]
+    }
+  },
+  {
+    "TRUMP_240_1": {
+      "cqs": [
+        {
+          "cq": "Do you think North Korea is a threat to the US?"
+        },
+        {
+          "cq": "Do you think the US should be prepared to go to war with North Korea?"
+        },
+        {
+          "cq": "Do you think the US should be involved in a war with North Korea?"
+        }
+      ]
+    }
+  },
+  {
+    "CL_8": {
+      "cqs": "Missing CQs"
+    }
+  },
+  {
+    "MT_14": {
+      "cqs": [
+        {
+          "cq": "What is the goal of the warnings on products?"
+        },
+        {
+          "cq": "Why are credit cards different from other products?"
+        },
+        {
+          "cq": "Do people actually mis-read the information on credit cards?"
+        }
+      ]
+    }
+  },
+  {
+    "MT_45": {
+      "cqs": "Missing CQs"
+    }
+  },
+  {
+    "ND_23": {
+      "cqs": [
+        {
+          "cq": "How does credit liberalisation affect savers?"
+        },
+        {
+          "cq": "What economic policies are being referred to?"
+        },
+        {
+          "cq": "How does credit liberalisation affect borrowers?"
+        }
+      ]
+    }
+  },
+  {
+    "CF_62": {
+      "cqs": "Missing CQs"
+    }
+  },
+  {
+    "JW_35": {
+      "cqs": "Missing CQs"
+    }
+  },
+  {
+    "CLINTON_1_1": {
+      "cqs": [
+        {
+          "cq": "What is the definition of \"fair\" in this context?"
+        },
+        {
+          "cq": "Question 2: What is the evidence that this is the \"central question\" in this election?"
+        },
+        {
+          "cq": "Question 3: What is the source of the claim that most new jobs will come from small business?"
+        }
+      ]
+    }
+  },
+  {
+    "TRUMP_99": {
+      "cqs": [
+        {
+          "cq": "Why does the lawyer's opinion not matter?"
+        },
+        {
+          "cq": "Why should Trump's tax returns be released before the audit is complete?"
+        },
+        {
+          "cq": "Why should Trump's tax returns be released before Clinton's e-mails are released?"
+        }
+      ]
+    }
+  },
+  {
+    "TRUMP_174_1": {
+      "cqs": [
+        {
+          "cq": "Do you think it's fair to compare Trump's behavior to that of a candidate in a debate?"
+        },
+        {
+          "cq": "Do you think it's fair to compare Trump's behavior to that of a candidate in a debate?"
+        },
+        {
+          "cq": "Do you think it's fair to compare Trump's behavior to that of a candidate in a debate?"
+        }
+      ]
+    }
+  },
+  {
+    "TRUMP_112": {
+      "cqs": [
+        {
+          "cq": "What exactly is the purpose of taking the fifth?"
+        },
+        {
+          "cq": "Why is the fact that someone took the fifth in the past relevant to the current situation?"
+        },
+        {
+          "cq": "What does the tax returns have to do with anything?"
+        }
+      ]
+    }
+  },
+  {
+    "CLINTON_244_1": {
+      "cqs": [
+        {
+          "cq": "Why is this a good reason to vote for Clinton?"
+        },
+        {
+          "cq": "What does \"our word is good\" mean?"
+        },
+        {
+          "cq": "Why is it more beneficial to deal with the other problems with Iran?"
         }
       ]
     }
