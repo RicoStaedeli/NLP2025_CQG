@@ -42,8 +42,8 @@ We fine-tune a pretrained LLM with the generated dataset. We use unsloth to fine
 
 ### 4. Evaluation - [Notebook Evaluation](2a_Baseline_Evaluation.ipynb)
 We define evaluation metrics and generate scores for the baseline models and the fine-tuned model. We evaluate the model with the following metrices:
-- similarity
-- bleurt
+- Semantic Similarity
+- BLEURT: [Here](https://github.com/google-research/bleurt)
 - ChatGPT 4.0
 - Human evaluation
 
