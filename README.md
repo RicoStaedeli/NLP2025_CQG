@@ -30,7 +30,7 @@ task: [CQG shared task](https://hitz-zentroa.github.io/shared-task-critical-ques
 First step of the project is the creation of a valid dataset for training the model.
 For this phase we use the dataset SocraticQ: [SocraticQ](https://github.com/NUS-IDS/eacl23_soqg/tree/main)
 
-### 2. Baseline - [Notebook Baseline](2_Baseline.ipynb)
+### 2. Baseline - [Notebook Baseline](2_Baseline_CQS.ipynb)
 We generate baseline critical questions with pretrained LLMs for the validation dataset. To generate the baseline questions we use:
 - LLama 3.1 8B Instruct 
 - Qwen2.5 7B Instruct
@@ -40,7 +40,7 @@ Questions are generated for the interventions of the following dataset: [validat
 ### 3. Training - [Notebook Training](3_Training.ipynb)
 We fine-tune a pretrained LLM with the generated dataset. We use unsloth to fine-tune the LLM. 
 
-### 4. Evaluation - [Notebook Evaluation](4_Evaluation.ipynb)
+### 4. Evaluation - [Notebook Evaluation](2a_Baseline_Evaluation.ipynb)
 We define evaluation metrics and generate scores for the baseline models and the fine-tuned model. We evaluate the model with the following metrices:
 - similarity
 - bleurt
