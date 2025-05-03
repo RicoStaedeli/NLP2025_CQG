@@ -1,0 +1,205 @@
+2025-05-02 23:47:57,946 - INFO - --------  Start with evaluation for results_zeroshot_llama_3.1-8B-instruct  -------------
+2025-05-02 23:47:57,948 - INFO - Device selected: cpu
+2025-05-02 23:47:57,949 - INFO - Similarity threshold: 0.6
+2025-05-02 23:47:57,950 - INFO - Bleurt threshold: 0.2
+2025-05-02 23:47:57,951 - INFO - Sentence transformer model: stsb-mpnet-base-v2
+2025-05-02 23:49:49,588 - INFO - CLINTON_199_2 score (based on similarity): 1.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-02 23:50:40,720 - INFO - CLINTON_1_2 score (based on similarity): 1.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-02 23:51:13,592 - INFO - CLINTON_21 score (based on similarity): 1.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-02 23:51:55,538 - INFO - CLINTON_223_1 score (based on similarity): 1.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-02 23:52:33,404 - INFO - CLINTON_223_2 score (based on similarity): 1.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-02 23:53:01,701 - INFO - CLINTON_225 score (based on similarity): 1.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-02 23:53:01,702 - WARNING - There are repeated CQs in CLINTON_231
+2025-05-02 23:53:48,309 - INFO - CLINTON_231 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-02 23:54:13,434 - INFO - CLINTON_235 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-02 23:54:57,646 - INFO - CLINTON_244_2 score (based on similarity): 0.33/1.00 score (based on bleurt): 0.00/1.00
+2025-05-02 23:55:42,014 - INFO - CLINTON_25 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-02 23:56:26,287 - INFO - CLINTON_37 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-02 23:57:03,501 - INFO - CLINTON_39 score (based on similarity): 0.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-02 23:57:44,012 - INFO - CLINTON_55 score (based on similarity): 1.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-02 23:58:39,898 - INFO - CLINTON_57 score (based on similarity): 0.33/1.00 score (based on bleurt): 0.00/1.00
+2025-05-02 23:59:22,007 - INFO - CLINTON_66 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:00:10,402 - INFO - CLINTON_6_1 score (based on similarity): 1.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:01:13,505 - INFO - CLINTON_6_2 score (based on similarity): 1.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:01:43,210 - INFO - CLINTON_85 score (based on similarity): 0.33/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:02:10,715 - INFO - CLINTON_87 score (based on similarity): 0.33/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:03:03,722 - INFO - CLINTON_92 score (based on similarity): 1.00/1.00 score (based on bleurt): 0.33/1.00
+2025-05-03 00:03:39,066 - INFO - CL_57 score (based on similarity): 1.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:04:16,183 - INFO - Doctor-Mom_205 score (based on similarity): 0.33/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:04:40,085 - INFO - Elmattador__92 score (based on similarity): 0.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:05:23,563 - INFO - FoodAllergyMom_199_1 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:05:53,553 - INFO - Frequent-Flyer_157 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:06:24,345 - INFO - Glblwrmingisfak__552 score (based on similarity): 0.33/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:06:24,346 - WARNING - There are repeated CQs in HOLT_126
+2025-05-03 00:06:59,463 - INFO - HOLT_126 score (based on similarity): 1.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:07:28,013 - INFO - HOLT_239 score (based on similarity): 0.33/1.00 score (based on bleurt): 0.33/1.00
+2025-05-03 00:08:04,124 - INFO - HOLT_94 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:08:34,985 - INFO - Helen__66 score (based on similarity): 1.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:09:04,687 - INFO - 17th_knight__247 score (based on similarity): 0.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:09:47,530 - INFO - AFCHF_154 score (based on similarity): 0.33/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:10:13,604 - INFO - AK-traveler_186 score (based on similarity): 0.33/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:10:51,197 - INFO - AllergyDad_200 score (based on similarity): 0.33/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:11:22,657 - INFO - AngelComa__638 score (based on similarity): 0.33/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:11:54,594 - INFO - Antanagoge_104 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:12:21,962 - INFO - Antanagoge_111 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:13:11,438 - INFO - Antanagoge_227 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:13:43,471 - INFO - Antanagoge_239 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:13:43,472 - WARNING - There are repeated CQs in Bill_106
+2025-05-03 00:14:18,114 - INFO - Bill_106 score (based on similarity): 1.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:14:53,933 - INFO - CF_29 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:14:53,934 - WARNING - There are repeated CQs in CF_46
+2025-05-03 00:15:28,866 - INFO - CF_46 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:15:28,867 - INFO - CLINTON_103 score (based on similarity): 0.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:16:27,099 - INFO - CLINTON_123_1 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:17:21,049 - INFO - CLINTON_123_2 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:18:39,565 - INFO - CLINTON_130_1 score (based on similarity): 1.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:20:16,048 - INFO - CLINTON_130_2 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:21:14,254 - INFO - CLINTON_147 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:22:07,035 - INFO - CLINTON_17 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:23:00,186 - INFO - CLINTON_176_1 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.33/1.00
+2025-05-03 00:24:00,857 - INFO - CLINTON_176_2 score (based on similarity): 0.33/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:24:39,169 - INFO - CLINTON_186 score (based on similarity): 0.33/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:25:28,542 - INFO - CLINTON_193 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:26:15,357 - INFO - CLINTON_199_1 score (based on similarity): 0.33/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:27:19,651 - INFO - TRUMP_240_2 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:28:09,498 - INFO - TRUMP_249 score (based on similarity): 0.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:29:03,804 - INFO - TRUMP_251 score (based on similarity): 0.33/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:29:58,936 - INFO - TRUMP_253 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:30:31,612 - INFO - TRUMP_26 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:31:15,153 - INFO - TRUMP_275 score (based on similarity): 1.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:32:10,188 - INFO - TRUMP_279 score (based on similarity): 0.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:33:48,136 - INFO - TRUMP_3_1 score (based on similarity): 1.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:34:53,301 - INFO - TRUMP_3_2 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.33/1.00
+2025-05-03 00:35:28,677 - INFO - TRUMP_44 score (based on similarity): 1.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:35:59,475 - INFO - TRUMP_52 score (based on similarity): 0.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:37:06,026 - INFO - TRUMP_58 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:37:39,768 - INFO - TRUMP_70 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:38:51,291 - INFO - TRUMP_77_1 score (based on similarity): 0.33/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:39:43,790 - INFO - TRUMP_77_2 score (based on similarity): 0.33/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:40:20,314 - INFO - TRUMP_9 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:41:25,599 - INFO - TRUMP_93 score (based on similarity): 1.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:42:04,884 - INFO - TRUMP_95 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:42:32,306 - INFO - Tuatho__98 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:43:01,526 - INFO - Vec_164 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:43:32,500 - INFO - Velshtein__565 score (based on similarity): 0.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:44:05,336 - INFO - Zewstain__641 score (based on similarity): 0.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:44:41,020 - INFO - aimwill_178 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:45:28,746 - INFO - ambersky_145 score (based on similarity): 1.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:46:04,512 - INFO - annoyed_177 score (based on similarity): 0.33/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:46:32,394 - INFO - atraveller_82_1 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:47:02,095 - INFO - atraveller_82_2 score (based on similarity): 0.33/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:47:55,513 - INFO - cd38_220_1 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:48:27,597 - INFO - cd38_220_2 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:49:04,516 - INFO - citizen-s_134 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:49:35,889 - INFO - citizen-s_176 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:50:17,647 - INFO - darawayne_121 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:50:46,307 - INFO - darawayne_182 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:51:32,692 - INFO - JDwyer_17 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:52:19,186 - INFO - JJMurray_140 score (based on similarity): 0.33/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:52:53,922 - INFO - JJMurray_143 score (based on similarity): 1.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:53:32,815 - INFO - JJMurray_166 score (based on similarity): 0.33/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:54:02,084 - INFO - JJMurray_180 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:54:30,297 - INFO - JL_15 score (based on similarity): 1.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:54:57,528 - INFO - JL_3 score (based on similarity): 0.33/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:55:26,702 - INFO - JL_5 score (based on similarity): 1.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:55:56,793 - INFO - JW_41 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:56:32,421 - INFO - Javier_84 score (based on similarity): 0.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:57:12,578 - INFO - JetJock_156_1 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:57:46,723 - INFO - JetJock_156_2 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:58:28,430 - INFO - KHenrickson_172 score (based on similarity): 0.33/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:58:28,431 - WARNING - There are repeated CQs in MP_22
+2025-05-03 00:59:14,414 - INFO - MP_22 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 00:59:14,415 - WARNING - There are repeated CQs in MP_48
+2025-05-03 00:59:50,630 - INFO - MP_48 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:00:19,846 - INFO - MR_TELEVOID__178 score (based on similarity): 0.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:00:49,199 - INFO - MT_10 score (based on similarity): 1.00/1.00 score (based on bleurt): 0.33/1.00
+2025-05-03 01:01:28,309 - INFO - MT_40 score (based on similarity): 0.33/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:02:01,007 - INFO - Melanie_64 score (based on similarity): 1.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:02:32,393 - INFO - Mpogoda_184 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:03:01,697 - INFO - MrFordization__82 score (based on similarity): 1.00/1.00 score (based on bleurt): 0.67/1.00
+2025-05-03 01:03:38,885 - INFO - Mulder_112 score (based on similarity): 0.33/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:04:15,494 - INFO - Mulder_226 score (based on similarity): 0.33/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:04:43,719 - INFO - Mulder_240 score (based on similarity): 0.33/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:05:13,167 - INFO - ND_28 score (based on similarity): 0.33/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:05:50,006 - INFO - NYCMuscleman18_161 score (based on similarity): 1.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:06:14,905 - INFO - NYCMuscleman18_187 score (based on similarity): 0.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:06:54,949 - INFO - PeanutAllergy_232 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:07:35,147 - INFO - PracticalJo_179_1 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:08:18,152 - INFO - PracticalJo_179_2 score (based on similarity): 0.33/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:08:51,449 - INFO - Qubbin_80 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:09:25,585 - INFO - SWong_118_1 score (based on similarity): 1.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:10:04,376 - INFO - SWong_118_2 score (based on similarity): 1.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:10:33,465 - INFO - Sithsaber__198 score (based on similarity): 0.33/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:11:01,013 - INFO - SofieM_128 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:11:34,209 - INFO - SofieM_73 score (based on similarity): 1.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:12:06,125 - INFO - SofieM_8 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:12:33,055 - INFO - TRUMP_101 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:13:27,511 - INFO - dberger_74_1 score (based on similarity): 1.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:14:02,719 - INFO - dberger_74_2 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:14:02,720 - WARNING - There are repeated CQs in dlpoole_223_1
+2025-05-03 01:14:45,482 - INFO - dlpoole_223_1 score (based on similarity): 0.33/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:15:24,368 - INFO - dlpoole_223_2 score (based on similarity): 0.33/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:16:13,118 - INFO - drgreg_181_1 score (based on similarity): 1.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:16:51,628 - INFO - elizwestley_222 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:17:22,965 - INFO - elizwestley_68 score (based on similarity): 1.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:17:53,787 - INFO - golff4fun_155 score (based on similarity): 0.33/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:18:32,332 - INFO - golff4fun_162 score (based on similarity): 1.00/1.00 score (based on bleurt): 0.33/1.00
+2025-05-03 01:19:03,168 - INFO - grayk47__302 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:19:44,835 - INFO - hgranato_211 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:20:22,643 - INFO - howie_201 score (based on similarity): 0.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:20:37,917 - INFO - howie_208 score (based on similarity): 0.33/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:21:11,173 - INFO - howie_213 score (based on similarity): 0.33/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:21:51,515 - INFO - howie_238 score (based on similarity): 1.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:22:22,896 - INFO - kateinhawaii_103 score (based on similarity): 1.00/1.00 score (based on bleurt): 0.33/1.00
+2025-05-03 01:22:58,899 - INFO - lauraclare_136 score (based on similarity): 1.00/1.00 score (based on bleurt): 0.67/1.00
+2025-05-03 01:24:01,370 - INFO - mcliverty_188_1 score (based on similarity): 0.33/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:24:41,682 - INFO - mcliverty_188_2 score (based on similarity): 0.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:25:39,136 - INFO - mfball__143 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:26:19,038 - INFO - msrocker_127 score (based on similarity): 0.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:26:55,838 - INFO - secretcurse__137 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:26:55,838 - WARNING - There are repeated CQs in secretcurse__139
+2025-05-03 01:27:34,547 - INFO - secretcurse__139 score (based on similarity): 0.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:28:27,080 - INFO - smg_72 score (based on similarity): 1.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:29:08,664 - INFO - smr_174_1 score (based on similarity): 0.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:29:32,293 - INFO - smr_174_2 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.33/1.00
+2025-05-03 01:29:32,294 - INFO - travellots_133_1 score (based on similarity): 0.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:30:28,958 - INFO - travellots_133_2 score (based on similarity): 1.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:30:54,481 - INFO - zuclinator_125 score (based on similarity): 0.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:32:08,315 - INFO - TRUMP_114_1 score (based on similarity): 1.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:33:41,856 - INFO - TRUMP_114_2 score (based on similarity): 1.00/1.00 score (based on bleurt): 0.33/1.00
+2025-05-03 01:34:37,193 - INFO - TRUMP_121_1 score (based on similarity): 1.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:35:31,655 - INFO - TRUMP_121_2 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:36:55,547 - INFO - TRUMP_125_1 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.33/1.00
+2025-05-03 01:38:00,214 - INFO - TRUMP_125_2 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:38:39,708 - INFO - TRUMP_127 score (based on similarity): 1.00/1.00 score (based on bleurt): 0.67/1.00
+2025-05-03 01:39:13,587 - INFO - TRUMP_129 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:39:50,309 - INFO - TRUMP_13 score (based on similarity): 0.33/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:40:42,717 - INFO - TRUMP_140_1 score (based on similarity): 0.33/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:41:20,705 - INFO - TRUMP_140_2 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:41:48,722 - INFO - TRUMP_166 score (based on similarity): 1.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:42:19,489 - INFO - TRUMP_170 score (based on similarity): 1.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:43:13,118 - INFO - TRUMP_174_2 score (based on similarity): 1.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:44:07,560 - INFO - TRUMP_183 score (based on similarity): 0.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:44:56,813 - INFO - TRUMP_192 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:45:45,491 - INFO - TRUMP_202_1 score (based on similarity): 1.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:46:19,039 - INFO - TRUMP_202_2 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:47:07,452 - INFO - TRUMP_222 score (based on similarity): 0.33/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:47:53,526 - INFO - TRUMP_236 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:47:53,527 - INFO - TRUMP_240_1 score (based on similarity): 0.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:48:48,406 - INFO - CL_8 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.67/1.00
+2025-05-03 01:49:18,263 - INFO - MT_14 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:49:57,093 - INFO - MT_45 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:50:35,589 - INFO - ND_23 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:51:07,953 - INFO - CF_62 score (based on similarity): 1.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:51:39,994 - INFO - JW_35 score (based on similarity): 0.33/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:52:39,417 - INFO - CLINTON_1_1 score (based on similarity): 0.33/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:53:36,214 - INFO - TRUMP_99 score (based on similarity): 0.67/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:54:18,904 - INFO - TRUMP_174_1 score (based on similarity): 1.00/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:55:08,389 - INFO - TRUMP_112 score (based on similarity): 0.33/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 01:55:49,511 - INFO - CLINTON_244_1 score (based on similarity): 0.33/1.00 score (based on bleurt): 0.00/1.00
+2025-05-03 02:09:10,449 - INFO - ------ Summary Metrics ------
+2025-05-03 02:09:10,451 - INFO - Distribution of labels: Counter({('Useful', 'not_able_to_evaluate'): 434, ('Unhelpful', 'not_able_to_evaluate'): 68, ('Invalid', 'not_able_to_evaluate'): 27, ('Useful', 'Useful'): 18, ('Unhelpful', 'Unhelpful'): 1, ('Useful', 'Unhelpful'): 1})
+2025-05-03 02:09:10,452 - INFO - Distribution of punctuation: Counter({(0.6666666666666666, 0): 68, (0.3333333333333333, 0): 42, (1.0, 0): 41, (0, 0): 21, (1.0, 0.3333333333333333): 5, (0.6666666666666666, 0.3333333333333333): 4, (1.0, 0.6666666666666666): 3, (0.3333333333333333, 0.3333333333333333): 1, (0.6666666666666666, 0.6666666666666666): 1})
+2025-05-03 02:09:10,454 - INFO - Overall sim punctuation: 0.6022
+2025-05-03 02:09:10,455 - INFO - Overall bleurt punctuation: 0.0323
+2025-05-03 02:09:10,472 - INFO - Saved labeled output to /content/NLP2025_CQG/Evaluation/Scored/results_zeroshot_llama_3.1-8B-instruct_eval.json
