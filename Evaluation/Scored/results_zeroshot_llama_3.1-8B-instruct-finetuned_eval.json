@@ -4,13 +4,13 @@
             {
                 "cq": "Why should we work more closely with our allies?",
                 "sim_label": "Useful",
-                "sim_score": 0.7416977882385254,
+                "sim_score": 0.7416977286338806,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.44334614276885986
             },
             {
                 "cq": "Why is it a bad thing to be dismissive of NATO?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.5958855748176575,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.9600899815559387
@@ -18,7 +18,7 @@
             {
                 "cq": "What is the relationship between working closely with Muslim nations and the American Muslim community?",
                 "sim_label": "Useful",
-                "sim_score": 0.6058267951011658,
+                "sim_score": 0.6058266758918762,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.5937573313713074
             }
@@ -38,14 +38,14 @@
             {
                 "cq": "How would you define \"the wealthy\"?",
                 "sim_label": "Useful",
-                "sim_score": 0.6555818319320679,
+                "sim_score": 0.6555817723274231,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.7646267414093018
             },
             {
                 "cq": "What is the definition of a \"corporate loophole\"?",
                 "sim_label": "Useful",
-                "sim_score": 0.7118086218833923,
+                "sim_score": 0.7118086814880371,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.2398681342601776
             }
@@ -57,22 +57,22 @@
         "cqs": [
             {
                 "cq": "Why are you bringing up the economic crisis?",
-                "sim_label": "Useful",
-                "sim_score": 0.5082435607910156,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.5082435011863708,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -1.225517749786377
             },
             {
                 "cq": "What does this have to do with climate change?",
-                "sim_label": "Useful",
-                "sim_score": 0.4831092357635498,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.4831092059612274,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.6385402679443359
             },
             {
                 "cq": "What is an independent expert?",
                 "sim_label": "Useful",
-                "sim_score": 0.703498363494873,
+                "sim_score": 0.7034983038902283,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.8022817969322205
             }
@@ -91,7 +91,7 @@
             },
             {
                 "cq": "What does this have to do with Iran?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.5390760898590088,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.64731764793396
@@ -99,7 +99,7 @@
             {
                 "cq": "How many nuclear weapons did Iran have?",
                 "sim_label": "Useful",
-                "sim_score": 0.6322469711303711,
+                "sim_score": 0.6322469115257263,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.6534757614135742
             }
@@ -111,21 +111,21 @@
         "cqs": [
             {
                 "cq": "What do you mean by \"not good judgment\"?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.4941924512386322,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -1.1875190734863281
             },
             {
                 "cq": "What are the consequences of not firing a shot?",
-                "sim_label": "Useful",
-                "sim_score": 0.3657645583152771,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.3657645881175995,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.9652668237686157
             },
             {
                 "cq": "How do you define \"good judgment\"?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.5956099033355713,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.9855378270149231
@@ -151,7 +151,7 @@
             {
                 "cq": "What does Clinton mean by \"cavalier attitude about nuclear weapons\"?",
                 "sim_label": "Useful",
-                "sim_score": 0.8490663766860962,
+                "sim_score": 0.8490662574768066,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.38180533051490784
             },
@@ -175,14 +175,14 @@
         "cqs": [
             {
                 "cq": "What does \"successful\" mean in this context?",
-                "sim_label": "Unhelpful",
-                "sim_score": 0.36721062660217285,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.36721065640449524,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.7053391933441162
             },
             {
                 "cq": "What does \"defeat ISIS\" mean in this context?",
-                "sim_label": "Unhelpful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.39863699674606323,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.7402461171150208
@@ -202,21 +202,21 @@
         "cqs": [
             {
                 "cq": "What do you mean by \"grip this\"?",
-                "sim_label": "Useful",
-                "sim_score": 0.19406956434249878,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.1940695345401764,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -1.5275566577911377
             },
             {
                 "cq": "How would you fund a half a billion more solar panels?",
                 "sim_label": "Useful",
-                "sim_score": 0.9292587041854858,
+                "sim_score": 0.9292586445808411,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.16275660693645477
             },
             {
                 "cq": "What exactly do you mean by \"getting the economy really moving again\"?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.47983163595199585,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.8344609141349792
@@ -229,22 +229,22 @@
         "cqs": [
             {
                 "cq": "What is the definition of a multinational trade deal?",
-                "sim_label": "Useful",
-                "sim_score": 0.4658735394477844,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.46587350964546204,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.5121872425079346
             },
             {
                 "cq": "How do you plan to enforce trade deals without a special prosecutor?",
                 "sim_label": "Useful",
-                "sim_score": 0.6913400888442993,
+                "sim_score": 0.6913401484489441,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.49020564556121826
             },
             {
                 "cq": "How do you plan to increase exports without increasing trade deals?",
-                "sim_label": "Useful",
-                "sim_score": 0.38809934258461,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.38809940218925476,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.5273147225379944
             }
@@ -267,7 +267,7 @@
             {
                 "cq": "What are the specific policies in Clinton's book that would create 10 million jobs?",
                 "sim_label": "Useful",
-                "sim_score": 0.7420516610145569,
+                "sim_score": 0.7420516014099121,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.36308565735816956
             },
@@ -280,7 +280,7 @@
             },
             {
                 "cq": "What are the specific policies in Trump's plan that would lose 3.5 million jobs?",
-                "sim_label": "Unhelpful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.5268006324768066,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.08401665091514587
@@ -294,7 +294,7 @@
             {
                 "cq": "Who is the \"they\" in \"they have made all the gains in the economy\"?",
                 "sim_label": "Useful",
-                "sim_score": 0.6585520505905151,
+                "sim_score": 0.6585521101951599,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -1.2321877479553223
             },
@@ -307,7 +307,7 @@
             },
             {
                 "cq": "What is the definition of \"wealthy\"?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.5521730184555054,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.6456777453422546
@@ -321,20 +321,20 @@
             {
                 "cq": "Why is it that the 95% of the world that we don't trade with is the focus of the argument?",
                 "sim_label": "Unhelpful",
-                "sim_score": 0.6162269711494446,
+                "sim_score": 0.6162269115447998,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.5664840340614319
             },
             {
                 "cq": "Why is the argument that the current tax system rewards work over financial transactions?",
                 "sim_label": "Useful",
-                "sim_score": 0.7086983919143677,
+                "sim_score": 0.708698570728302,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.4568662941455841
             },
             {
                 "cq": "Why does the argument focus on the top percent of people in this country?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.5262052416801453,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.739323079586029
@@ -347,14 +347,14 @@
         "cqs": [
             {
                 "cq": "Why should a politician's personal experience be considered when making policy decisions?",
-                "sim_label": "Useful",
-                "sim_score": 0.5155851244926453,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.5155850648880005,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.5411001443862915
             },
             {
                 "cq": "How does the speaker's experience with his father's business relate to the topic of tax policies?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.5436042547225952,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.47933298349380493
@@ -382,14 +382,14 @@
             {
                 "cq": "What is the current tax rate for repatriated money?",
                 "sim_label": "Useful",
-                "sim_score": 0.6971577405929565,
+                "sim_score": 0.6971578001976013,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.36431097984313965
             },
             {
                 "cq": "How much money is stranded overseas?",
                 "sim_label": "Useful",
-                "sim_score": 0.6368039846420288,
+                "sim_score": 0.6368038654327393,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.7540076971054077
             }
@@ -408,15 +408,15 @@
             },
             {
                 "cq": "Critical question 2: What is the benefit to the US?",
-                "sim_label": "Useful",
-                "sim_score": 0.39647600054740906,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.39647603034973145,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.9478898048400879
             },
             {
                 "cq": "Critical question 3: Why is it a loophole?",
-                "sim_label": "Useful",
-                "sim_score": 0.47450363636016846,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.47450366616249084,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -1.0091137886047363
             }
@@ -429,20 +429,20 @@
             {
                 "cq": "What is your definition of trickle-down economics?",
                 "sim_label": "Useful",
-                "sim_score": 0.7514901161193848,
+                "sim_score": 0.75149005651474,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.7998424768447876
             },
             {
                 "cq": "Do you think the economy is bad because of trickle-down economics?",
                 "sim_label": "Useful",
-                "sim_score": 0.7078478336334229,
+                "sim_score": 0.7078477144241333,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.6307612657546997
             },
             {
                 "cq": "What do you think is the most effective way to boost the economy?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.5008053779602051,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.44790148735046387
@@ -471,13 +471,13 @@
             {
                 "cq": "Do you think your child's allergy is a disability?",
                 "sim_label": "Unhelpful",
-                "sim_score": 0.7587805986404419,
+                "sim_score": 0.7587806582450867,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.6782270073890686
             },
             {
                 "cq": "What does a disability have to do with your argument?",
-                "sim_label": "Unhelpful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.4141576886177063,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.9072248339653015
@@ -485,7 +485,7 @@
             {
                 "cq": "Can you describe what it means for an allergy to be unpredictable?",
                 "sim_label": "Unhelpful",
-                "sim_score": 0.6480257511138916,
+                "sim_score": 0.6480256915092468,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.37010979652404785
             }
@@ -498,7 +498,7 @@
             {
                 "cq": "Do people with peanut allergies have the right to fly?",
                 "sim_label": "Useful",
-                "sim_score": 0.702430009841919,
+                "sim_score": 0.7024299502372742,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.3063424229621887
             },
@@ -511,7 +511,7 @@
             },
             {
                 "cq": "Should people be forced to take alternative travel methods?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.5259385704994202,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.4313514232635498
@@ -525,21 +525,21 @@
             {
                 "cq": "What solutions are you proposing?",
                 "sim_label": "Useful",
-                "sim_score": 0.6037705540657043,
+                "sim_score": 0.6037704944610596,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.8327707648277283
             },
             {
                 "cq": "Why do you think an assault weapons ban won't work?",
                 "sim_label": "Useful",
-                "sim_score": 0.6987286806106567,
+                "sim_score": 0.698728621006012,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.3244885802268982
             },
             {
                 "cq": "Why do you think Bernie is stupid?",
-                "sim_label": "Useful",
-                "sim_score": 0.48620671033859253,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.4862067401409149,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -1.2103468179702759
             }
@@ -561,7 +561,7 @@
         "cqs": [
             {
                 "cq": "Why should we assume there are conflicts of interest?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.5856974720954895,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.3846557140350342
@@ -569,14 +569,14 @@
             {
                 "cq": "How is not releasing tax returns a conflict of interest?",
                 "sim_label": "Useful",
-                "sim_score": 0.7487854361534119,
+                "sim_score": 0.7487854957580566,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.7081523537635803
             },
             {
                 "cq": "What is the relevance of a nominee releasing their tax returns?",
                 "sim_label": "Useful",
-                "sim_score": 0.6746528744697571,
+                "sim_score": 0.6746529340744019,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.2799665927886963
             }
@@ -588,22 +588,22 @@
         "cqs": [
             {
                 "cq": "Why is it more acceptable to intervene in families that are not violent?",
-                "sim_label": "Useful",
-                "sim_score": 0.47058624029159546,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.47058627009391785,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.23598498106002808
             },
             {
                 "cq": "What are the criteria for a family that is \"able to parent their children effectively\"?",
                 "sim_label": "Unhelpful",
-                "sim_score": 0.7391617298126221,
+                "sim_score": 0.7391616702079773,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.24661260843276978
             },
             {
                 "cq": "What do you mean by \"get back on their feet\"?",
-                "sim_label": "Unhelpful",
-                "sim_score": 0.49322664737701416,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.49322667717933655,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.9255743026733398
             }
@@ -621,14 +621,14 @@
             {
                 "cq": "Why would deplaning without CBP screening be a viable option?",
                 "sim_label": "Unhelpful",
-                "sim_score": 0.7873838543891907,
+                "sim_score": 0.7873839139938354,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": 0.02181774005293846
             },
             {
                 "cq": "What are the implications of this policy on international travel?",
-                "sim_label": "Unhelpful",
-                "sim_score": 0.5661410093307495,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.5661409497261047,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.25169479846954346
             },
@@ -647,21 +647,21 @@
         "cqs": [
             {
                 "cq": "How is this relevant to the topic of baggage fees?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.46756717562675476,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.470791220664978
             },
             {
                 "cq": "Do you have a pet?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.5128666162490845,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -1.4312865734100342
             },
             {
                 "cq": "Why is this a health issue?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.39569926261901855,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.6347017884254456
@@ -682,7 +682,7 @@
             {
                 "cq": "Why is a peanut more dangerous on an airplane than on the ground?",
                 "sim_label": "Useful",
-                "sim_score": 0.6870552897453308,
+                "sim_score": 0.6870553493499756,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.4327215850353241
             },
@@ -701,7 +701,7 @@
         "cqs": [
             {
                 "cq": "What is the difference between a politician's website and a politician's plan?",
-                "sim_label": "Invalid",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.5344827175140381,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.3993343710899353
@@ -709,13 +709,13 @@
             {
                 "cq": "What is the significance of a politician having a plan?",
                 "sim_label": "Unhelpful",
-                "sim_score": 0.6536122560501099,
+                "sim_score": 0.6536123156547546,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.24346566200256348
             },
             {
                 "cq": "How can you be sure that a politician's plan is good?",
-                "sim_label": "Unhelpful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.5738418102264404,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.5590256452560425
@@ -729,21 +729,21 @@
             {
                 "cq": "What is the evidence for the claim that the airline industry can not be left to selfmonitor this?",
                 "sim_label": "Useful",
-                "sim_score": 0.8856588006019592,
+                "sim_score": 0.885658860206604,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.6330277323722839
             },
             {
                 "cq": "Why should the psychological effects of this be considered significant?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.5181155204772949,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.20774364471435547
             },
             {
                 "cq": "Why should the airline industry be required to ensure that peanuts are not served?",
-                "sim_label": "Useful",
-                "sim_score": 0.5158469676971436,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.5158470273017883,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.6410477757453918
             }
@@ -756,7 +756,7 @@
             {
                 "cq": "What is the relevance of the publication of studies to the argument?",
                 "sim_label": "Useful",
-                "sim_score": 0.6963088512420654,
+                "sim_score": 0.6963089108467102,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.06259799003601074
             },
@@ -769,8 +769,8 @@
             },
             {
                 "cq": "Why are funerals relevant to the discussion?",
-                "sim_label": "Useful",
-                "sim_score": 0.5519945621490479,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.5519945025444031,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.47991806268692017
             }
@@ -782,22 +782,22 @@
         "cqs": [
             {
                 "cq": "Why is the air on an airliner cleaner than in most public buildings?",
-                "sim_label": "Useful",
-                "sim_score": 0.3970949053764343,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.3970949351787567,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.9363535046577454
             },
             {
                 "cq": "How does desensitization to peanut allergies work?",
                 "sim_label": "Useful",
-                "sim_score": 0.6954857110977173,
+                "sim_score": 0.6954857707023621,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.7003301978111267
             },
             {
                 "cq": "What is the difference between a peanut allergy and an anaphylactic reaction?",
                 "sim_label": "Useful",
-                "sim_score": 0.709716260433197,
+                "sim_score": 0.7097162008285522,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.45935243368148804
             }
@@ -817,14 +817,14 @@
             {
                 "cq": "Are peanuts really the most nutritious food on the planet?",
                 "sim_label": "Useful",
-                "sim_score": 0.7073038816452026,
+                "sim_score": 0.7073039412498474,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.6282169818878174
             },
             {
                 "cq": "How many people die from peanut allergy every year?",
                 "sim_label": "Invalid",
-                "sim_score": 0.6373066902160645,
+                "sim_score": 0.6373067498207092,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.8327671885490417
             }
@@ -848,8 +848,8 @@
             },
             {
                 "cq": "What is the difference between productive investments and consumer credit?",
-                "sim_label": "Useful",
-                "sim_score": 0.5460138916969299,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.5460139513015747,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.1419028341770172
             },
@@ -868,14 +868,14 @@
         "cqs": [
             {
                 "cq": "What is the connection between the sub-prime mortgage holders and the current state of the economy?",
-                "sim_label": "Useful",
-                "sim_score": 0.5872801542282104,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.5872800350189209,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.2961486577987671
             },
             {
                 "cq": "What is the specific policy being referred to?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.38390108942985535,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.3929128050804138
@@ -896,7 +896,7 @@
             {
                 "cq": "What does the tax return of Trump have to do with Clinton?",
                 "sim_label": "Useful",
-                "sim_score": 0.7049130797386169,
+                "sim_score": 0.7049132585525513,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.7153314352035522
             },
@@ -910,7 +910,7 @@
             {
                 "cq": "Why does the fact that Trump is under audit have any relevance to the decision to release his tax returns?",
                 "sim_label": "Useful",
-                "sim_score": 0.7618401050567627,
+                "sim_score": 0.7618400454521179,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.16289480030536652
             }
@@ -922,7 +922,7 @@
         "cqs": [
             {
                 "cq": "Why is this a problem?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.39189863204956055,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.8690014481544495
@@ -930,14 +930,14 @@
             {
                 "cq": "What does it mean to \"restore trust\"?",
                 "sim_label": "Useful",
-                "sim_score": 0.6105690002441406,
+                "sim_score": 0.6105690598487854,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.851664125919342
             },
             {
                 "cq": "What kind of education should public schools provide?",
-                "sim_label": "Useful",
-                "sim_score": 0.38886213302612305,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.3888621926307678,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.8380272388458252
             }
@@ -949,15 +949,15 @@
         "cqs": [
             {
                 "cq": "What does \"restoring trust\" mean in this context?",
-                "sim_label": "Useful",
-                "sim_score": 0.5954443216323853,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.59544438123703,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.42740631103515625
             },
             {
                 "cq": "How do you plan to restore trust?",
                 "sim_label": "Useful",
-                "sim_score": 0.6722922325134277,
+                "sim_score": 0.672292172908783,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.47357892990112305
             },
@@ -976,14 +976,14 @@
         "cqs": [
             {
                 "cq": "What do you think should be done about it?",
-                "sim_label": "Invalid",
-                "sim_score": 0.42588022351264954,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.42588019371032715,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.5416502356529236
             },
             {
                 "cq": "How do you think it should be done?",
-                "sim_label": "Invalid",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.41520053148269653,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.9887555837631226
@@ -991,7 +991,7 @@
             {
                 "cq": "How is it ineffective?",
                 "sim_label": "Unhelpful",
-                "sim_score": 0.650196373462677,
+                "sim_score": 0.6501964330673218,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -1.1328206062316895
             }
@@ -1018,7 +1018,7 @@
             {
                 "cq": "What is the definition of a military-style weapon?",
                 "sim_label": "Useful",
-                "sim_score": 0.8023405075073242,
+                "sim_score": 0.8023406267166138,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.5295646786689758
             }
@@ -1030,21 +1030,21 @@
         "cqs": [
             {
                 "cq": "What does \"effective\" mean in this context?",
-                "sim_label": "Useful",
-                "sim_score": 0.5094770193099976,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.5094771385192871,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.5790475010871887
             },
             {
                 "cq": "How would you measure the effectiveness of a program?",
                 "sim_label": "Useful",
-                "sim_score": 0.6808720827102661,
+                "sim_score": 0.6808720231056213,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.24532325565814972
             },
             {
                 "cq": "What rights are being referred to?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.3223792612552643,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.8822335600852966
@@ -1065,14 +1065,14 @@
             {
                 "cq": "How did the policies of Donald Trump cause the housing crisis?",
                 "sim_label": "Useful",
-                "sim_score": 0.7570011615753174,
+                "sim_score": 0.7570012807846069,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.38757559657096863
             },
             {
                 "cq": "What policies did Clinton implement that caused the housing crisis?",
-                "sim_label": "Useful",
-                "sim_score": 0.5576139688491821,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.5576140284538269,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.6442980170249939
             }
@@ -1085,21 +1085,21 @@
             {
                 "cq": "Why should we believe that Russia is behind these cyber attacks?",
                 "sim_label": "Useful",
-                "sim_score": 0.7841265201568604,
+                "sim_score": 0.7841264605522156,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": 0.003978203982114792
             },
             {
                 "cq": "Why should we assume that the goal of the hacking groups is to make money?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.45072293281555176,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.6373302340507507
             },
             {
                 "cq": "Why should we assume that the hackers are acting at the behest of Putin?",
-                "sim_label": "Useful",
-                "sim_score": 0.555657684803009,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.5556576251983643,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.351485937833786
             }
@@ -1111,7 +1111,7 @@
         "cqs": [
             {
                 "cq": "What do you mean by \"wreak havoc\"?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.365933358669281,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.8927899599075317
@@ -1119,13 +1119,13 @@
             {
                 "cq": "What is the difference between \"tools\" and \"warfare\"?",
                 "sim_label": "Useful",
-                "sim_score": 0.6636130809783936,
+                "sim_score": 0.6636130213737488,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.43217933177948
             },
             {
                 "cq": "What do you mean by \"public-sector information\"?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.343384712934494,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.8491879105567932
@@ -1139,21 +1139,21 @@
             {
                 "cq": "What exactly is the plan to defeat ISIS?",
                 "sim_label": "Useful",
-                "sim_score": 0.8226593136787415,
+                "sim_score": 0.8226593732833862,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.2644125819206238
             },
             {
                 "cq": "How exactly does Clinton plan to prevent ISIS from using the internet?",
                 "sim_label": "Useful",
-                "sim_score": 0.777820885181427,
+                "sim_score": 0.7778208255767822,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.11888235807418823
             },
             {
                 "cq": "Why does Clinton want to \"end their claim of being a Caliphate\"?",
-                "sim_label": "Useful",
-                "sim_score": 0.5976402759552002,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.5976401567459106,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.571427583694458
             }
@@ -1166,21 +1166,21 @@
             {
                 "cq": "What is the definition of \"supported the invasion of Iraq\"?",
                 "sim_label": "Unhelpful",
-                "sim_score": 0.6850043535232544,
+                "sim_score": 0.6850042939186096,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.828630805015564
             },
             {
                 "cq": "What is the definition of \"urge that Gadhafi be taken out\"?",
-                "sim_label": "Unhelpful",
-                "sim_score": 0.49864766001701355,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.4986476004123688,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.8330857753753662
             },
             {
                 "cq": "What is the definition of \"protect our troops\"?",
-                "sim_label": "Unhelpful",
-                "sim_score": 0.5050306916236877,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.5050307512283325,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.853057861328125
             }
@@ -1207,7 +1207,7 @@
             {
                 "cq": "Why would finding out more information about Rahami be relevant to preventing attacks?",
                 "sim_label": "Useful",
-                "sim_score": 0.7545568346977234,
+                "sim_score": 0.7545569539070129,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.04198851063847542
             }
@@ -1219,8 +1219,8 @@
         "cqs": [
             {
                 "cq": "What is the argument being made by Trump about the Iran deal?",
-                "sim_label": "Useful",
-                "sim_score": 0.48692750930786133,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.4869275689125061,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.6944542527198792
             },
@@ -1234,7 +1234,7 @@
             {
                 "cq": "What does the Iran deal have to do with North Korea?",
                 "sim_label": "Useful",
-                "sim_score": 0.6776785850524902,
+                "sim_score": 0.6776785254478455,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.3070322871208191
             }
@@ -1247,21 +1247,21 @@
             {
                 "cq": "Why do you think you can defeat ISIS better than Hillary?",
                 "sim_label": "Useful",
-                "sim_score": 0.6141575574874878,
+                "sim_score": 0.614157497882843,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.6445890069007874
             },
             {
                 "cq": "Why do you think you can defeat ISIS better than Hillary?",
                 "sim_label": "Useful",
-                "sim_score": 0.6141575574874878,
+                "sim_score": 0.614157497882843,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.6445890069007874
             },
             {
                 "cq": "Why do you think you can defeat ISIS better than Hillary?",
                 "sim_label": "Useful",
-                "sim_score": 0.6141575574874878,
+                "sim_score": 0.614157497882843,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.6445890069007874
             }
@@ -1289,20 +1289,20 @@
             {
                 "cq": "What exactly is an \"untrue\" ad?",
                 "sim_label": "Useful",
-                "sim_score": 0.6196376085281372,
+                "sim_score": 0.6196375489234924,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.8842797875404358
             },
             {
                 "cq": "How much money did you spend on negative ads on Hillary?",
                 "sim_label": "Useful",
-                "sim_score": 0.645345151424408,
+                "sim_score": 0.6453450918197632,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.5800286531448364
             },
             {
                 "cq": "What do you consider \"practically nothing\"?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.37384873628616333,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -1.2060877084732056
@@ -1316,13 +1316,13 @@
             {
                 "cq": "What is the problem with the current immigration policy?",
                 "sim_label": "Useful",
-                "sim_score": 0.6038603782653809,
+                "sim_score": 0.6038604378700256,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.5732324123382568
             },
             {
                 "cq": "Why should deportation be a priority over other issues?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.5459170341491699,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.4627668261528015
@@ -1330,7 +1330,7 @@
             {
                 "cq": "What is the connection between immigration and jobs?",
                 "sim_label": "Useful",
-                "sim_score": 0.6725391149520874,
+                "sim_score": 0.6725390553474426,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.5703349709510803
             }
@@ -1355,7 +1355,7 @@
             {
                 "cq": "Question 2: How will Trump\u2019s tax plan reduce unemployment?",
                 "sim_label": "Useful",
-                "sim_score": 0.680860161781311,
+                "sim_score": 0.6808600425720215,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.4705532193183899
             },
@@ -1374,22 +1374,22 @@
         "cqs": [
             {
                 "cq": "What is the source of this claim?",
-                "sim_label": "Useful",
-                "sim_score": 0.26917123794555664,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.26917126774787903,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.7037785649299622
             },
             {
                 "cq": "What does the claim that a trade deal is bad mean?",
                 "sim_label": "Useful",
-                "sim_score": 0.6934084892272949,
+                "sim_score": 0.6934083104133606,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.6893172860145569
             },
             {
                 "cq": "How does the claim that a trade deal is bad relate to the claim that a trade deal is bad?",
                 "sim_label": "Useful",
-                "sim_score": 0.6499983072280884,
+                "sim_score": 0.6499984264373779,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.6140190958976746
             }
@@ -1408,15 +1408,15 @@
             },
             {
                 "cq": "Who is pushing it?",
-                "sim_label": "Unhelpful",
-                "sim_score": 0.48527079820632935,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.48527082800865173,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -1.410104513168335
             },
             {
                 "cq": "Is it Obama's fault?",
                 "sim_label": "Unhelpful",
-                "sim_score": 0.8126835823059082,
+                "sim_score": 0.812683641910553,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.06888116896152496
             }
@@ -1429,7 +1429,7 @@
             {
                 "cq": "What kind of regulations are you talking about?",
                 "sim_label": "Invalid",
-                "sim_score": 0.6519141793251038,
+                "sim_score": 0.6519142389297485,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.22421866655349731
             },
@@ -1442,7 +1442,7 @@
             },
             {
                 "cq": "Why do you think the regulations are a disaster?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.5751397609710693,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.44439229369163513
@@ -1462,7 +1462,7 @@
             },
             {
                 "cq": "How does Trump know that General Douglas MacArthur would not like that approach?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.5446451306343079,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.6649733185768127
@@ -1470,7 +1470,7 @@
             {
                 "cq": "Why does Trump think that the enemy would be able to get the information from Clinton's website?",
                 "sim_label": "Useful",
-                "sim_score": 0.6250611543655396,
+                "sim_score": 0.6250612139701843,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.385307252407074
             }
@@ -1489,8 +1489,8 @@
             },
             {
                 "cq": "What evidence is there that the wealthy are leaving the country because of taxes?",
-                "sim_label": "Unhelpful",
-                "sim_score": 0.5497934818267822,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.549793541431427,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.23449215292930603
             },
@@ -1509,21 +1509,21 @@
         "cqs": [
             {
                 "cq": "What is the current method for bringing money back into the country?",
-                "sim_label": "Useful",
-                "sim_score": 0.5013488531112671,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.5013489127159119,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.1716754138469696
             },
             {
                 "cq": "How does the president currently sit people around a table?",
-                "sim_label": "Useful",
-                "sim_score": 0.41895341873168945,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.41895344853401184,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.891068696975708
             },
             {
                 "cq": "What is the current leadership in the country?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.4174885153770447,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -1.1463513374328613
@@ -1547,7 +1547,7 @@
             {
                 "cq": "What is the relationship between the tax audit and the financial statements that Trump is referring to?",
                 "sim_label": "Useful",
-                "sim_score": 0.659600019454956,
+                "sim_score": 0.6595998406410217,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.16569767892360687
             },
@@ -1573,22 +1573,22 @@
         "cqs": [
             {
                 "cq": "What does it mean to be a moderate?",
-                "sim_label": "Useful",
-                "sim_score": 0.4203824996948242,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.4203825294971466,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -1.227084994316101
             },
             {
                 "cq": "How do you define a \"poised response\"?",
-                "sim_label": "Useful",
-                "sim_score": 0.35543709993362427,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.35543712973594666,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.8084661364555359
             },
             {
                 "cq": "What is the relationship between a person's speaking style and their political ideas?",
-                "sim_label": "Useful",
-                "sim_score": 0.5882139205932617,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.5882138609886169,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.2316644787788391
             }
@@ -1600,22 +1600,22 @@
         "cqs": [
             {
                 "cq": "Do you think that airlines should be able to bump people off flights?",
-                "sim_label": "Useful",
-                "sim_score": 0.5591788291931152,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.5591787099838257,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.5029202103614807
             },
             {
                 "cq": "Do you think that airlines should be able to bump people off flights?",
-                "sim_label": "Useful",
-                "sim_score": 0.5591788291931152,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.5591787099838257,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.5029202103614807
             },
             {
                 "cq": "Do you think that airlines should be able to bump people off flights?",
-                "sim_label": "Useful",
-                "sim_score": 0.5591788291931152,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.5591787099838257,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.5029202103614807
             }
@@ -1638,20 +1638,20 @@
             {
                 "cq": "What are the costs of overbooking that the airlines are trying to mitigate?",
                 "sim_label": "Useful",
-                "sim_score": 0.7369612455368042,
+                "sim_score": 0.736961305141449,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.34015485644340515
             },
             {
                 "cq": "What is the process for refunding people for missing flights?",
                 "sim_label": "Useful",
-                "sim_score": 0.787678062915802,
+                "sim_score": 0.7876780033111572,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.3969514071941376
             },
             {
                 "cq": "Why would the airlines be able to get paid twice for the same seat?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.5079726576805115,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.5749130249023438
@@ -1665,13 +1665,13 @@
             {
                 "cq": "Do you have a peanut allergy?",
                 "sim_label": "Unhelpful",
-                "sim_score": 0.6501688957214355,
+                "sim_score": 0.6501688361167908,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.7853705286979675
             },
             {
                 "cq": "Is the armrest a high-risk surface?",
-                "sim_label": "Unhelpful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.5140036344528198,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.87505042552948
@@ -1702,21 +1702,21 @@
             {
                 "cq": "Are you suggesting that people who don't want to be exposed to nuts are somehow less deserving of consideration than those who are severely allergic to nuts?",
                 "sim_label": "Useful",
-                "sim_score": 0.6217074990272522,
+                "sim_score": 0.6217073798179626,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.4795033037662506
             },
             {
                 "cq": "Why should people who are severely allergic to nuts be able to dictate what others can or can't eat on a plane?",
                 "sim_label": "Useful",
-                "sim_score": 0.7134206295013428,
+                "sim_score": 0.7134206891059875,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.4280013144016266
             },
             {
                 "cq": "How does it work in practice if you're not allowed to have nuts on a plane?",
-                "sim_label": "Useful",
-                "sim_score": 0.5545973777770996,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.5545974969863892,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.44485294818878174
             }
@@ -1729,21 +1729,21 @@
             {
                 "cq": "Are peanuts the only option for protein?",
                 "sim_label": "Useful",
-                "sim_score": 0.6487025022506714,
+                "sim_score": 0.6487026214599609,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.7069699168205261
             },
             {
                 "cq": "Is the right to carry on peanuts more important than the right to safety?",
                 "sim_label": "Useful",
-                "sim_score": 0.69438236951828,
+                "sim_score": 0.6943822503089905,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.5202272534370422
             },
             {
                 "cq": "How often do peanuts cause an allergic reaction on a plane?",
                 "sim_label": "Useful",
-                "sim_score": 0.7665601372718811,
+                "sim_score": 0.7665601968765259,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": 0.0665086954832077
             }
@@ -1761,21 +1761,21 @@
             {
                 "cq": "What is the justification for the proposed penalty to the airline?",
                 "sim_label": "Useful",
-                "sim_score": 0.6867238283157349,
+                "sim_score": 0.6867237687110901,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.44109201431274414
             },
             {
                 "cq": "What is the reasoning behind the proposed cap on compensation?",
-                "sim_label": "Useful",
-                "sim_score": 0.5816940069198608,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.5816939473152161,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.430702805519104
             },
             {
                 "cq": "Why should the airline be obligated to help the passenger minimize their costs?",
                 "sim_label": "Useful",
-                "sim_score": 0.7765383720397949,
+                "sim_score": 0.7765383124351501,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.05855599418282509
             }
@@ -1800,14 +1800,14 @@
             {
                 "cq": "What would be the effect on the airline industry of enforcing a pricing strategy?",
                 "sim_label": "Useful",
-                "sim_score": 0.8327010869979858,
+                "sim_score": 0.8327011466026306,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.17830851674079895
             },
             {
                 "cq": "Why would it be acceptable for airlines to change their pricing strategy at midnight?",
                 "sim_label": "Useful",
-                "sim_score": 0.7374797463417053,
+                "sim_score": 0.7374798059463501,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.32110103964805603
             }
@@ -1827,7 +1827,7 @@
             {
                 "cq": "Why should airlines be required to compensate passengers for schedule changes?",
                 "sim_label": "Useful",
-                "sim_score": 0.6554997563362122,
+                "sim_score": 0.6554998159408569,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.07211780548095703
             },
@@ -1878,8 +1878,8 @@
         "cqs": [
             {
                 "cq": "Do you think the airline should be able to decide what is allowed and what isn\u2019t?",
-                "sim_label": "Useful",
-                "sim_score": 0.4855588376522064,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.4855588972568512,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.7591450214385986
             },
@@ -1893,7 +1893,7 @@
             {
                 "cq": "Is it a right to be free from the risk of a peanut allergy?",
                 "sim_label": "Useful",
-                "sim_score": 0.715735912322998,
+                "sim_score": 0.7157358527183533,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.13994042575359344
             }
@@ -1905,22 +1905,22 @@
         "cqs": [
             {
                 "cq": "Why is it a government mandate?",
-                "sim_label": "Useful",
-                "sim_score": 0.31604307889938354,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.31604310870170593,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.8178794384002686
             },
             {
                 "cq": "Why would the airline not be able to communicate this information to the consumer?",
-                "sim_label": "Useful",
-                "sim_score": 0.5439324975013733,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.5439326167106628,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.2793120741844177
             },
             {
                 "cq": "Why would the airline not be able to communicate this information to the consumer?",
-                "sim_label": "Useful",
-                "sim_score": 0.5439324975013733,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.5439326167106628,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.2793120741844177
             }
@@ -1932,21 +1932,21 @@
         "cqs": [
             {
                 "cq": "How do you propose to enforce this rule?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.35039785504341125,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.9529605507850647
             },
             {
                 "cq": "What about peanut oil or peanut protein residue on the plane?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.5056990385055542,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -1.089866280555725
             },
             {
                 "cq": "How do you plan to ensure that the peanuts are completely removed from the plane?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.5911780595779419,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.8736661672592163
@@ -1965,21 +1965,21 @@
             {
                 "cq": "Is the interest rate higher if you pay back the loan quickly?",
                 "sim_label": "Useful",
-                "sim_score": 0.9187449216842651,
+                "sim_score": 0.9187449812889099,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": 0.13753053545951843
             },
             {
                 "cq": "Is the interest rate the same if you pay back the loan quickly or slowly?",
                 "sim_label": "Useful",
-                "sim_score": 0.7355318665504456,
+                "sim_score": 0.7355319261550903,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.13323959708213806
             },
             {
                 "cq": "Does paying back a loan quickly cost the same as paying back a loan slowly?",
                 "sim_label": "Useful",
-                "sim_score": 0.7484527826309204,
+                "sim_score": 0.7484528422355652,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.01942278817296028
             }
@@ -1998,15 +1998,15 @@
             },
             {
                 "cq": "Why is the interest rate so high in the first place?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.5446914434432983,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.6163396239280701
             },
             {
                 "cq": "Why does the interest rate have to be 1,413.01%?",
-                "sim_label": "Useful",
-                "sim_score": 0.3035539984703064,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.303553968667984,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.5974454283714294
             }
@@ -2024,21 +2024,21 @@
             {
                 "cq": "Why would flyers not be able to delay their trip to the airport or even the departure gate if they receive a notification about a delay?",
                 "sim_label": "Unhelpful",
-                "sim_score": 0.8209038972854614,
+                "sim_score": 0.8209038376808167,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.11691825091838837
             },
             {
                 "cq": "Why would flyers be expected to have to wait before going to the airport if the airlines can't know exactly when a weather hold or a maintenance issue will be rectified?",
                 "sim_label": "Useful",
-                "sim_score": 0.7933212518692017,
+                "sim_score": 0.7933213114738464,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.2259119153022766
             },
             {
                 "cq": "Why would flyers need to grow up and quit pouting and blaming everything on the airlines if the airlines are at fault for poor planning?",
                 "sim_label": "Unhelpful",
-                "sim_score": 0.7157663702964783,
+                "sim_score": 0.715766429901123,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": 0.034125301986932755
             }
@@ -2051,7 +2051,7 @@
             {
                 "cq": "Why is the pay structure for pilots and flight attendants poorly designed?",
                 "sim_label": "Useful",
-                "sim_score": 0.8463159799575806,
+                "sim_score": 0.846315860748291,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.21323946118354797
             },
@@ -2065,7 +2065,7 @@
             {
                 "cq": "Why is the ground delay limitation relevant to the discussion of pay structure?",
                 "sim_label": "Unhelpful",
-                "sim_score": 0.6847694516181946,
+                "sim_score": 0.6847693920135498,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.26243025064468384
             }
@@ -2084,15 +2084,15 @@
             },
             {
                 "cq": "Why should the airline be required to provide hotel or meal compensation?",
-                "sim_label": "Useful",
-                "sim_score": 0.45411667227745056,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.4541166424751282,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.7156323194503784
             },
             {
                 "cq": "What is the purpose of this rule?",
-                "sim_label": "Useful",
-                "sim_score": 0.4300960898399353,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.4300960302352905,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.5386598706245422
             }
@@ -2104,8 +2104,8 @@
         "cqs": [
             {
                 "cq": "Do you think the current system is accurate?",
-                "sim_label": "Useful",
-                "sim_score": 0.4400560259819031,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.4400559961795807,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.5049166679382324
             },
@@ -2119,7 +2119,7 @@
             {
                 "cq": "Do you think the airlines would be able to provide accurate information?",
                 "sim_label": "Useful",
-                "sim_score": 0.7080665826797485,
+                "sim_score": 0.7080666422843933,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.2504340410232544
             }
@@ -2136,7 +2136,7 @@
         "cqs": [
             {
                 "cq": "Why should we assume that the government wants to stop the consumer credit boom?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.5945096611976624,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.38933318853378296
@@ -2151,7 +2151,7 @@
             {
                 "cq": "Why should we assume that voters who feel artificially rich will vote for the incumbent government?",
                 "sim_label": "Useful",
-                "sim_score": 0.8418129086494446,
+                "sim_score": 0.841812789440155,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.026979733258485794
             }
@@ -2168,7 +2168,7 @@
         "cqs": [
             {
                 "cq": "What does it mean to \"exploit\" weaknesses?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.5671950578689575,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.6729531288146973
@@ -2176,14 +2176,14 @@
             {
                 "cq": "Why is it a bad thing for the financial services industry to exploit weaknesses?",
                 "sim_label": "Unhelpful",
-                "sim_score": 0.7589406967163086,
+                "sim_score": 0.7589406371116638,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.2743874788284302
             },
             {
                 "cq": "What does the financial services industry's history have to do with anything?",
                 "sim_label": "Unhelpful",
-                "sim_score": 0.6384260654449463,
+                "sim_score": 0.6384261846542358,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.5726349353790283
             }
@@ -2196,21 +2196,21 @@
             {
                 "cq": "What exactly is the state intervening in?",
                 "sim_label": "Useful",
-                "sim_score": 0.7249889969825745,
+                "sim_score": 0.7249890565872192,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.8491719365119934
             },
             {
                 "cq": "Are you arguing that the state should intervene in all cases of bounded knowledge?",
                 "sim_label": "Useful",
-                "sim_score": 0.8450298309326172,
+                "sim_score": 0.8450299501419067,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.306925505399704
             },
             {
                 "cq": "What is the definition of a \"substantial\" difference?",
-                "sim_label": "Useful",
-                "sim_score": 0.44591209292411804,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.44591206312179565,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.49690186977386475
             }
@@ -2223,20 +2223,20 @@
             {
                 "cq": "Why should we accept the idea that the state has a moral position?",
                 "sim_label": "Unhelpful",
-                "sim_score": 0.6993510723114014,
+                "sim_score": 0.6993510127067566,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.39686068892478943
             },
             {
                 "cq": "How can we know that non-judgmentalism is bad?",
                 "sim_label": "Useful",
-                "sim_score": 0.6011375188827515,
+                "sim_score": 0.6011374592781067,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.4432007968425751
             },
             {
                 "cq": "Is it clear that the state should be responsible for providing help?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.407833456993103,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.5470820069313049
@@ -2250,7 +2250,7 @@
             {
                 "cq": "Why should airlines be required to offer 24 hour refunds?",
                 "sim_label": "Useful",
-                "sim_score": 0.6962559223175049,
+                "sim_score": 0.6962558627128601,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.2955668568611145
             },
@@ -2263,8 +2263,8 @@
             },
             {
                 "cq": "Why should airlines be required to offer refunds for flight cancellations?",
-                "sim_label": "Useful",
-                "sim_score": 0.5715343952178955,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.5715344548225403,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.16092780232429504
             }
@@ -2287,14 +2287,14 @@
             {
                 "cq": "What is the difference between a severe peanut allergy and a peanut allergy that is not severe?",
                 "sim_label": "Unhelpful",
-                "sim_score": 0.6106684803962708,
+                "sim_score": 0.6106683611869812,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.47841739654541016
             },
             {
                 "cq": "How common is it for people to die from peanut allergies?",
                 "sim_label": "Unhelpful",
-                "sim_score": 0.6841333508491516,
+                "sim_score": 0.6841334104537964,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.47803229093551636
             },
@@ -2321,7 +2321,7 @@
             {
                 "cq": "Do peanuts have the same level of risk as tobacco?",
                 "sim_label": "Useful",
-                "sim_score": 0.6336641311645508,
+                "sim_score": 0.633664071559906,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.6706261038780212
             },
@@ -2345,15 +2345,15 @@
         "cqs": [
             {
                 "cq": "What does the term \"discriminate\" mean in this context?",
-                "sim_label": "Unhelpful",
-                "sim_score": 0.477490097284317,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.47749006748199463,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.8050000071525574
             },
             {
                 "cq": "Is there a difference between being charged more for a checked bag based on weight and being charged more based on height?",
                 "sim_label": "Unhelpful",
-                "sim_score": 0.6008150577545166,
+                "sim_score": 0.6008149981498718,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.20583845674991608
             },
@@ -2372,22 +2372,22 @@
         "cqs": [
             {
                 "cq": "Why is this a job for the Department of Transportation?",
-                "sim_label": "Useful",
-                "sim_score": 0.4723912477493286,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.4723912179470062,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -1.0172200202941895
             },
             {
                 "cq": "What is the definition of an item that is necessary because of factors out of the passenger\u2019s control?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.4266113042831421,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.40813449025154114
             },
             {
                 "cq": "Why is it unfair to charge for carrying a pet onboard?",
-                "sim_label": "Useful",
-                "sim_score": 0.27445143461227417,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.27445146441459656,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -1.1632546186447144
             }
@@ -2410,20 +2410,20 @@
             {
                 "cq": "Why should airlines be exempt from providing epipens?",
                 "sim_label": "Useful",
-                "sim_score": 0.7042791247367859,
+                "sim_score": 0.7042790651321411,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.3979737460613251
             },
             {
                 "cq": "How much time does a flight crew have for cleaning?",
-                "sim_label": "Useful",
-                "sim_score": 0.5956991910934448,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.5956992506980896,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.525903582572937
             },
             {
                 "cq": "What is a \"good faith effort\"?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.3513519763946533,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -1.2554197311401367
@@ -2437,7 +2437,7 @@
             {
                 "cq": "Why should the fees be limited to only variable fees?",
                 "sim_label": "Unhelpful",
-                "sim_score": 0.8199373483657837,
+                "sim_score": 0.8199374079704285,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.17368721961975098
             },
@@ -2451,7 +2451,7 @@
             {
                 "cq": "Why is showing the base fee misleading?",
                 "sim_label": "Useful",
-                "sim_score": 0.6246291399002075,
+                "sim_score": 0.6246290802955627,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.7511581182479858
             }
@@ -2464,21 +2464,21 @@
             {
                 "cq": "Why didn't your son eat peanuts on the return trip?",
                 "sim_label": "Unhelpful",
-                "sim_score": 0.6384857892990112,
+                "sim_score": 0.6384857296943665,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.8104293942451477
             },
             {
                 "cq": "Why was your son fine on the way to your destination?",
-                "sim_label": "Unhelpful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.28384265303611755,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -1.3628467321395874
             },
             {
                 "cq": "Why did you wipe down his new seat?",
-                "sim_label": "Unhelpful",
-                "sim_score": 0.32135993242263794,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.3213599622249603,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -1.352549433708191
             }
@@ -2491,14 +2491,14 @@
             {
                 "cq": "Why should peanuts be banned on all flights?",
                 "sim_label": "Useful",
-                "sim_score": 0.748842716217041,
+                "sim_score": 0.7488427758216858,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.28477802872657776
             },
             {
                 "cq": "Is a peanut allergy a legitimate reason to ban peanuts on flights?",
                 "sim_label": "Useful",
-                "sim_score": 0.8433851003646851,
+                "sim_score": 0.8433850407600403,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.163347989320755
             },
@@ -2518,21 +2518,21 @@
             {
                 "cq": "Why is high school considered shit?",
                 "sim_label": "Useful",
-                "sim_score": 0.8772220015525818,
+                "sim_score": 0.877221941947937,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.06194210425019264
             },
             {
                 "cq": "What is wrong with high school?",
                 "sim_label": "Useful",
-                "sim_score": 0.6503998637199402,
+                "sim_score": 0.6503998041152954,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": 0.07414518296718597
             },
             {
                 "cq": "How is college better?",
-                "sim_label": "Useful",
-                "sim_score": 0.32660555839538574,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.32660552859306335,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -1.2722007036209106
             }
@@ -2545,21 +2545,21 @@
             {
                 "cq": "Do you consider deplaning to be a viable option for every flight delay?",
                 "sim_label": "Useful",
-                "sim_score": 0.6555063724517822,
+                "sim_score": 0.655506432056427,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.07107946276664734
             },
             {
                 "cq": "Are you saying that deplaning is never a viable option?",
-                "sim_label": "Useful",
-                "sim_score": 0.5061550140380859,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.5061550736427307,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.5340695977210999
             },
             {
                 "cq": "Why is deplaning considered a more extreme option than waiting on the tarmac?",
-                "sim_label": "Useful",
-                "sim_score": 0.5984585285186768,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.5984585881233215,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.4076356887817383
             }
@@ -2598,21 +2598,21 @@
         "cqs": [
             {
                 "cq": "Why is it a bad idea to have a blanket policy?",
-                "sim_label": "Useful",
-                "sim_score": 0.4700792133808136,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.4700791835784912,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.5591497421264648
             },
             {
                 "cq": "What is the relevance of the personal experience of the author?",
-                "sim_label": "Useful",
-                "sim_score": 0.42564335465431213,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.42564332485198975,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.34518522024154663
             },
             {
                 "cq": "Why should parents have a say in this issue?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.5661438703536987,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.4771801233291626
@@ -2631,21 +2631,21 @@
             {
                 "cq": "Why do peanuts and almonds need to be banned?",
                 "sim_label": "Useful",
-                "sim_score": 0.6602662205696106,
+                "sim_score": 0.6602662801742554,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.4787543714046478
             },
             {
                 "cq": "Can you not simply avoid eating nuts?",
-                "sim_label": "Useful",
-                "sim_score": 0.5077971816062927,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.507797122001648,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.5350731611251831
             },
             {
                 "cq": "Why should the rules be different for peanuts than for other foods?",
                 "sim_label": "Useful",
-                "sim_score": 0.6358940601348877,
+                "sim_score": 0.6358941197395325,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.32368168234825134
             }
@@ -2658,7 +2658,7 @@
             {
                 "cq": "Do you think it's a good idea to ban all nuts on planes?",
                 "sim_label": "Useful",
-                "sim_score": 0.7239351272583008,
+                "sim_score": 0.7239351868629456,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.35918185114860535
             },
@@ -2672,7 +2672,7 @@
             {
                 "cq": "Do you think it's reasonable to ban peanuts on planes?",
                 "sim_label": "Useful",
-                "sim_score": 0.7116053104400635,
+                "sim_score": 0.7116052508354187,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.1661752462387085
             }
@@ -2684,22 +2684,22 @@
         "cqs": [
             {
                 "cq": "What is the relationship between the ability to pay and the right to be compensated?",
-                "sim_label": "Useful",
-                "sim_score": 0.44010129570961,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.4401012659072876,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.4370688796043396
             },
             {
                 "cq": "Would the auction system be fair to passengers who are bumped repeatedly?",
                 "sim_label": "Useful",
-                "sim_score": 0.7136508822441101,
+                "sim_score": 0.7136509418487549,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.8855276703834534
             },
             {
                 "cq": "Would a credit card credit be more secure than a check for a passenger who does not have a credit card?",
                 "sim_label": "Useful",
-                "sim_score": 0.8156324625015259,
+                "sim_score": 0.8156324028968811,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.02440633252263069
             }
@@ -2726,7 +2726,7 @@
             {
                 "cq": "How would an auction affect the airlines' overbooking practices?",
                 "sim_label": "Useful",
-                "sim_score": 0.7017258405685425,
+                "sim_score": 0.7017257809638977,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.027199286967515945
             }
@@ -2746,14 +2746,14 @@
             {
                 "cq": "How would airlines be required to compensate passengers?",
                 "sim_label": "Useful",
-                "sim_score": 0.7255885601043701,
+                "sim_score": 0.7255886197090149,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.28387585282325745
             },
             {
                 "cq": "Would this lead to higher ticket prices?",
-                "sim_label": "Useful",
-                "sim_score": 0.5439581871032715,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.5439581274986267,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.2836587429046631
             }
@@ -2766,7 +2766,7 @@
             {
                 "cq": "Do peanut products pose a significant risk of death?",
                 "sim_label": "Invalid",
-                "sim_score": 0.6779451966285706,
+                "sim_score": 0.6779452562332153,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.24664676189422607
             },
@@ -2780,7 +2780,7 @@
             {
                 "cq": "Is sneaking peanut products onto a peanut-free table worth the risk?",
                 "sim_label": "Unhelpful",
-                "sim_score": 0.7866723537445068,
+                "sim_score": 0.7866722941398621,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.5191880464553833
             }
@@ -2811,8 +2811,8 @@
             },
             {
                 "cq": "Why is the concept of customs screening relevant to the issue of passengers being allowed to deplane during gate holds?",
-                "sim_label": "Unhelpful",
-                "sim_score": 0.47457313537597656,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.4745730757713318,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.2768949866294861
             }
@@ -2839,7 +2839,7 @@
             {
                 "cq": "Why would the DOT need to make clear that they can discriminate on the basis of weight?",
                 "sim_label": "Useful",
-                "sim_score": 0.7014531493186951,
+                "sim_score": 0.7014532685279846,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.4689781665802002
             }
@@ -2851,15 +2851,15 @@
         "cqs": [
             {
                 "cq": "Why is the illegal acquisition of a firearm relevant to the question of who should be blamed?",
-                "sim_label": "Useful",
-                "sim_score": 0.5801385641098022,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.5801385045051575,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.49239009618759155
             },
             {
                 "cq": "How does the illegal acquisition of the papers compare to the legality of the action being described in the first part of the text?",
-                "sim_label": "Useful",
-                "sim_score": 0.47205525636672974,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.4720552861690521,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.4216682016849518
             },
@@ -2879,20 +2879,20 @@
             {
                 "cq": "Why should it be the responsibility of the person with the allergy?",
                 "sim_label": "Useful",
-                "sim_score": 0.6432526707649231,
+                "sim_score": 0.6432526111602783,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.6247180700302124
             },
             {
                 "cq": "Why are tree nuts and peanuts not similar?",
                 "sim_label": "Useful",
-                "sim_score": 0.6896945238113403,
+                "sim_score": 0.6896944046020508,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.9156751036643982
             },
             {
                 "cq": "Why is it impossible to implement a ban?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.5137795805931091,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.49004048109054565
@@ -2910,22 +2910,22 @@
         "cqs": [
             {
                 "cq": "Why should the safety of passengers be prioritized over the convenience of passengers?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.3440254032611847,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.49982690811157227
             },
             {
                 "cq": "How do you know that peanuts are the cause of the majority of food allergy reactions?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.562985897064209,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.6009122133255005
             },
             {
                 "cq": "Why should airlines be responsible for the safety of passengers who are not on their planes?",
-                "sim_label": "Useful",
-                "sim_score": 0.32187482714653015,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.32187479734420776,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.7653279900550842
             }
@@ -2944,14 +2944,14 @@
             },
             {
                 "cq": "Why is it considered more reasonable to ban peanuts than tree nuts?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.30769968032836914,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.920312225818634
             },
             {
                 "cq": "How is it not the responsibility of the airline to ensure passenger safety?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.28215867280960083,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.8582050204277039
@@ -2964,7 +2964,7 @@
         "cqs": [
             {
                 "cq": "What is your definition of \"medically diagnosed\"?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.30312487483024597,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.8910055756568909
@@ -2972,14 +2972,14 @@
             {
                 "cq": "How do you determine the severity of an allergy?",
                 "sim_label": "Unhelpful",
-                "sim_score": 0.6699236631393433,
+                "sim_score": 0.6699235439300537,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.38958704471588135
             },
             {
                 "cq": "How do you determine whether or not a food allergy is imagined?",
                 "sim_label": "Useful",
-                "sim_score": 0.7523126006126404,
+                "sim_score": 0.7523125410079956,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.13261690735816956
             }
@@ -2992,7 +2992,7 @@
             {
                 "cq": "Are you still suffering from peanut allergies?",
                 "sim_label": "Useful",
-                "sim_score": 0.7249014973640442,
+                "sim_score": 0.724901556968689,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.7998773455619812
             },
@@ -3019,21 +3019,21 @@
             {
                 "cq": "Why should peanuts be banned on planes specifically?",
                 "sim_label": "Useful",
-                "sim_score": 0.7900866866111755,
+                "sim_score": 0.7900868058204651,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.029019463807344437
             },
             {
                 "cq": "Is a peanut allergy more deadly than other food allergies?",
                 "sim_label": "Invalid",
-                "sim_score": 0.7701324224472046,
+                "sim_score": 0.7701324820518494,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.11654525995254517
             },
             {
                 "cq": "Would banning peanuts on planes actually help protect people?",
                 "sim_label": "Useful",
-                "sim_score": 0.8542333841323853,
+                "sim_score": 0.8542332649230957,
                 "bleurt_label": "Useful",
                 "bleurt_score": 0.21151264011859894
             }
@@ -3046,21 +3046,21 @@
             {
                 "cq": "Do airlines care about passenger comfort?",
                 "sim_label": "Useful",
-                "sim_score": 0.6760368347167969,
+                "sim_score": 0.6760368943214417,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.520754873752594
             },
             {
                 "cq": "Is there a trade-off between comfort and space?",
-                "sim_label": "Useful",
-                "sim_score": 0.5653355121612549,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.5653354525566101,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.28407397866249084
             },
             {
                 "cq": "Are there any alternative solutions to improve comfort?",
                 "sim_label": "Unhelpful",
-                "sim_score": 0.6338666081428528,
+                "sim_score": 0.6338666677474976,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": 0.1672089695930481
             }
@@ -3100,21 +3100,21 @@
             {
                 "cq": "Do you think that is the best way to gauge the candidates?",
                 "sim_label": "Invalid",
-                "sim_score": 0.6527822017669678,
+                "sim_score": 0.652782142162323,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.5127708911895752
             },
             {
                 "cq": "What is your definition of a \"sideshow\" candidate?",
-                "sim_label": "Invalid",
-                "sim_score": 0.4108496904373169,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.4108496606349945,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -1.1338889598846436
             },
             {
                 "cq": "Do you think the debate format was fair?",
                 "sim_label": "Invalid",
-                "sim_score": 0.6364278793334961,
+                "sim_score": 0.6364279389381409,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.8017028570175171
             }
@@ -3138,7 +3138,7 @@
             },
             {
                 "cq": "What does it mean to be a \"public place\"?",
-                "sim_label": "Unhelpful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.5733926892280579,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.8996250629425049
@@ -3146,7 +3146,7 @@
             {
                 "cq": "Why should a privately owned network have any obligation to give a certain amount of time to a certain candidate?",
                 "sim_label": "Useful",
-                "sim_score": 0.708778440952301,
+                "sim_score": 0.7087783813476562,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.12883508205413818
             }
@@ -3158,14 +3158,14 @@
         "cqs": [
             {
                 "cq": "Why should they deserve a fair shot at expressing themselves?",
-                "sim_label": "Useful",
-                "sim_score": 0.37529993057250977,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.375299870967865,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.606512725353241
             },
             {
                 "cq": "Why is the number of candidates so high?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.4642128646373749,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.6710787415504456
@@ -3173,7 +3173,7 @@
             {
                 "cq": "Why does the number of candidates matter?",
                 "sim_label": "Unhelpful",
-                "sim_score": 0.6251383423805237,
+                "sim_score": 0.6251384019851685,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.5823268890380859
             }
@@ -3185,22 +3185,22 @@
         "cqs": [
             {
                 "cq": "Why should it be imposed from outside the industry?",
-                "sim_label": "Unhelpful",
-                "sim_score": 0.572284996509552,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.5722851157188416,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.5594049096107483
             },
             {
                 "cq": "How do you define \"better service\"?",
                 "sim_label": "Unhelpful",
-                "sim_score": 0.6445916891098022,
+                "sim_score": 0.6445915699005127,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.48059535026550293
             },
             {
                 "cq": "How do you determine what regulations are in the best interests of both airlines and passengers?",
                 "sim_label": "Useful",
-                "sim_score": 0.8934788703918457,
+                "sim_score": 0.8934789896011353,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.11425818502902985
             }
@@ -3212,8 +3212,8 @@
         "cqs": [
             {
                 "cq": "What are the arguments for deplaning?",
-                "sim_label": "Useful",
-                "sim_score": 0.47671079635620117,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.4767107665538788,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.5297898054122925
             },
@@ -3227,7 +3227,7 @@
             {
                 "cq": "How does the airline's food service relate to the decision to deplane?",
                 "sim_label": "Useful",
-                "sim_score": 0.6675838232040405,
+                "sim_score": 0.6675838828086853,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.4463791251182556
             }
@@ -3240,7 +3240,7 @@
             {
                 "cq": "Why should passengers be allowed to move around in a holding area?",
                 "sim_label": "Unhelpful",
-                "sim_score": 0.624329686164856,
+                "sim_score": 0.6243297457695007,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.2879149317741394
             },
@@ -3254,7 +3254,7 @@
             {
                 "cq": "Why would passengers not be able to purchase food and drinks at the airport?",
                 "sim_label": "Useful",
-                "sim_score": 0.8224413394927979,
+                "sim_score": 0.8224413990974426,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.07664124667644501
             }
@@ -3266,22 +3266,22 @@
         "cqs": [
             {
                 "cq": "Why should a passenger be guaranteed a seat?",
-                "sim_label": "Useful",
-                "sim_score": 0.5352933406829834,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.5352932810783386,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.5194882750511169
             },
             {
                 "cq": "Why should the airline be required to sell tickets at a certain price?",
                 "sim_label": "Unhelpful",
-                "sim_score": 0.6885004639625549,
+                "sim_score": 0.6885005235671997,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.09247982501983643
             },
             {
                 "cq": "Why should a passenger be able to use frequent flyer miles to purchase a ticket?",
                 "sim_label": "Useful",
-                "sim_score": 0.718721866607666,
+                "sim_score": 0.7187217473983765,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.2773134708404541
             }
@@ -3293,7 +3293,7 @@
         "cqs": [
             {
                 "cq": "What is the definition of discrimination?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.3992144465446472,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.7636098265647888
@@ -3301,7 +3301,7 @@
             {
                 "cq": "Why is the airline responsible for getting the passengers to the destination?",
                 "sim_label": "Useful",
-                "sim_score": 0.7118834853172302,
+                "sim_score": 0.7118834257125854,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.44433608651161194
             },
@@ -3321,21 +3321,21 @@
             {
                 "cq": "Why is it a requirement for the airline to inform passengers about peanuts being served?",
                 "sim_label": "Useful",
-                "sim_score": 0.815606415271759,
+                "sim_score": 0.8156062960624695,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.26242178678512573
             },
             {
                 "cq": "Why would you expect the airline to have a policy about peanut allergies?",
                 "sim_label": "Useful",
-                "sim_score": 0.7121773958206177,
+                "sim_score": 0.7121774554252625,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.5214298367500305
             },
             {
                 "cq": "Why is a two row minimum around a person with a peanut allergy not a good solution?",
                 "sim_label": "Useful",
-                "sim_score": 0.7735826969146729,
+                "sim_score": 0.7735825777053833,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.2668437361717224
             }
@@ -3357,22 +3357,22 @@
         "cqs": [
             {
                 "cq": "What laws are you talking about?",
-                "sim_label": "Useful",
-                "sim_score": 0.5452860593795776,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.5452861189842224,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.7738680243492126
             },
             {
                 "cq": "What do you mean by \"unbelievably happy\"?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.4994341731071472,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -1.069787859916687
             },
             {
                 "cq": "Why is it okay to take advantage of the laws?",
-                "sim_label": "Useful",
-                "sim_score": 0.5049477219581604,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.5049476623535156,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.7341448664665222
             }
@@ -3384,7 +3384,7 @@
         "cqs": [
             {
                 "cq": "Why are you comparing a hotel to a country?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.3508561849594116,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -1.129295825958252
@@ -3398,8 +3398,8 @@
             },
             {
                 "cq": "Why do you think you can do better than the people currently in charge?",
-                "sim_label": "Useful",
-                "sim_score": 0.3464530408382416,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.34645310044288635,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.6528545022010803
             }
@@ -3412,21 +3412,21 @@
             {
                 "cq": "Why is the endorsement of the Fraternal Order of Police a reason to trust Trump?",
                 "sim_label": "Unhelpful",
-                "sim_score": 0.8413305878639221,
+                "sim_score": 0.8413305282592773,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.2184908092021942
             },
             {
                 "cq": "Why does Trump think African-Americans and Hispanics are living in hell?",
                 "sim_label": "Useful",
-                "sim_score": 0.6315627098083496,
+                "sim_score": 0.6315627694129944,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.9667947292327881
             },
             {
                 "cq": "Why is Trump making a comparison between the US and a war-torn country?",
-                "sim_label": "Useful",
-                "sim_score": 0.5646875500679016,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.5646874904632568,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.5741594433784485
             }
@@ -3446,14 +3446,14 @@
             {
                 "cq": "What evidence do you have that stop and frisk is effective in reducing crime?",
                 "sim_label": "Useful",
-                "sim_score": 0.8687581419944763,
+                "sim_score": 0.8687582015991211,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.2250511795282364
             },
             {
                 "cq": "How do you plan to stop gangs from having guns?",
                 "sim_label": "Unhelpful",
-                "sim_score": 0.6718431711196899,
+                "sim_score": 0.6718431115150452,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.17350855469703674
             }
@@ -3477,15 +3477,15 @@
             },
             {
                 "cq": "What is the relationship between the amount of crime and the number of police?",
-                "sim_label": "Useful",
-                "sim_score": 0.46866005659103394,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.4686599671840668,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.45601144433021545
             },
             {
                 "cq": "Why should stop-and-frisk be used?",
-                "sim_label": "Useful",
-                "sim_score": 0.5569560527801514,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.5569559931755066,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -1.0107218027114868
             }
@@ -3498,14 +3498,14 @@
             {
                 "cq": "What is the argument that Trump is making?",
                 "sim_label": "Useful",
-                "sim_score": 0.6670639514923096,
+                "sim_score": 0.6670640110969543,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.32850825786590576
             },
             {
                 "cq": "What is the movement he is referring to?",
-                "sim_label": "Useful",
-                "sim_score": 0.46040868759155273,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.46040865778923035,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.7205183506011963
             },
@@ -3525,14 +3525,14 @@
             {
                 "cq": "What are the criteria for being on a watch list or no-fly list?",
                 "sim_label": "Useful",
-                "sim_score": 0.8755835294723511,
+                "sim_score": 0.8755834698677063,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": 0.12149772047996521
             },
             {
                 "cq": "How do you know the people on the watch list or no-fly list are \"very, very good people\"?",
                 "sim_label": "Useful",
-                "sim_score": 0.9282189607620239,
+                "sim_score": 0.9282191395759583,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": 0.01475655660033226
             },
@@ -3551,8 +3551,8 @@
         "cqs": [
             {
                 "cq": "What is the source of the murder rates mentioned?",
-                "sim_label": "Invalid",
-                "sim_score": 0.45533597469329834,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.45533591508865356,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.6412864923477173
             },
@@ -3579,7 +3579,7 @@
             {
                 "cq": "Is the claim that Trump got Obama to produce his birth certificate true?",
                 "sim_label": "Useful",
-                "sim_score": 0.7513058185577393,
+                "sim_score": 0.7513056993484497,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.5127053260803223
             },
@@ -3593,7 +3593,7 @@
             {
                 "cq": "What does Clinton being involved in Blumenthal sending a reporter to investigate Obama's birth certificate have to do with the topic at hand?",
                 "sim_label": "Useful",
-                "sim_score": 0.7369956374168396,
+                "sim_score": 0.7369956970214844,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.4855393171310425
             }
@@ -3610,22 +3610,22 @@
         "cqs": [
             {
                 "cq": "Do you think you have the right to claim that you have no discrimination against African-Americans, Muslims, or anybody else?",
-                "sim_label": "Useful",
-                "sim_score": 0.5855791568756104,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.5855790972709656,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.43816226720809937
             },
             {
                 "cq": "Do you think you have the right to claim that you have no discrimination against African-Americans, Muslims, or anybody else?",
-                "sim_label": "Useful",
-                "sim_score": 0.5855791568756104,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.5855790972709656,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.43816226720809937
             },
             {
                 "cq": "Do you think you have the right to claim that you have no discrimination against African-Americans, Muslims, or anybody else?",
-                "sim_label": "Useful",
-                "sim_score": 0.5855791568756104,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.5855790972709656,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.43816226720809937
             }
@@ -3642,22 +3642,22 @@
         "cqs": [
             {
                 "cq": "What does the text have to do with the topic of ISIS?",
-                "sim_label": "Useful",
-                "sim_score": 0.4515994191169739,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.45159944891929626,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.6561647653579712
             },
             {
                 "cq": "What does the text have to do with the topic of the US presidential election?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.24812740087509155,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.8510434627532959
             },
             {
                 "cq": "Why is the text being used to describe someone?",
-                "sim_label": "Useful",
-                "sim_score": 0.210808664560318,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.21080860495567322,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -1.1100999116897583
             }
@@ -3669,14 +3669,14 @@
         "cqs": [
             {
                 "cq": "What is the definition of \"fair share\"?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.5050550699234009,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.7426326870918274
             },
             {
                 "cq": "Why does the US need to be involved in NATO?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.5291738510131836,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.9332792162895203
@@ -3723,14 +3723,14 @@
         "cqs": [
             {
                 "cq": "What does this have to do with the topic of the conversation?",
-                "sim_label": "Useful",
-                "sim_score": 0.3798517882823944,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.3798518180847168,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.6521640419960022
             },
             {
                 "cq": "Why is this a relevant argument?",
-                "sim_label": "Useful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.38248148560523987,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.693284809589386
@@ -3758,14 +3758,14 @@
             {
                 "cq": "Why do you think that other countries should pay us for our defense?",
                 "sim_label": "Useful",
-                "sim_score": 0.6796631813049316,
+                "sim_score": 0.6796632409095764,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.3457288146018982
             },
             {
                 "cq": "Why do you think that Japan and other countries are selling us cars?",
                 "sim_label": "Unhelpful",
-                "sim_score": 0.6953511834144592,
+                "sim_score": 0.6953511238098145,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.710076093673706
             }
@@ -3787,8 +3787,8 @@
         "cqs": [
             {
                 "cq": "Do you think it's responsible to encourage people to mis-read something like that?",
-                "sim_label": "Unhelpful",
-                "sim_score": 0.5999800562858582,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.5999799966812134,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.27348631620407104
             },
@@ -3802,7 +3802,7 @@
             {
                 "cq": "What is the purpose of the warning labels on food products?",
                 "sim_label": "Useful",
-                "sim_score": 0.733722448348999,
+                "sim_score": 0.7337223291397095,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.19522443413734436
             }
@@ -3822,14 +3822,14 @@
             {
                 "cq": "What is the threshold for a surplus to be considered \"sufficient\"?",
                 "sim_label": "Useful",
-                "sim_score": 0.8288118839263916,
+                "sim_score": 0.828811764717102,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.017636235803365707
             },
             {
                 "cq": "What exactly do you mean by \"making enough money\"?",
                 "sim_label": "Useful",
-                "sim_score": 0.7915356159210205,
+                "sim_score": 0.7915355563163757,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.2745157480239868
             }
@@ -3847,7 +3847,7 @@
             {
                 "cq": "What does \"provide that for our young people\" mean?",
                 "sim_label": "Useful",
-                "sim_score": 0.7697271108627319,
+                "sim_score": 0.7697272300720215,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.3084968030452728
             },
@@ -3880,8 +3880,8 @@
             },
             {
                 "cq": "Why is the comparison to unmarried mothers relevant?",
-                "sim_label": "Useful",
-                "sim_score": 0.3780059218406677,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.37800589203834534,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.6339133381843567
             },
@@ -3900,8 +3900,8 @@
         "cqs": [
             {
                 "cq": "What kind of country is it that you want to build together?",
-                "sim_label": "Useful",
-                "sim_score": 0.38468968868255615,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.38468965888023376,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.9410558938980103
             },
@@ -3932,8 +3932,8 @@
         "cqs": [
             {
                 "cq": "How does the fact that you were young at the time of the lawsuit affect anything?",
-                "sim_label": "Useful",
-                "sim_score": 0.4186781048774719,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.41867807507514954,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.9414206147193909
             },
@@ -3947,7 +3947,7 @@
             {
                 "cq": "Why does the fact that Trump was sued have any bearing on the lawsuit against him?",
                 "sim_label": "Invalid",
-                "sim_score": 0.6898179650306702,
+                "sim_score": 0.6898179054260254,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.23756283521652222
             }
@@ -3971,15 +3971,15 @@
             },
             {
                 "cq": "Is it better to deal with Iran's nuclear program or start a war?",
-                "sim_label": "Unhelpful",
+                "sim_label": "not_able_to_evaluate",
                 "sim_score": 0.4998229444026947,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.5402666926383972
             },
             {
                 "cq": "What would be the consequences of bombing Iran?",
-                "sim_label": "Unhelpful",
-                "sim_score": 0.554511547088623,
+                "sim_label": "not_able_to_evaluate",
+                "sim_score": 0.5545114874839783,
                 "bleurt_label": "not_able_to_evaluate",
                 "bleurt_score": -0.7340829372406006
             }
