@@ -70,7 +70,7 @@ Questions are generated for the interventions of the following dataset: [validat
 ### 3. Training - [Notebook Training](3_Training.ipynb)
 To fine-tune a language model for critical question generation, we used a parameter-efficient fine-tuning approach based on [QLoRA](https://arxiv.org/abs/2305.14314), facilitated by the `unsloth` framework for fast and memory-efficient training. Below is a summary of our training process:
 
-#### ✅ Model & Framework
+#### Model & Framework
 - **Base Model**: `unsloth/Llama-3.1-8B-Instruct`, a lightweight version of LLaMA tailored for instruction-following tasks.
 - **Frameworks Used**: 
   - `unsloth` for efficient QLoRA fine-tuning
@@ -78,17 +78,17 @@ To fine-tune a language model for critical question generation, we used a parame
   - `datasets` for data loading and handling
   - `peft` for managing parameter-efficient fine-tuning layers
 
-#### 🧠 Objective
+#### Objective
 Train the model to generate critical questions from intervention-based texts, using a supervised fine-tuning (SFT) approach on a curated training dataset.
 
-#### ⚙️ Training Setup
+#### Training Setup
 - **Training Strategy**: Supervised fine-tuning with QLoRA adapters (low-rank matrices for efficient backpropagation)
 - **Batching & Logging**:
   - Tensorboard used for logging training metrics
   - EarlyStopping callback configured to prevent overfitting
 - **Precision**: Automatic detection of `bfloat16` for faster training on compatible GPUs
 
-#### 📦 Output
+#### Output
 - **Model Save Path**: Full fine-tuned model saved in a separate directory on Google Drive
 - **LoRA Adapter Save Path**: Adapter weights separately saved for later inference or merging
 - **Logs**: All training logs and metrics are saved locally and can be visualized via Tensorboard
