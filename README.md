@@ -75,17 +75,17 @@ Train the model to generate critical questions from intervention-based texts, us
 
 ![Training Workflow](Doc/Assets/Training%20Workflow.jpg)
 
-### 4. Evaluation - [Notebook Evaluation](2a_Baseline_Evaluation.ipynb)
+### 4. RAG System 
+We create a complete pipeline to retrieve relevant information from open source document stores like Arxiv. 
+These retrieved documents are stored in a vector database and retrieved when needed during the generation of the critical 
+questions.
+
+### 5. Evaluation - [Notebook Evaluation](2a_Baseline_Evaluation.ipynb)
 We define evaluation metrics and generate scores for the baseline models and the fine-tuned model. We evaluate the model with the following metrices:
 - Semantic Similarity --> similarity between generated question and argumentative input text
 - BLEURT: [Here](https://github.com/google-research/bleurt)
 - ChatGPT 4.0 -> 
 - Qualitative Sample Analysis --> (Two experts judge the generated questions)
-
-### 5. RAG System
-We create a complete pipeline to retrieve relevant information from open source document stores like Arxiv. 
-This retrieved documents are stored in a vector database and retrieved when needed during the generation of the critical 
-questions.
 
 ---
 
@@ -110,7 +110,10 @@ questions.
 ├── 3_Training.ipynb                      # Fine-tune LLM on Training dataset
 ├── 3a_Finetuned_CQS_Generation.ipynb     # Generate CQs with finetuned LLM
 ├── 3b_Finetuned_Evaluation.ipynb         # Evaluate generated CQs from finetuned LLM
-├── 4_Evaluation_Analytics.ipynb          # Analyse different evaluation metrics from all evaluations
+├── 4_RAG System.ipynb                    # RAG System
+├── 4a_RAG_CQS_generation.ipynb           # Gneratate CQs with RAG system
+├── 4b_RAG_Evaluation.ipynb               # Evaluate CQs generated with RAG system
+├── 5_Evaluation_Analytics.ipynb          # Analyse different evaluation metrics from all evaluations
 ├── README.md
 └── requirements.txt
 ```
