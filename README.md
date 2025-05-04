@@ -28,7 +28,7 @@ task: [CQG shared task](https://hitz-zentroa.github.io/shared-task-critical-ques
 First step of the project is the creation of a valid dataset for training the model.
 For this we use the dataset SocraticQ: [SocraticQ](https://github.com/NUS-IDS/eacl23_soqg/tree/main)
 The dataset includes short intervention texts and corresponding human-authored questions
-#### 📑 Sample from the processed dataset (`train.csv`)
+#### Sample from the processed dataset (`train.csv`)
 <table>
   <thead>
     <tr style="background-color:#f2f2f2">
@@ -58,7 +58,7 @@ The dataset includes short intervention texts and corresponding human-authored q
       <td>What moral principle backs this view?</td>
     </tr>
   </tbody>
-</table>                                              |
+</table>
 
 ### 2. Baseline - [Notebook Baseline](2_Baseline_CQS_generation.ipynb)
 We generate baseline critical questions with pretrained LLMs for the validation dataset. To generate the baseline questions we use:
