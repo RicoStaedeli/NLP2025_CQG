@@ -93,7 +93,7 @@ Train the model to generate critical questions from intervention-based texts, us
 - **LoRA Adapter Save Path**: Adapter weights separately saved for later inference or merging
 - **Logs**: All training logs and metrics are saved locally and can be visualized via Tensorboard
 
-#### 💻 Colab Integration
+#### Colab Integration
 - The training pipeline is designed to work on Google Colab, including mounting Google Drive, token-based GitHub authentication, and auto-saving outputs to Drive.
 
 ![Training Workflow](Doc/Assets/Training%20Workflow.jpg)
