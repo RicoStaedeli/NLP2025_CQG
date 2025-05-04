@@ -113,7 +113,7 @@ We define evaluation metrics and generate scores for the baseline models and the
 ├── 4_RAG System.ipynb                    # RAG System
 ├── 4a_RAG_CQS_generation.ipynb           # Gneratate CQs with RAG system
 ├── 4b_RAG_Evaluation.ipynb               # Evaluate CQs generated with RAG system
-├── 5_Evaluation_Analytics.ipynb          # Analyse different evaluation metrics from all evaluations
+├── 5_Evaluation_Analytics.ipynb          # Analyse all evaluations
 ├── README.md
 └── requirements.txt
 ```
