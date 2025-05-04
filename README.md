@@ -172,9 +172,7 @@ Follow these notebooks in order:
 
 ## References
 
-[List here any relevant papers, sources, libraries, or resources used in your project.]
-
-- Doe, J. (2024). *Great NLP Paper*. Conference Name.
-- [Library Used](https://example-library.com)
-
+- [Critical Questions Generation: Motivation and Challenges](https://aclanthology.org/2024.conll-1.9/) (Calvo Figueras & Agerri, CoNLL 2024)
+- [Detecting Argumentative Fallacies in the Wild: Problems and Limitations of Large Language Models](https://aclanthology.org/2023.argmining-1.1/) (Ruiz-Dolz & Lawrence, ArgMining 2023)
+- [BLEURT: Learning Robust Metrics for Text Generation](https://aclanthology.org/2020.acl-main.704/) (Sellam et al., ACL 2020)
 ---
