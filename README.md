@@ -22,30 +22,88 @@ task: [CQG shared task](https://hitz-zentroa.github.io/shared-task-critical-ques
 ---
 
 ## Project Description
-> [!WARNING]  
-> Describe Project overview with image
-> Tell which model and dataset were used.
+![Project Architecture](Doc/Assets/Project%20Architecture.jpg)
 
 ### 1. Data Preprocessing - [Notebook Data Preprocessing](1_Preprocessing.ipynb)
 First step of the project is the creation of a valid dataset for training the model.
-For this phase we use the dataset SocraticQ: [SocraticQ](https://github.com/NUS-IDS/eacl23_soqg/tree/main)
+For this we use the dataset SocraticQ: [SocraticQ](https://github.com/NUS-IDS/eacl23_soqg/tree/main)
+The dataset includes short intervention texts and corresponding human-authored questions
+#### 📑 Sample from the processed dataset (`train.csv`)
+<table>
+  <thead>
+    <tr style="background-color:#f2f2f2">
+      <th style="color:#000000">input</th>
+      <th style="color:#000000">target (Question)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>implication_consequences: I'm referring only to aesthetics.</td>
+      <td>Are they obligated to make clothes that are as beautiful as possible?</td>
+    </tr>
+    <tr>
+      <td>reasons_evidence: If you are genuinely struggling and need help, someone is going to want to help you.</td>
+      <td>How old are the kids who are screaming in public?</td>
+    </tr>
+    <tr>
+      <td>implication_consequences: I think you have to live somewhere to know how it works.</td>
+      <td>Who should have the power to decide where the money goes?</td>
+    </tr>
+    <tr>
+      <td>implication_consequences: Its more than just income.</td>
+      <td>Is a family really entitled to live in prime real estate just because they want to?</td>
+    </tr>
+    <tr>
+      <td>clarity: I don’t believe that borders are actively making us safer.</td>
+      <td>What moral principle backs this view?</td>
+    </tr>
+  </tbody>
+</table>                                              |
 
 ### 2. Baseline - [Notebook Baseline](2_Baseline_CQS_generation.ipynb)
 We generate baseline critical questions with pretrained LLMs for the validation dataset. To generate the baseline questions we use:
 - LLama 3.1 8B Instruct 
 - Qwen2.5 7B Instruct
 
-Questions are generated for the interventions of the following dataset: [validation.json](Data/Raw/sharedTask/validation.json)
+Questions are generated for the interventions of the following dataset: [validation.json](Data/Processed/validation.json)
 
 ### 3. Training - [Notebook Training](3_Training.ipynb)
-We fine-tune a pretrained LLM with the generated dataset. We use unsloth to fine-tune the LLM. 
+To fine-tune a language model for critical question generation, we used a parameter-efficient fine-tuning approach based on [QLoRA](https://arxiv.org/abs/2305.14314), facilitated by the `unsloth` framework for fast and memory-efficient training. Below is a summary of our training process:
+
+#### ✅ Model & Framework
+- **Base Model**: `unsloth/Llama-3.1-8B-Instruct`, a lightweight version of LLaMA tailored for instruction-following tasks.
+- **Frameworks Used**: 
+  - `unsloth` for efficient QLoRA fine-tuning
+  - `transformers` & `trl` (SFTTrainer) for training and evaluation pipeline
+  - `datasets` for data loading and handling
+  - `peft` for managing parameter-efficient fine-tuning layers
+
+#### 🧠 Objective
+Train the model to generate critical questions from intervention-based texts, using a supervised fine-tuning (SFT) approach on a curated training dataset.
+
+#### ⚙️ Training Setup
+- **Training Strategy**: Supervised fine-tuning with QLoRA adapters (low-rank matrices for efficient backpropagation)
+- **Batching & Logging**:
+  - Tensorboard used for logging training metrics
+  - EarlyStopping callback configured to prevent overfitting
+- **Precision**: Automatic detection of `bfloat16` for faster training on compatible GPUs
+
+#### 📦 Output
+- **Model Save Path**: Full fine-tuned model saved in a separate directory on Google Drive
+- **LoRA Adapter Save Path**: Adapter weights separately saved for later inference or merging
+- **Logs**: All training logs and metrics are saved locally and can be visualized via Tensorboard
+
+#### 💻 Colab Integration
+- The training pipeline is designed to work on Google Colab, including mounting Google Drive, token-based GitHub authentication, and auto-saving outputs to Drive.
+
+![Training Workflow](Doc/Assets/Training%20Workflow.jpg)
 
 ### 4. Evaluation - [Notebook Evaluation](2a_Baseline_Evaluation.ipynb)
 We define evaluation metrics and generate scores for the baseline models and the fine-tuned model. We evaluate the model with the following metrices:
-- Semantic Similarity
+- Semantic Similarity --> similarity between generated question and argumentative input text
 - BLEURT: [Here](https://github.com/google-research/bleurt)
-- ChatGPT 4.0
-- Human evaluation
+- ChatGPT 4.0 -> 
+- Qualitative Sample Analysis --> (Two experts judge the generated questions)
 
 ### 5. RAG System
 We create a complete pipeline to retrieve relevant information from open source document stores like Arxiv. 
@@ -59,21 +117,24 @@ questions.
 ```
 .
 ├── Data/
-│   ├── Raw/                  # Raw dataset
-│   └── Processed/            # Processed dataset
-├── Training/                 
-│   ├── Checkpoints/          # Checkpoints of models
-│   ├── Logs/                 # Logs of training
+│   ├── Raw/                              # Raw dataset
+│   └── Processed/                        # Processed dataset
+├── Doc/                                  # Documentation
 ├── Evluation/                
-│   ├── Results/              # Evaluation metrics and results
-├── Models/                   # Model checkpoints and exports
-├── Utils/
+│   ├── Results/                          # Files with CQs from generation
+│   ├── Scored/                           # Result scores from evaluations
+├── Logs/                                 # Logs from all Notebooks               
+├── Models/                               # Model checkpoints and exports
+├── Utils/                                # Util files
 ├── .gitignore
-├── 1_Preprocessing.ipynb
-├── 2_Baseline.ipynb
-├── 3_Training.ipynb
-├── 4_Evaluation.ipynb
-├── README.MD
+├── 1_Preprocessing.ipynb                 # Preprocess Dataset and generate Training Data
+├── 2_Baseline_CQS_Generation.ipynb       # Generate CQs with Baseline Models 
+├── 2a_Baseline_Evaluation.ipynb          # Evaluate genertaed CQs from Baseline Models
+├── 3_Training.ipynb                      # Fine-tune LLM on Training dataset
+├── 3a_Finetuned_CQS_Generation.ipynb     # Generate CQs with finetuned LLM
+├── 3b_Finetuned_Evaluation.ipynb         # Evaluate generated CQs from finetuned LLM
+├── 4_Evaluation_Analytics.ipynb          # Analyse different evaluation metrics from all evaluations
+├── README.md
 └── requirements.txt
 ```
 
