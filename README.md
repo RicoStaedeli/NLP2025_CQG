@@ -154,8 +154,8 @@ Follow these notebooks in order:
 
 | Name          | Contributions                                  |
 |---------------|------------------------------------------------|
-| Rico Städeli  | Data preprocessing, baseline model evaluation. |
-| Cédric Bohni  | Model training, hyperparameter tuning.         |
+| Rico Städeli  | Data preprocessing, baseline generation, parameter-efficient model fine-tuning  |
+| Cédric Bohni  | Evaluation of CQs                              |
 
 
 ---
