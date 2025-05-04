@@ -157,7 +157,7 @@ Follow these notebooks in order:
 
 | Name          | Contributions                                  |
 |---------------|------------------------------------------------|
-| Rico Städeli  | Data preprocessing, baseline generation, parameter-efficient model fine-tuning  |
+| Rico Städeli  | Data preprocessing, baseline generation, parameter-efficient model fine-tuning, RAG System with automatic retrieval from Arxiv |
 | Cédric Bohni  | Evaluation of CQs                              |
 
 
