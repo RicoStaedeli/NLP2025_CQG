@@ -41,7 +41,7 @@ The dataset includes short intervention texts and corresponding human-authored q
 | implication_consequences: Its more than just income.                                                   | Is a family really entitled to live in prime real estate just because they want to? |
 | clarity: I don’t believe that borders are actively making us safer.                                    | What moral principle backs this view?                                               
 
-### 2. Baseline - [Notebook Baseline](2_Baseline_CQS_generation.ipynb)
+### 2. Baseline - [Notebook Baseline](2_Baseline_CQS_generation_old.ipynb)
 
 We generate baseline critical questions with pretrained LLMs for the validation dataset. To generate the baseline
 questions we use:
