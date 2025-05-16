@@ -1,0 +1,12 @@
+2025-05-16 14:44:28,041 - INFO - --------  Start with Baseline Generation  -------------
+2025-05-16 14:44:28,042 - INFO - Device selected: cuda
+2025-05-16 14:44:28,043 - INFO - Model: unsloth/Meta-Llama-3.1-8B-Instruct-bnb-4bit
+2025-05-16 14:44:28,044 - INFO - Results Path: Evaluation/Results/results_unsloth/Meta-Llama-3.1-8B-Instruct-bnb-4bit.json
+2025-05-16 14:44:28,045 - INFO - Log Path: Logs/2_baseline_generation.log
+2025-05-16 14:44:28,046 - INFO - --------------------------------------------------------
+2025-05-16 14:46:52,272 - INFO - --------  Start with Baseline Generation  -------------
+2025-05-16 14:46:52,273 - INFO - Device selected: cuda
+2025-05-16 14:46:52,274 - INFO - Model: unsloth/Meta-Llama-3.1-8B-Instruct-bnb-4bit
+2025-05-16 14:46:52,275 - INFO - Results Path: Evaluation/Results/results_Baseline_Meta-Llama-3.1-8B-Instruct-bnb-4bit.json
+2025-05-16 14:46:52,276 - INFO - Log Path: Logs/2_baseline_generation.log
+2025-05-16 14:46:52,276 - INFO - --------------------------------------------------------
