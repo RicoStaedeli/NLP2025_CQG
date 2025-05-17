@@ -37,18 +37,18 @@ The output of this step is a json file:
 ````
 
 This generated JSON is used to create two new datasets for SFT Fine-tuning. 
-### 1. Filtered dataset
+### 1. Filtered dataset with schema
 This dataset is in the structure of the original SocratiQ dataset with three columns:
 
-|   | **input**                                                                                              | **target**                                                               |
-|---|--------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| 0 | implication_consequences: I'm referring only to aesthetics.                                            | Are they obligated to make clothes that are as beautiful as possible?             |
-| 1 | reasons_evidence: If you are genuinely struggling and need help, someone is going to want to help you. | How old are the kids who are screaming in public?                                 |
+| **Id**  | **context**                                                                                              | **question**                                                               | **best_schema** |
+|---|--------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|-----|
+| 0 | implication_consequences: I'm referring only to aesthetics.                                            | Are they obligated to make clothes that are as beautiful as possible?             | Bias |
+| 1 | reasons_evidence: If you are genuinely struggling and need help, someone is going to want to help you. | How old are the kids who are screaming in public?                                 | Fear | 
 
-### 2. Augmented Dataset
+### 2. Complete SocraticQ dataset with schema 
 This dataset contains all entries from the original dataset but with additional columns. THe columns are used during fine-tuning to give the model a better understanding of the relevance of the question.
 
-|   | **input**                                                                                              | **target**                                                               | **detected_schema** |
+|  **Id** | **input**                                                                                              | **target**                                                               | **best_schema** |
 |---|--------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
 | 0 | implication_consequences: I'm referring only to aesthetics.                                            | Are they obligated to make clothes that are as beautiful as possible?             | Fear |
 | 1 | reasons_evidence: If you are genuinely struggling and need help, someone is going to want to help you. | How old are the kids who are screaming in public?                                 | Analogy | 
