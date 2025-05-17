@@ -75,7 +75,7 @@
       {
         "schema": "Analogy",
         "cq": "Are there differences between the economic recovery under Clinton's policies after the 2008 crisis and the current economic situation that would tend to undermine the force of the similarity cited, considering the vastly different global circumstances and the fact that the current economic situation is also influenced by factors such as COVID-19 pandemic and ongoing global conflicts?",
-        "score": 11.0,
+        "score": 10,
         "is_critical": true
       },
       {
@@ -1061,7 +1061,7 @@
       {
         "schema": "Analogy",
         "cq": "Are there differences between the approach of the opponents of accommodations and the Founders' concerns about the tyranny of the majority that would tend to undermine the force of the analogy cited, considering the context of the board discussion and the demand for funerals as a form of resistance to compromise?",
-        "score": 11.0,
+        "score": 10,
         "is_critical": true
       },
       {
@@ -1525,7 +1525,7 @@
       {
         "schema": "Analogy",
         "cq": "Are there differences between the situations of the invasion of Iraq and the actions taken in Libya that would tend to undermine the force of the similarity cited, considering Clinton's argument that Trump advocated for similar actions in Libya as he did in Iraq?",
-        "score": 11.0,
+        "score": 10,
         "is_critical": true
       },
       {
@@ -1641,7 +1641,7 @@
       {
         "schema": "Analogy",
         "cq": "Are the criticisms of Biden's leadership abilities by Trump similar in the respect cited to his criticisms of other Democratic presidential candidates, and if so, are there differences that would tend to undermine the force of this similarity?",
-        "score": 11.5,
+        "score": 10,
         "is_critical": true
       },
       {
@@ -2163,7 +2163,7 @@
       {
         "schema": "Analogy",
         "cq": "Are there differences between the Reddit community and the broader electorate that would tend to undermine the force of the similarity cited, given that the speaker's popularity on Reddit does not necessarily translate to their actual electability or effectiveness as a candidate?",
-        "score": 11.0,
+        "score": 10,
         "is_critical": true
       },
       {
@@ -2714,7 +2714,7 @@
       {
         "schema": "Analogy",
         "cq": "Are there differences between traditional bank loans and credit from a personal friend, such as JL, that would tend to undermine the force of the similarity cited, particularly regarding the interest rates and repayment periods?",
-        "score": 11.0,
+        "score": 10,
         "is_critical": true
       },
       {
@@ -3120,7 +3120,7 @@
       {
         "schema": "Analogy",
         "cq": "Are there differences between Mr. Ford's statement and the typical classification of global warming as a national security threat that would tend to undermine the force of the similarity cited, such as differing levels of scientific evidence or varying degrees of geopolitical influence?",
-        "score": 12.5,
+        "score": 10,
         "is_critical": true
       },
       {
@@ -3207,7 +3207,7 @@
       {
         "schema": "Analogy",
         "cq": "Are there differences between the peanut and tobacco examples that would tend to undermine the force of the similarity cited, considering the fact that tobacco smoking has been linked to numerous health issues, whereas peanut consumption, as you mentioned, is extremely small?",
-        "score": 11.0,
+        "score": 10,
         "is_critical": true
       },
       {
@@ -3352,7 +3352,7 @@
       {
         "schema": "Analogy",
         "cq": "Are peanuts and other airborne particles similar in the respect cited, and if so, are there differences between peanuts and airborne particles that would tend to undermine the force of the similarity cited, given that peanuts are a more substantial and tangible food item that can be handled and ingested in ways that airborne particles cannot?",
-        "score": 12.5,
+        "score": 10,
         "is_critical": true
       },
       {
@@ -3584,7 +3584,7 @@
       {
         "schema": "Analogy",
         "cq": "Are there differences between the 7-year-old SofieM and other minors that would tend to undermine the force of the similarity cited between her travel experience and that of other children who may not have similar coping capacities?",
-        "score": 11.0,
+        "score": 10,
         "is_critical": true
       },
       {
@@ -4309,7 +4309,7 @@
       {
         "schema": "Analogy",
         "cq": "Are there differences between the imposition of common sense regulations in the airline industry and other industries that might be subject to similar regulations, that would tend to undermine the force of the similarity cited, suggesting that the benefits observed in those industries might not necessarily translate to the airline industry?",
-        "score": 12.0,
+        "score": 10,
         "is_critical": true
       },
       {
@@ -4512,7 +4512,7 @@
       {
         "schema": "Analogy",
         "cq": "Are the comparisons of the US to a 'third world country' due to the state of its airports and infrastructure similar to the way the Soviet Union was compared to the West during the Cold War, and if so, are there any differences in the underlying causes of these comparisons that would tend to undermine the force of the similarity cited?",
-        "score": 12.0,
+        "score": 10,
         "is_critical": true
       },
       {
