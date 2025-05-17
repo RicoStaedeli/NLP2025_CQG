@@ -14,6 +14,7 @@ xyc   | What is that? | Cause to effect
 
 Daraus wird dann ein Prompt erstellt für das Training:
 
+
 ````
 Below is an instruction that describes a task, paired with an input that provides further context. 
 Write a response that appropriately completes the request.
