@@ -39,21 +39,51 @@ The output of this step is a json file:
 This generated JSON is used to create two new datasets for SFT Fine-tuning. 
 ### 1. Filtered dataset with schema
 This dataset is in the structure of the original SocratiQ dataset with three columns:
+```json
+{
+  "id_1": {
+    "context": "reasons_evidence: If you are genuinely struggling and need help, someone is going to want to help you.",
+    "question": "How old are the kids who are screaming in public? ",
+    "best_schema": "Bias",
+  }...
+}
+```
 
-| **Id**  | **context**                                                                                              | **question**                                                               | **best_schema** |
-|---|--------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|-----|
-| 0 | implication_consequences: I'm referring only to aesthetics.                                            | Are they obligated to make clothes that are as beautiful as possible?             | Bias |
-| 1 | reasons_evidence: If you are genuinely struggling and need help, someone is going to want to help you. | How old are the kids who are screaming in public?                                 | Fear | 
 
 ### 2. Complete SocraticQ dataset with schema 
-This dataset contains all entries from the original dataset but with additional columns. THe columns are used during fine-tuning to give the model a better understanding of the relevance of the question.
+This dataset contains all entries from the original dataset but with additional columns. The columns are used during fine-tuning to give the model a better understanding of the relevance of the question.
 
-|  **Id** | **input**                                                                                              | **target**                                                               | **best_schema** |
-|---|--------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
-| 0 | implication_consequences: I'm referring only to aesthetics.                                            | Are they obligated to make clothes that are as beautiful as possible?             | Fear |
-| 1 | reasons_evidence: If you are genuinely struggling and need help, someone is going to want to help you. | How old are the kids who are screaming in public?                                 | Analogy | 
-| 2 | implication_consequences: I think you have to live somewhere to know how it works.                     | Who should have the power to decide where the money goes?                         | |
+```json
+{
+  "id_1": {
+    "context": "reasons_evidence: If you are genuinely struggling and need help, someone is going to want to help you.",
+    "question": "How old are the kids who are screaming in public? ",
+    "best_schema": "Bias",
+  },
+ "id_2": {
+    "context": "reasons_evidence: If you are genuinely struggling and need help, someone is going to want to help you.",
+    "question": "How old are the kids who are screaming in public? ",
+    "best_schema": "",
+  }...
+}
+```
 
 If the question is marked as not critical the new column is empty.
 
-This two datasets are stored as flat csv tables. 
+### 3. Complete SocraticQ dataset with scores
+This dataset contains the complete SocratiQ dataset augmented with the scores generated with the evaluation script.
+```json
+{
+  "id_1": {
+    "context": "reasons_evidence: If you are genuinely struggling and need help, someone is going to want to help you.",
+    "question": "How old are the kids who are screaming in public? ",
+    "scores":    {
+        "cause to effect" : 2,
+        "Analogy": 5,
+        "Expert Opinion": 12,
+        "Fear": 3
+    }
+  }...
+}
+```
+
