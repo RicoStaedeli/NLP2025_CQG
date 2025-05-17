@@ -21,20 +21,22 @@ The pipeline has a threshold to classify if the score for a specific question ty
 The output of this step is a json file:
 
 ````json
-{
-  "id_1": {
-    "context": "reasons_evidence: If you are genuinely struggling and need help, someone is going to want to help you.",
-    "question": "How old are the kids who are screaming in public? ",
-    "context_token_len": 123
-    "is_critical": true,
-    "cause to effect" : 2,
-    "Analogy": 5,
-    "Expert Opinion": 12,
-    "Fear": 3
-  }
-}
+[
+    {
+    "id":1,
+    "context": "alternate_viewpoints_perspectives: A parallel argument would state that England is worse off because.",
+    "question": "What about nations who have nothing?",
+    "context_token_len":126,
+    "is_Critical":false,
+    "CauseToEffect":0.0,
+    "Analogy":2.0,
+    "ExpertOpinion":0.0,
+    "FearAppeal":2
+  },
+]
 
 ````
+Found in Data/Final/scored/processed_train_data.json
 
 This generated JSON is used to create two new datasets for SFT Fine-tuning. 
 ### 1. Filtered dataset with schema
@@ -45,17 +47,17 @@ This dataset is in the structure of the original SocratiQ dataset with three col
     "id" : 1,
     "context": "reasons_evidence: If you are genuinely struggling and need help, someone is going to want to help you.",
     "question": "How old are the kids who are screaming in public? ",
-    "best_schema": "Bias"
+    "schema": "Bias"
   },
   {
     "id" : 2,
     "context": "reasons_evidence: If you are genuinely struggling and need help, someone is going to want to help you.",
     "question": "How old are the kids who are screaming in public? ",
-    "best_schema": "Fear"
+    "schema": "Fear"
   }...
 ]
 ```
-
+Found in Data/Final/Categorised/categoriesed_filtered_train_data.json
 
 ### 2. Complete SocraticQ dataset with schema 
 This dataset contains all entries from the original dataset but with additional columns. The columns are used during fine-tuning to give the model a better understanding of the relevance of the question.
@@ -66,16 +68,17 @@ This dataset contains all entries from the original dataset but with additional 
     "id" : 1
     "context": "reasons_evidence: If you are genuinely struggling and need help, someone is going to want to help you.",
     "question": "How old are the kids who are screaming in public? ",
-    "best_schema": "Bias"
+    "schema": "Bias"
   },
   {
     "id" : 2,
     "context": "reasons_evidence: If you are genuinely struggling and need help, someone is going to want to help you.",
     "question": "How old are the kids who are screaming in public? ",
-    "best_schema": ""
+    "schema": ""
   }...
 ]
 ```
+Found in Data/Final/Categorised/categoriesed_train_data.json
 
 If the question is marked as not critical the new column is empty.
 
