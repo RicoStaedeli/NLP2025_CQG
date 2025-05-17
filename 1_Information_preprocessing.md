@@ -25,14 +25,12 @@ The output of this step is a json file:
   "id_1": {
     "context": "reasons_evidence: If you are genuinely struggling and need help, someone is going to want to help you.",
     "question": "How old are the kids who are screaming in public? ",
-    "scores": {
-      "cause to effect" : 2,
-      "Analogy": 5,
-      "Expert Opinion": 12,
-      "Fear": 3
-    },
+    "context_token_len": 123
     "is_critical": true,
-    "overall_score": 22
+    "cause to effect" : 2,
+    "Analogy": 5,
+    "Expert Opinion": 12,
+    "Fear": 3
   }
 }
 
