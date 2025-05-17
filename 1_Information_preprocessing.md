@@ -68,7 +68,7 @@ This dataset contains all entries from the original dataset but with additional 
     "question": "How old are the kids who are screaming in public? ",
     "best_schema": "Bias"
   },
- {
+  {
     "id" : 2,
     "context": "reasons_evidence: If you are genuinely struggling and need help, someone is going to want to help you.",
     "question": "How old are the kids who are screaming in public? ",
@@ -84,7 +84,7 @@ This dataset contains the complete SocratiQ dataset augmented with the scores ge
 ```json
 [
   {
-    "id+:1,
+    "id" : 1,
     "context": "reasons_evidence: If you are genuinely struggling and need help, someone is going to want to help you.",
     "question": "How old are the kids who are screaming in public? ",
     "scores":    {
