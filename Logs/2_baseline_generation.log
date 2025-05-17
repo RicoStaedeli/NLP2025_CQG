@@ -25,3 +25,8 @@
 2025-05-16 22:26:29,804 - INFO - Results Path: /content/NLP2025_CQG/Evaluation/Results/results_schema_Meta-Llama-3.1-8B-Instruct-bnb-4bit.json
 2025-05-16 22:26:29,805 - INFO - Log Path: Logs/2_baseline_generation.log
 2025-05-16 22:26:29,806 - INFO - --------------------------------------------------------
+2025-05-17 00:57:22,004 - INFO - --------  Start with Baseline Generation  -------------
+2025-05-17 00:57:22,006 - INFO - Device selected: cuda
+2025-05-17 00:57:22,006 - INFO - Results Path: /content/NLP2025_CQG/Evaluation/Results/results_schema_Baseline_Meta-Llama-3.1-8B-Instruct-bnb-4bit.json
+2025-05-17 00:57:22,007 - INFO - Log Path: Logs/2_baseline_generation.log
+2025-05-17 00:57:22,008 - INFO - --------------------------------------------------------
