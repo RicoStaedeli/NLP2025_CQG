@@ -1,0 +1,51 @@
+2025-05-18 22:07:35,414 - INFO - --------  Start with Training  -------------
+2025-05-18 22:07:35,415 - INFO - Device selected: cuda
+2025-05-18 22:07:35,415 - INFO - Model: Meta-Llama-3.1-8B-Instruct_DPO
+2025-05-18 22:07:35,416 - INFO - Training number: 5
+2025-05-18 22:07:35,426 - INFO - ------ Unlsoth Parameters ---------------
+2025-05-18 22:07:35,427 - INFO - max_seq_length: 2048
+2025-05-18 22:07:35,427 - INFO - dtype: None
+2025-05-18 22:07:35,428 - INFO - load_in_4bit: True
+2025-05-18 22:07:35,429 - INFO - ------ PEFT Parameters ------------------
+2025-05-18 22:07:35,429 - INFO - r: 16
+2025-05-18 22:07:35,430 - INFO - target_modules: ['q_proj', 'k_proj', 'v_proj', 'o_proj', 'gate_proj', 'up_proj', 'down_proj']
+2025-05-18 22:07:35,431 - INFO - lora_alpha: 16
+2025-05-18 22:07:35,431 - INFO - lora_dropout: 0
+2025-05-18 22:07:35,432 - INFO - bias: none
+2025-05-18 22:07:35,432 - INFO - use_gradient_checkpointing: unsloth
+2025-05-18 22:07:35,433 - INFO - random_state: 3407
+2025-05-18 22:07:35,433 - INFO - use_rslora: False
+2025-05-18 22:07:35,434 - INFO - ------  SFT Trainer Parameters ----------
+2025-05-18 22:07:35,435 - INFO - dataset_text_field: input_ids
+2025-05-18 22:07:35,436 - INFO - dataset_num_proc: 2
+2025-05-18 22:07:35,436 - INFO - packing: False
+2025-05-18 22:07:35,437 - INFO - per_device_train_batch_size: 2
+2025-05-18 22:07:35,438 - INFO - gradient_accumulation_steps: 4
+2025-05-18 22:07:35,439 - INFO - warmup_steps: 5
+2025-05-18 22:07:35,439 - INFO - max_steps: 10
+2025-05-18 22:07:35,440 - INFO - learning_rate: 0.0002
+2025-05-18 22:07:35,441 - INFO - fp16: False
+2025-05-18 22:07:35,441 - INFO - bf16: True
+2025-05-18 22:07:35,442 - INFO - logging_steps: 1
+2025-05-18 22:07:35,443 - INFO - save_strategy: IntervalStrategy.STEPS
+2025-05-18 22:07:35,443 - INFO - save_steps: 1
+2025-05-18 22:07:35,444 - INFO - save_total_limit: 1
+2025-05-18 22:07:35,445 - INFO - optim: adamw_8bit
+2025-05-18 22:07:35,445 - INFO - weight_decay: 0.01
+2025-05-18 22:07:35,447 - INFO - lr_scheduler_type: linear
+2025-05-18 22:07:35,447 - INFO - seed: 3407
+2025-05-18 22:07:35,448 - INFO - output_dir: /content/drive/MyDrive/HSG/NLP/Project NLP/Training/Training_5/Checkpoints/
+2025-05-18 22:07:35,448 - INFO - report_to: tensorboard
+2025-05-18 22:07:35,449 - INFO - logging_dir: /content/NLP2025_CQG/Training/Logs/Traing_5/Tensorboard/
+2025-05-18 22:07:35,450 - INFO - evaluation_strategy: steps
+2025-05-18 22:07:35,451 - INFO - eval_steps: 1
+2025-05-18 22:08:46,728 - INFO - GPU  Information before Training
+2025-05-18 22:08:46,729 - INFO - GPU = NVIDIA A100-SXM4-40GB. Max memory = 39.557 GB.
+2025-05-18 22:08:46,730 - INFO - 7.623 GB of memory reserved.
+2025-05-18 22:42:03,665 - INFO - 1994.9729 seconds used for training.
+2025-05-18 22:42:03,666 - INFO - 33.25 minutes used for training.
+2025-05-18 22:42:03,667 - INFO - Peak reserved memory = 38.535 GB.
+2025-05-18 22:42:03,668 - INFO - Peak reserved memory for training = 30.912 GB.
+2025-05-18 22:42:03,668 - INFO - Peak reserved memory % of max memory = 97.416 %.
+2025-05-18 22:42:03,669 - INFO - Peak reserved memory for training % of max memory = 78.145 %.
+2025-05-18 22:42:05,315 - INFO - Saved LoRA adapters to /content/drive/MyDrive/HSG/NLP/Project NLP/Training/Training_5/Model/Meta-Llama-3.1-8B-Instruct_DPO_lora_adapters/
