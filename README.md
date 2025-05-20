@@ -23,7 +23,7 @@ task: [CQG shared task](https://hitz-zentroa.github.io/shared-task-critical-ques
 
 ## Project Description
 
-![Project Architecture](Doc/Assets/Project%20Architecture.jpg)
+![Project Architecture](Doc/Assets/Project%20Architecture.png)
 
 ### 1. Data Preprocessing - [Notebook Data Preprocessing](1_Preprocessing.ipynb)
 
@@ -31,34 +31,51 @@ First step of the project is the creation of a valid dataset for training the mo
 For this we use the dataset SocraticQ: [SocraticQ](https://github.com/NUS-IDS/eacl23_soqg/tree/main)
 The dataset includes short intervention texts and corresponding human-authored questions
 
-#### Sample from the processed dataset (`train.csv`)
+#### Sample from the raw SocratiQ datest(`train_chunk_1.csv`)
 
 | **input**                                                                                              | **target (Question)**                                                               |
 |--------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
 | implication_consequences: I'm referring only to aesthetics.                                            | Are they obligated to make clothes that are as beautiful as possible?               |
 | reasons_evidence: If you are genuinely struggling and need help, someone is going to want to help you. | How old are the kids who are screaming in public?                                   |
-| implication_consequences: I think you have to live somewhere to know how it works.                     | Who should have the power to decide where the money goes?                           |
-| implication_consequences: Its more than just income.                                                   | Is a family really entitled to live in prime real estate just because they want to? |
-| clarity: I don’t believe that borders are actively making us safer.                                    | What moral principle backs this view?                                               
 
-### 2. Baseline - [Notebook Baseline](2_Baseline_CQS_generation_old.ipynb)
+#### Scoring
+
+#### Sample from the processed dataset (`categoriesed_filtered_train_data.json`)
+This dataset is filtered according a defined treshold during the scoring process.
+```json
+[
+  {
+    "id" : 1,
+    "context": "reasons_evidence: If you are genuinely struggling and need help, someone is going to want to help you.",
+    "question": "How old are the kids who are screaming in public? ",
+    "schema": "CauseToEffect"
+  },
+  {
+    "id" : 2,
+    "context": "reasons_evidence: If you are genuinely struggling and need help, someone is going to want to help you.",
+    "question": "How old are the kids who are screaming in public? ",
+    "schema": "FearAppeal"
+  }...
+]
+```
+
+### 2. Baseline - [Notebook Baseline](2_Baseline_generation.ipynb)
 
 We generate baseline critical questions with pretrained LLMs for the validation dataset. To generate the baseline
 questions we use:
 
 - LLama 3.1 8B Instruct
-- Qwen2.5 7B Instruct
 
-Questions are generated for the interventions of the following
-dataset: [validation.json](Data/Processed/validation.json)
+Questions are generated for the interventions of the following dataset: [validation.json](Data/Processed/validation.json)
 
-### 3. Training - [Notebook Training](3_Training.ipynb)
+### 3. Training 
 
-To fine-tune a language model for critical question generation, we used a parameter-efficient fine-tuning approach based
-on [QLoRA](https://arxiv.org/abs/2305.14314), facilitated by the `unsloth` framework for fast and memory-efficient
-training. Below is a summary of our training process:
+To fine-tune our basemodel we have two approaches. First we started with a supervised fine-tuning approach to foster the basics of critical question generation. 
+Second we used this SFT trained model to train it with a reinforcement learning approach called Direct Preference Optimization. 
 
-#### Model & Framework
+#### 3.1 Supervised Fine-tuning 
+
+##### Model & Framework
 
 - **Base Model**: `unsloth/Llama-3.1-8B-Instruct`, a lightweight version of LLaMA tailored for instruction-following
   tasks.
@@ -68,12 +85,12 @@ training. Below is a summary of our training process:
     - `datasets` for data loading and handling
     - `peft` for managing parameter-efficient fine-tuning layers
 
-#### Objective
+##### Objective
 
 Train the model to generate critical questions from intervention-based texts, using a supervised fine-tuning (SFT)
 approach on a curated training dataset.
 
-#### Training Setup
+##### Training Setup
 
 - **Training Strategy**: Supervised fine-tuning with QLoRA adapters (low-rank matrices for efficient backpropagation)
 - **Batching & Logging**:
@@ -81,11 +98,14 @@ approach on a curated training dataset.
     - EarlyStopping callback configured to prevent overfitting
 - **Precision**: Automatic detection of `bfloat16` for faster training on compatible GPUs
 
-#### Output
+##### Output
 
 - **Model Save Path**: Full fine-tuned model saved in a separate directory on Google Drive
 - **LoRA Adapter Save Path**: Adapter weights separately saved for later inference or merging
 - **Logs**: All training logs and metrics are saved locally and can be visualized via Tensorboard
+
+#### Direct Preference Optimization
+Direct Preference Optimization is a reinforcement learning strategy. 
 
 #### Colab Integration
 
@@ -94,14 +114,7 @@ approach on a curated training dataset.
 
 ![Training Workflow](Doc/Assets/Training%20Workflow.jpg)
 
-### 4. RAG System
-
-We create a complete pipeline to retrieve relevant information from open source document stores like Arxiv.
-These retrieved documents are stored in a vector database and retrieved when needed during the generation of the
-critical
-questions.
-
-### 5. Evaluation - [Notebook Evaluation](2a_Baseline_Evaluation.ipynb)
+### 4. Evaluation - [Notebook Evaluation](2a_Baseline_Evaluation.ipynb)
 
 We define evaluation metrics and generate scores for the baseline models and the fine-tuned model. We evaluate the model
 with the following metrices:
@@ -184,10 +197,10 @@ Follow these notebooks in order:
 
 ## Team Contributions
 
-| Name         | Contributions                                                                                                                  |
-|--------------|--------------------------------------------------------------------------------------------------------------------------------|
-| Rico Städeli | Data preprocessing, baseline generation, parameter-efficient model fine-tuning, RAG System with automatic retrieval from Arxiv |
-| Cédric Bohni | Evaluation of CQs                                                                                                              |
+| Name         | Contributions                                                                                                                                 |
+|--------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
+| Rico Städeli | Data preprocessing, baseline and fine-tuned questin generation, parameter-efficient model fine-tuning with SFT and DPO,                       |
+| Cédric Bohni | Data preprocessing, Creating a scoring system based on linguistic schema types, create evaluation pipeline and analysis forcritical questions |
 
 ---
 
@@ -200,11 +213,9 @@ Follow these notebooks in order:
 
 ## References
 
-- [Critical Questions Generation: Motivation and Challenges](https://aclanthology.org/2024.conll-1.9/) (Calvo Figueras &
-  Agerri, CoNLL 2024)
-- [Detecting Argumentative Fallacies in the Wild: Problems and Limitations of Large Language Models](https://aclanthology.org/2023.argmining-1.1/) (
-  Ruiz-Dolz & Lawrence, ArgMining 2023)
-- [BLEURT: Learning Robust Metrics for Text Generation](https://aclanthology.org/2020.acl-main.704/) (Sellam et al., ACL
-  2020)
+- Calvo Figueras, Blanca, and Rodrigo Agerri. “Critical Questions Generation: Motivation and Challenges.” Proceedings of the 28th Conference on Computational Natural Language Learning, Association for Computational Linguistics, 2024, pp. 105–16. DOI.org (Crossref), https://doi.org/10.18653/v1/2024.conll-1.9.
+- Ruiz-Dolz, Ramon, and John Lawrence. “Detecting Argumentative Fallacies in the Wild: Problems and Limitations of Large Language Models.” Proceedings of the 10th Workshop on Argument Mining, Association for Computational Linguistics, 2023, pp. 1–10. DOI.org (Crossref), https://doi.org/10.18653/v1/2023.argmining-1.1.
+- Sellam, Thibault, et al. “BLEURT: Learning Robust Metrics for Text Generation.” Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, Association for Computational Linguistics, 2020, pp. 7881–92. DOI.org (Crossref), https://doi.org/10.18653/v1/2020.acl-main.704.
+- Rafailov, Rafael, et al. Direct Preference Optimization: Your Language Model Is Secretly a Reward Model. arXiv:2305.18290, arXiv, 29 July 2024. arXiv.org, https://doi.org/10.48550/arXiv.2305.18290.
 
 ---
