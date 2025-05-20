@@ -73,9 +73,7 @@ Questions are generated for the interventions of the following dataset: [validat
 To fine-tune our basemodel we have two approaches. First we started with a supervised fine-tuning approach to foster the basics of critical question generation. 
 Second we used this SFT trained model to train it with a reinforcement learning approach called Direct Preference Optimization. 
 
-#### 3.1 Supervised Fine-tuning 
-
-##### Model & Framework
+#### 3.1 Supervised Fine-tuning [Notebook SFT Training](Training/3_Training_1_SFT.ipynb)
 
 - **Base Model**: `unsloth/Llama-3.1-8B-Instruct`, a lightweight version of LLaMA tailored for instruction-following
   tasks.
@@ -84,35 +82,58 @@ Second we used this SFT trained model to train it with a reinforcement learning 
     - `transformers` & `trl` (SFTTrainer) for training and evaluation pipeline
     - `datasets` for data loading and handling
     - `peft` for managing parameter-efficient fine-tuning layers
-
-##### Objective
-
-Train the model to generate critical questions from intervention-based texts, using a supervised fine-tuning (SFT)
-approach on a curated training dataset.
-
-##### Training Setup
-
-- **Training Strategy**: Supervised fine-tuning with QLoRA adapters (low-rank matrices for efficient backpropagation)
-- **Batching & Logging**:
-    - Tensorboard used for logging training metrics
-    - EarlyStopping callback configured to prevent overfitting
+- **Dataset**
+  - [Filterd SocratiQ Dataset](Data/Processed/categoriesed_filtered_train_data.json)
+- **Setup**
+  - **Training Strategy**: Supervised fine-tuning with QLoRA adapters (low-rank matrices for efficient backpropagation)
 - **Precision**: Automatic detection of `bfloat16` for faster training on compatible GPUs
+- **Output**
+  - **16bit merged model**: Full fine-tuned model saved in Huggingface [ricostaedeli/Meta-Llama-3.1-8B-Instruct_SFT_2](https://huggingface.co/ricostaedeli/Meta-Llama-3.1-8B-Instruct_SFT_2)
+  - **LoRA Adapter**: Adapter weights separately saved on Huggingface [ricostaedeli/Meta-Llama-3.1-1B-Instruct_SFT_2-lora](https://huggingface.co/ricostaedeli/Meta-Llama-3.1-1B-Instruct_SFT_2-lora)
 
-##### Output
-
-- **Model Save Path**: Full fine-tuned model saved in a separate directory on Google Drive
-- **LoRA Adapter Save Path**: Adapter weights separately saved for later inference or merging
-- **Logs**: All training logs and metrics are saved locally and can be visualized via Tensorboard
-
-#### Direct Preference Optimization
-Direct Preference Optimization is a reinforcement learning strategy. 
-
-#### Colab Integration
-
-- The training pipeline is designed to work on Google Colab, including mounting Google Drive, token-based GitHub
-  authentication, and auto-saving outputs to Drive.
 
 ![Training Workflow](Doc/Assets/Training%20Workflow.jpg)
+
+#### 3.2 Direct Preference Optimization Training [Notebook DPO Training](Training/3_Training_2_DPO.ipynb)
+Direct Preference Optimization is a reinforcement learning strategy. As described in the paper [Direct Preference Optimization:
+Your Language Model is Secretly a Reward Model](https://arxiv.org/pdf/2305.18290).
+
+**Dataset** [DPO Dataset Generation](1_a_Generate_DPO_Dataset.ipynb)
+
+We generated a new dataset to train the model with direct preferences. This dataset needs two columns, one is the chosen and one is the rejected answer. In our case question.
+The generation was done with `gpt-3.5-turbo` and the defined scoring pipeline. 
+![DPO dataset generation.png](Doc/Assets/DPO%20dataset%20generation.png)
+
+This resulted in a new dataset with 3'069 datapoints in the followoing structure:
+```json
+
+  {
+    "id": 0,
+    "prompt": [
+      {
+        "role": "user",
+        "content": "Generate one critical question addressing the provided context. Ensure it matches the schema: Analogy\n\nContext: implication_consequences: The argument isn't that school teachers' compensation is adequate. The argument is that everyone should be paid a living wage. Someone asked how much a living wage was, and OP responded with an estimation of 40-50k."
+      }
+    ],
+    "chosen": [
+      {
+        "role": "assistant",
+        "content": "How much would a big Mac be if every employee made 50k a year?"
+      }
+    ],
+    "rejected": [
+      {
+        "role": "assistant",
+        "content": "Are school teachers' compensation and a living wage similar in terms of financial adequacy?"
+      }
+    ],
+    "score_chosen": 4.5,
+    "score_rejected": 6.5,
+    "schema": "Analogy",
+    "context": "implication_consequences: The argument isn't that school teachers' compensation is adequate. The argument is that everyone should be paid a living wage. Someone asked how much a living wage was, and OP responded with an estimation of 40-50k."
+  }...
+]
+```
 
 ### 4. Evaluation - [Notebook Evaluation](2a_Baseline_Evaluation.ipynb)
 
@@ -159,28 +180,8 @@ with the following metrices:
 
 ## Setup Instructions
 
-To reproduce the proposed solution please run follow this instruction.
+There is no pre Setup needed and you can directly open the notebooks in google colab. Just follow the steps to run the project.
 
-### Clone Repository
-
-```bash
-git clone https://github.com/RicoStaedeli/NLP2025_CQG.git
-cd NLP2025_CQG
-```
-
-### Create Environment
-
-```bash
-python -m venv venv
-source venv/bin/activate  # Unix or MacOS
-venv\Scripts\activate     # Windows
-```
-
-### Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
 
 ---
 
@@ -197,17 +198,22 @@ Follow these notebooks in order:
 
 ## Team Contributions
 
-| Name         | Contributions                                                                                                                                 |
-|--------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
-| Rico Städeli | Data preprocessing, baseline and fine-tuned questin generation, parameter-efficient model fine-tuning with SFT and DPO,                       |
-| Cédric Bohni | Data preprocessing, Creating a scoring system based on linguistic schema types, create evaluation pipeline and analysis forcritical questions |
+| Name         | Contributions                                                                                                                                  |
+|--------------|------------------------------------------------------------------------------------------------------------------------------------------------|
+| Rico Städeli | Data preprocessing, baseline and fine-tuned questin generation, parameter-efficient model fine-tuning with SFT and DPO,                        |
+| Cédric Bohni | Data preprocessing, Creating a scoring system based on linguistic schema types, create evaluation pipeline and analysis for critical questions |
 
 ---
 
 ## Results & Evaluation
 
-- [Briefly summarize your evaluation metrics, improvements from baseline, and insights drawn from experiments.]
-- All detailed results are documented in `metrics/firstResults.json`.
+We were able to beat the baseline by more than 30% with our SFT trained model. 
+
+| Metric              | Baseline | SFT     | DPO     |
+|---------------------|----------|---------|---------|
+| Scheme Accuracy     | 31.85%   | **65.32%** | 39.38%  |
+| Context Accuracy    | 63.44%   | 65.59%  | **72.44%** |
+| Scheme + Context    | 17.74%   | **37.77%** | 28.23%  |
 
 ---
 
