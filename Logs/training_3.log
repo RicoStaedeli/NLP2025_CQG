@@ -1,0 +1,14 @@
+2025-05-28 20:07:35,611 - INFO - --------  Start with Training  -------------
+2025-05-28 20:07:35,612 - INFO - Device selected: cuda
+2025-05-28 20:07:35,613 - INFO - Model: Meta-Llama-3.1-8B-Instruct_SFT_DPO
+2025-05-28 20:07:35,614 - INFO - Training number: 3
+2025-05-28 20:09:16,670 - INFO - GPU  Information before Training
+2025-05-28 20:09:16,672 - INFO - GPU = NVIDIA A100-SXM4-40GB. Max memory = 39.557 GB.
+2025-05-28 20:09:16,673 - INFO - 7.625 GB of memory reserved.
+2025-05-28 20:47:52,070 - INFO - 2313.2846 seconds used for training.
+2025-05-28 20:47:52,071 - INFO - 38.55 minutes used for training.
+2025-05-28 20:47:52,072 - INFO - Peak reserved memory = 37.635 GB.
+2025-05-28 20:47:52,073 - INFO - Peak reserved memory for training = 30.01 GB.
+2025-05-28 20:47:52,073 - INFO - Peak reserved memory % of max memory = 95.141 %.
+2025-05-28 20:47:52,074 - INFO - Peak reserved memory for training % of max memory = 75.865 %.
+2025-05-28 20:47:53,334 - INFO - Saved LoRA adapters to /content/drive/MyDrive/HSG/NLP/Project NLP/Training/Training_3/Model/Meta-Llama-3.1-8B-Instruct_SFT_DPO_lora_adapters/
