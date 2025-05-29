@@ -83,7 +83,7 @@ Second we used this SFT trained model to train it with a reinforcement learning 
     - `datasets` for data loading and handling
     - `peft` for managing parameter-efficient fine-tuning layers
 - **Dataset**
-  - [Filterd SocratiQ Dataset](Data/Processed/categoriesed_filtered_train_data.json)
+  - [Filterd SocratiQ Dataset](Data/Processed/CQ SFT Dataset.json)
 - **Setup**
   - **Training Strategy**: Supervised fine-tuning with QLoRA adapters (low-rank matrices for efficient backpropagation)
 - **Precision**: Automatic detection of `bfloat16` for faster training on compatible GPUs
