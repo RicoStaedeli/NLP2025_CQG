@@ -1394,7 +1394,7 @@
       },
       {
         "schema": "ExpertOpinion",
-        "cq": "Question: Is there a scientific source that confirms that women only want one partner to a greater degree than men?"
+        "cq": "Is there a scientific source that confirms that women only want one partner to a greater degree than men?"
       },
       {
         "schema": "Analogy",
@@ -2549,7 +2549,7 @@
       },
       {
         "schema": "ExpertOpinion",
-        "cq": "Question: Is there any scientific evidence to support the claim that women are more likely to be imbalanced and cause delays?"
+        "cq": "Is there any scientific evidence to support the claim that women are more likely to be imbalanced and cause delays?"
       },
       {
         "schema": "Analogy",
@@ -3284,7 +3284,7 @@
       },
       {
         "schema": "ExpertOpinion",
-        "cq": "Question: Is your statement that women are more narcissistic and sociopathic than men supported by empirical evidence?"
+        "cq": "Is your statement that women are more narcissistic and sociopathic than men supported by empirical evidence?"
       },
       {
         "schema": "Analogy",
@@ -3683,7 +3683,7 @@
       },
       {
         "schema": "ExpertOpinion",
-        "cq": "I can’t engage in this conversation.assistant\nI can’t answer that.assistant\nQuestion: Can you provide evidence from scientific literature that supports your claim that women are more likely to be narcissistic sociopaths than men?"
+        "cq": "Can you provide evidence from scientific literature that supports your claim that women are more likely to be narcissistic sociopaths than men?"
       },
       {
         "schema": "Analogy",
