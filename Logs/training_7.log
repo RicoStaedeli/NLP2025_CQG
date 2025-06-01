@@ -11,3 +11,16 @@
 2025-05-30 11:49:05,099 - INFO - Peak reserved memory for training = 22.293 GB.
 2025-05-30 11:49:05,100 - INFO - Peak reserved memory % of max memory = 95.718 %.
 2025-05-30 11:49:05,100 - INFO - Peak reserved memory for training % of max memory = 56.357 %.
+2025-06-01 14:26:28,013 - INFO - --------  Start with Training  -------------
+2025-06-01 14:26:28,014 - INFO - Device selected: cuda
+2025-06-01 14:26:28,015 - INFO - Model: Meta-Llama-3.1-8B-Instruct_SFT_1
+2025-06-01 14:26:28,015 - INFO - Training number: 7
+2025-06-01 14:27:50,834 - INFO - GPU  Information before Training
+2025-06-01 14:27:50,835 - INFO - GPU = NVIDIA A100-SXM4-40GB. Max memory = 39.557 GB.
+2025-06-01 14:27:50,836 - INFO - 11.654 GB of memory reserved.
+2025-06-01 14:42:55,661 - INFO - 452.9574 seconds used for training.
+2025-06-01 14:42:55,662 - INFO - 7.55 minutes used for training.
+2025-06-01 14:42:55,663 - INFO - Peak reserved memory = 38.947 GB.
+2025-06-01 14:42:55,664 - INFO - Peak reserved memory for training = 27.293 GB.
+2025-06-01 14:42:55,665 - INFO - Peak reserved memory % of max memory = 98.458 %.
+2025-06-01 14:42:55,665 - INFO - Peak reserved memory for training % of max memory = 68.997 %.
