@@ -39,7 +39,7 @@ The output of this step is a json file:
 Found in Data/Final/scored/processed_train_data.json
 
 This generated JSON is used to create two new datasets for SFT Fine-tuning. 
-### 1. Filtered dataset with schema [CQ SFT Dataset](Data/Processed/CQ SFT Dataset.json)
+### 1. Filtered dataset with schema [CQ SFT Dataset](Data/Processed/CQ%20SFT%20Dataset.json)
 This dataset is in the structure of the original SocratiQ dataset with three columns:
 ```json
 [
@@ -59,7 +59,7 @@ This dataset is in the structure of the original SocratiQ dataset with three col
 ```
 
 
-### 2. Complete SocraticQ dataset with scores - [CQ FULL Dataset](Data/Processed/CQ FULL Dataset.json)
+### 2. Complete SocraticQ dataset with scores - [CQ FULL Dataset](Data/Processed/CQ%20FULL%20Dataset.json)
 This dataset contains the complete SocratiQ dataset augmented with the scores generated with the evaluation script.
 ```json
 [
