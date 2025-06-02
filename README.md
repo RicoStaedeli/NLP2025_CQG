@@ -38,6 +38,7 @@ The dataset includes short intervention texts and corresponding human-authored q
 | implication_consequences: I'm referring only to aesthetics.                                            | Are they obligated to make clothes that are as beautiful as possible?               |
 | reasons_evidence: If you are genuinely struggling and need help, someone is going to want to help you. | How old are the kids who are screaming in public?                                   |
 
+
 #### Scoring
 
 #### Sample from the processed dataset (`categoriesed_filtered_train_data.json`)
@@ -58,53 +59,13 @@ This dataset is filtered according a defined treshold during the scoring process
   }...
 ]
 ```
-
-### 2. Baseline - [Notebook Baseline](2_Baseline_generation.ipynb)
-
-We generate baseline critical questions with pretrained LLMs for the validation dataset. To generate the baseline
-questions we use:
-
-- LLama 3.1 8B Instruct
-
-Questions are generated for the interventions of the following dataset: [validation.json](Data/Processed/validation.json)
-
-### 3. Training 
-
-To fine-tune our basemodel we have two approaches. First we started with a supervised fine-tuning approach to foster the basics of critical question generation. 
-Second we used this SFT trained model to train it with a reinforcement learning approach called Direct Preference Optimization. 
-
-#### 3.1 Supervised Fine-tuning [Notebook SFT Training](4_Training_1_SFT.ipynb)
-
-- **Base Model**: `unsloth/Llama-3.1-8B-Instruct`, a lightweight version of LLaMA tailored for instruction-following
-  tasks.
-- **Frameworks Used**:
-    - `unsloth` for efficient QLoRA fine-tuning
-    - `transformers` & `trl` (SFTTrainer) for training and evaluation pipeline
-    - `datasets` for data loading and handling
-    - `peft` for managing parameter-efficient fine-tuning layers
-- **Dataset**
-  - [Filterd SocratiQ Dataset](Data/Processed/CQ SFT Dataset.json)
-- **Setup**
-  - **Training Strategy**: Supervised fine-tuning with QLoRA adapters (low-rank matrices for efficient backpropagation)
-- **Precision**: Automatic detection of `bfloat16` for faster training on compatible GPUs
-- **Output**
-  - **16bit merged model**: Full fine-tuned model saved in Huggingface [ricostaedeli/Meta-Llama-3.1-8B-Instruct_SFT_2](https://huggingface.co/ricostaedeli/Meta-Llama-3.1-8B-Instruct_SFT_2)
-  - **LoRA Adapter**: Adapter weights separately saved on Huggingface [ricostaedeli/Meta-Llama-3.1-1B-Instruct_SFT_2-lora](https://huggingface.co/ricostaedeli/Meta-Llama-3.1-1B-Instruct_SFT_2-lora)
-
-
-![Training Workflow](Doc/Assets/Training%20Workflow.jpg)
-
-#### 3.2 Direct Preference Optimization Training [Notebook DPO Training](4_Training_2_DPO.ipynb)
-Direct Preference Optimization is a reinforcement learning strategy. As described in the paper [Direct Preference Optimization:
-Your Language Model is Secretly a Reward Model](https://arxiv.org/pdf/2305.18290).
-
-**Dataset** [DPO Dataset Generation](1_b_Generate_DPO_Dataset.ipynb)
-
-We generated a new dataset to train the model with direct preferences. This dataset needs two columns, one is the chosen and one is the rejected answer. In our case question.
+#### Preference Dataset for Reinforcement Learning -  [Notebook Data Preprocessing](1_a_Preprocessing.ipynb)
+We generated a second dataset to train the model with direct preferences. This dataset needs two columns, one is the chosen and one is the rejected answer. In our case question.
 The generation was done with `gpt-3.5-turbo` and the defined scoring pipeline. 
-![DPO dataset generation.png](Doc/Assets/DPO%20dataset%20generation.png)
 
-This resulted in a new dataset with 3'069 datapoints in the followoing structure:
+<img src="Doc/Assets/DPO%20dataset%20generation.png" alt="DPO dataset generation" style="width:25%;"/>
+
+This resulted in a new dataset with 3'069 datapoints in the following structure:
 ```json
 
   {
@@ -135,6 +96,65 @@ This resulted in a new dataset with 3'069 datapoints in the followoing structure
 ]
 ```
 
+### 2. Baseline - [Notebook Question Generation](2_Question_Generation.ipynb)
+We generate baseline critical questions with a pretrained LLM for the validation dataset. To generate the baseline
+questions we use:
+
+- LLama 3.1 8B Instruct
+
+Questions are generated for the interventions of the following dataset: [validation.json](Data/Raw/sharedTask/validation.json)
+
+### 3. Training 
+
+To fine-tune our basemodel we have two approaches. First we started with a supervised fine-tuning approach to foster the basics of critical question generation. 
+Second we used this SFT trained model to train it with a reinforcement learning approach called Direct Preference Optimization. 
+
+#### 3.1 Supervised Fine-tuning [Notebook SFT Training](4_Training_1_SFT.ipynb)
+
+- **Base Model**: `unsloth/Llama-3.1-8B-Instruct`, a lightweight version of LLaMA tailored for instruction-following
+  tasks.
+- **Frameworks Used**:
+    - `unsloth` for efficient QLoRA fine-tuning
+    - `transformers` & `trl` (SFTTrainer) for training and evaluation pipeline
+    - `datasets` for data loading and handling
+    - `peft` for managing parameter-efficient fine-tuning layers
+- **Dataset**
+  - [Filterd SocratiQ Dataset](Data/Processed/CQ SFT Dataset.json)
+- **Setup**
+  - **Training Strategy**: Supervised fine-tuning with QLoRA adapters
+- **Precision**: `bfloat16` 
+- **Output**
+  - **16bit merged model**: Full fine-tuned model saved in Huggingface [ricostaedeli/Meta-Llama-3.1-8B-Instruct_SFT](https://huggingface.co/ricostaedeli/Meta-Llama-3.1-8B-Instruct_SFT)
+  - **LoRA Adapter**: Adapter weights separately saved on Huggingface [ricostaedeli/Meta-Llama-3.1-1B-Instruct_SFT-lora](https://huggingface.co/ricostaedeli/Meta-Llama-3.1-8B-Instruct_SFT-lora)
+
+
+<img src="Doc/Assets/Training%20Workflow.jpg" alt="DPO dataset generation" style="width:60%;"/>
+
+
+#### 3.2 Direct Preference Optimization Training [Notebook DPO Training](4_Training_2_DPO.ipynb)
+Direct Preference Optimization is a reinforcement learning strategy. As described in the paper [Direct Preference Optimization:
+Your Language Model is Secretly a Reward Model](https://arxiv.org/pdf/2305.18290).
+
+**Dataset** [DPO Dataset](Data/Processed/CQ%20DPO%20Dataset.json)
+- **Setup**
+  - **Training Strategy**: DPO fine-tuning with QLoRA adapters
+- **Precision**:  `bfloat16` 
+- **Output**
+  - **16bit merged model**: Full fine-tuned model saved in Huggingface [ricostaedeli/Meta-Llama-3.1-8B-Instruct_DPO](https://huggingface.co/ricostaedeli/Meta-Llama-3.1-8B-Instruct_DPO)
+  - **LoRA Adapter**: Adapter weights separately saved on Huggingface [ricostaedeli/Meta-Llama-3.1-8B-Instruct_DPO-lora](https://huggingface.co/ricostaedeli/Meta-Llama-3.1-8B-Instruct_DPO-lora)
+
+#### 3.3 ORPO Training [Notebook ORPO Training](4_Training_4_ORPO.ipynb)
+
+**Dataset** [DPO Dataset](Data/Processed/CQ%20DPO%20Dataset.json)
+- **Setup**
+  - **Training Strategy**: ORPO fine-tuning with QLoRA adapters
+- **Precision**:  `float16` 
+- **Output**
+  - **16bit merged model**: Full fine-tuned model saved in Huggingface [ricostaedeli/Meta-Llama-3.1-8B-Instruct_ORPO](https://huggingface.co/ricostaedeli/Meta-Llama-3.1-8B-Instruct_ORPO)
+
+
+
+
 ### 4. Evaluation - [Notebook Evaluation](2a_Baseline_Evaluation.ipynb)
 
 We define evaluation metrics and generate scores for the baseline models and the fine-tuned model. We evaluate the model
@@ -152,29 +172,49 @@ with the following metrices:
 ```
 .
 ├── Data/
-│   ├── Raw/                              # Raw dataset
-│   └── Processed/                        # Processed dataset
+│   ├── Raw/                              # Raw datasets
+│   └── Processed/                        # Processed datasets
 ├── Doc/                                  # Documentation
 ├── Evluation/                
 │   ├── Results/                          # Files with CQs from generation
 │   ├── Scored/                           # Result scores from evaluations
 ├── Logs/                                 # Logs from all Notebooks               
-├── Models/                               # Model checkpoints and exports
-├── Utils/                                # Util files
 ├── .gitignore
-├── 1_Preprocessing.ipynb                 # Preprocess Dataset and generate Training Data
-├── 2_Baseline_CQS_Generation.ipynb       # Generate CQs with Baseline Models 
-├── 2a_Baseline_Evaluation.ipynb          # Evaluate genertaed CQs from Baseline Models
-├── 3_Training.ipynb                      # Fine-tune LLM on Training dataset
-├── 3a_Finetuned_CQS_Generation.ipynb     # Generate CQs with finetuned LLM
-├── 3b_Finetuned_Evaluation.ipynb         # Evaluate generated CQs from finetuned LLM
-├── 4_RAG System.ipynb                    # RAG System
-├── 4a_RAG_CQS_generation.ipynb           # Gneratate CQs with RAG system
-├── 4b_RAG_Evaluation.ipynb               # Evaluate CQs generated with RAG system
+├── 1_a_Preprocessing.ipynb               # Preprocess Dataset and generate Training Data
+├── 1_b_Generate_DPO_Dataset.ipynb        # Generate preference dataset for reinforcement learning
+├── 2_Question_Generation.ipynb           # Used to generate question for the validation dataset for all models
+├── 3_Evaluation.ipynb                    # Generates evaluation files for given quetions
+├── 4_Training_1_SFT.ipynb                # SFT Training
+├── 4_Training_2_DPO.ipynb                # DPO Training
+├── 4_Training_3_DPO_from_SFT.ipynb       # DPO from SFT Training
+├── 4_Training_4_ORPO.ipynb               # OPRO Training
+├── 4_Training_5_ORPO_from_SFT.ipynb      # ORPO from SFT Training
 ├── 5_Evaluation_Analytics.ipynb          # Analyse all evaluations
 ├── README.md
-└── requirements.txt
 ```
+
+.
+├── [Data/](./Data/)
+│   ├── [Raw/](./Data/Raw/)  
+│   └── [Processed/](./Data/Processed/)
+├── [Doc/](./Doc/)
+├── [Evluation/](./Evluation/)
+│   ├── [Results/](./Evluation/Results/)
+│   ├── [Scored/](./Evluation/Scored/)
+├── [Logs/](./Logs/)
+├── [.gitignore](./.gitignore)
+├── [1_a_Preprocessing.ipynb](./1_a_Preprocessing.ipynb)
+├── [1_b_Generate_DPO_Dataset.ipynb](./1_b_Generate_DPO_Dataset.ipynb)
+├── [2_Question_Generation.ipynb](./2_Question_Generation.ipynb)
+├── [3_Evaluation.ipynb](./3_Evaluation.ipynb)
+├── [4_Training_1_SFT.ipynb](./4_Training_1_SFT.ipynb)
+├── [4_Training_2_DPO.ipynb](./4_Training_2_DPO.ipynb)
+├── [4_Training_3_DPO_from_SFT.ipynb](./4_Training_3_DPO_from_SFT.ipynb)
+├── [4_Training_4_ORPO.ipynb](./4_Training_4_ORPO.ipynb)
+├── [4_Training_5_ORPO_from_SFT.ipynb](./4_Training_5_ORPO_from_SFT.ipynb)
+├── [5_Evaluation_Analytics.ipynb](./5_Evaluation_Analytics.ipynb)
+├── [README.md](./README.md)
+
 
 ---
 
