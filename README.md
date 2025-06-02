@@ -106,8 +106,8 @@ Questions are generated for the interventions of the following dataset: [validat
 
 ### 3. Training 
 
-To fine-tune our basemodel we have two approaches. First we started with a supervised fine-tuning approach to foster the basics of critical question generation. 
-Second we used this SFT trained model to train it with a reinforcement learning approach called Direct Preference Optimization. 
+To fine-tune our basemodel we have three approaches. First we started with a supervised fine-tuning approach to foster the basics of critical question generation. 
+Second we used this SFT trained model to train it with a reinforcement learning approach called Direct Preference Optimization. And third we use Odds Ratio Preference Optimization which is as well a reinforcement learning approach.
 
 #### 3.1 Supervised Fine-tuning [Notebook SFT Training](4_Training_1_SFT.ipynb)
 
@@ -156,83 +156,65 @@ Your Language Model is Secretly a Reward Model](https://arxiv.org/pdf/2305.18290
 
 
 ### 4. Evaluation - [Notebook Evaluation](2a_Baseline_Evaluation.ipynb)
-
-We define evaluation metrics and generate scores for the baseline models and the fine-tuned model. We evaluate the model
-with the following metrices:
-
-- Semantic Similarity --> similarity between generated question and argumentative input text
-- BLEURT: [Here](https://github.com/google-research/bleurt)
-- ChatGPT 4.0 ->
-- Qualitative Sample Analysis --> (Two experts judge the generated questions)
-
+This notebook evaluates generated questions based on Walton's argumentation schemes. It scores question quality using a combination of rule-based and model-based metrics.
+- **Frameworks Used**:
+  - `spaCy`: – NLP pipeline for linguistic features
+  - `nltk`_ – Tokenization and preprocessing, framenet and wordnet
 ---
 
 ## Project Structure
 
-```
-.
-├── Data/
-│   ├── Raw/                              # Raw datasets
-│   └── Processed/                        # Processed datasets
-├── Doc/                                  # Documentation
-├── Evluation/                
-│   ├── Results/                          # Files with CQs from generation
-│   ├── Scored/                           # Result scores from evaluations
-├── Logs/                                 # Logs from all Notebooks               
-├── .gitignore
-├── 1_a_Preprocessing.ipynb               # Preprocess Dataset and generate Training Data
-├── 1_b_Generate_DPO_Dataset.ipynb        # Generate preference dataset for reinforcement learning
-├── 2_Question_Generation.ipynb           # Used to generate question for the validation dataset for all models
-├── 3_Evaluation.ipynb                    # Generates evaluation files for given quetions
-├── 4_Training_1_SFT.ipynb                # SFT Training
-├── 4_Training_2_DPO.ipynb                # DPO Training
-├── 4_Training_3_DPO_from_SFT.ipynb       # DPO from SFT Training
-├── 4_Training_4_ORPO.ipynb               # OPRO Training
-├── 4_Training_5_ORPO_from_SFT.ipynb      # ORPO from SFT Training
-├── 5_Evaluation_Analytics.ipynb          # Analyse all evaluations
-├── README.md
-```
-
-.
-├── [Data/](./Data/)
-│   ├── [Raw/](./Data/Raw/)  
-│   └── [Processed/](./Data/Processed/)
-├── [Doc/](./Doc/)
-├── [Evluation/](./Evluation/)
-│   ├── [Results/](./Evluation/Results/)
-│   ├── [Scored/](./Evluation/Scored/)
-├── [Logs/](./Logs/)
-├── [.gitignore](./.gitignore)
-├── [1_a_Preprocessing.ipynb](./1_a_Preprocessing.ipynb)
-├── [1_b_Generate_DPO_Dataset.ipynb](./1_b_Generate_DPO_Dataset.ipynb)
-├── [2_Question_Generation.ipynb](./2_Question_Generation.ipynb)
-├── [3_Evaluation.ipynb](./3_Evaluation.ipynb)
-├── [4_Training_1_SFT.ipynb](./4_Training_1_SFT.ipynb)
-├── [4_Training_2_DPO.ipynb](./4_Training_2_DPO.ipynb)
-├── [4_Training_3_DPO_from_SFT.ipynb](./4_Training_3_DPO_from_SFT.ipynb)
-├── [4_Training_4_ORPO.ipynb](./4_Training_4_ORPO.ipynb)
-├── [4_Training_5_ORPO_from_SFT.ipynb](./4_Training_5_ORPO_from_SFT.ipynb)
-├── [5_Evaluation_Analytics.ipynb](./5_Evaluation_Analytics.ipynb)
-├── [README.md](./README.md)
+- [Data/](./Data/)  
+  &nbsp;&nbsp;&nbsp;&nbsp;- [Raw/](./Data/Raw/)  
+  &nbsp;&nbsp;&nbsp;&nbsp;- [Processed/](./Data/Processed/)  
+- [Doc/](./Doc/)  
+- [Evluation/](./Evluation/)  
+  &nbsp;&nbsp;&nbsp;&nbsp;- [Results/](./Evluation/Results/)  
+  &nbsp;&nbsp;&nbsp;&nbsp;- [Scored/](./Evluation/Scored/)  
+- [Logs/](./Logs/)  
+- [.gitignore](./.gitignore)  
+- [1_a_Preprocessing.ipynb](./1_a_Preprocessing.ipynb)  
+- [1_b_Generate_DPO_Dataset.ipynb](./1_b_Generate_DPO_Dataset.ipynb)  
+- [2_Question_Generation.ipynb](./2_Question_Generation.ipynb)  
+- [3_Evaluation.ipynb](./3_Evaluation.ipynb)  
+- [4_Training_1_SFT.ipynb](./4_Training_1_SFT.ipynb)  
+- [4_Training_2_DPO.ipynb](./4_Training_2_DPO.ipynb)  
+- [4_Training_3_DPO_from_SFT.ipynb](./4_Training_3_DPO_from_SFT.ipynb)  
+- [4_Training_4_ORPO.ipynb](./4_Training_4_ORPO.ipynb)  
+- [4_Training_5_ORPO_from_SFT.ipynb](./4_Training_5_ORPO_from_SFT.ipynb)  
+- [5_Evaluation_Analytics.ipynb](./5_Evaluation_Analytics.ipynb)  
+- [README.md](./README.md)   
 
 
 ---
 
 ## Setup Instructions
-
-There is no pre Setup needed and you can directly open the notebooks in google colab. Just follow the steps to run the project.
-
+- For all notebooks you need to create an access token for GitHub. This access token has to be placed in Google Colab as a secret with the name "GITHUB".
+- To access the baseline model `meta/Llama-3.1-8B-Instruct` you have to register for Meta Llama 3.1 Model Family on Hugging Face. Then create an access token in Hugging Face and place it in Google colab as secret with the name "HF_TOKEN"
+- All notebooks are running in google colab and therefore you do not need a requirements.txt to install
 
 ---
 
 ## Running the Project
-
 Follow these notebooks in order:
+```
+1. 1_a_Preprocessing.ipynb                      - Data preprocessing, ~4 hours
+2. 1_b_Generate_DPO_Dataset.ipynb.ipynb         - Generate preference dataset, ~3 hours 
+3. 2_Question_Generation.ipynb                  - Establishing a baseline model, ~1 hour
+4. 3_Evaluation.ipynb                           - Evaluation of baseline model, ~10 minutes
+5. 4_Training_1_SFT.ipynb                       - SFT fine-tuning, ~1 hour
+6. 3_Evaluation.ipynb                           - Evaluation of SFT model, ~10 minutes
+7. 4_Training_2_DPO.ipynb                       - DPO fine-tuning, ~1 hour
+8. 3_Evaluation.ipynb                           - Evaluation of DPO model, ~10 minutes
+9. 4_Training_3_DPO_from_SFT.ipynb              - DPO from SFT fine-tuning, ~1 hour
+10. 3_Evaluation.ipynb                          - Evaluation of DPO from SFT model, ~10 minutes
+11. 4_Training_4_ORPO.ipynb                     - OPRO fine-tuning, ~1 hour
+12. 3_Evaluation.ipynb                          - Evaluation of ORPO model, ~10 minutes
+13. 4_Training_5_ORPO_from_SFT.ipynb            - ORPO from SFT fine-tuning, ~1 hour
+14. 3_Evaluation.ipynb                          - Evaluation of ORPO from SFT model, ~10 minutes
+15. 5_Evaluation_Analytics.ipynb                - Analyze all evaluation files, ~10 minutes
+```
 
-1. `1_Preprocessing.ipynb` - Data preprocessing
-2. `2_Baseline.ipynb` - Establishing a baseline model
-3. `3_Training.ipynb` - Model training
-4. `4_Evaluation.ipynb` - Evaluating model performance
 
 ---
 
@@ -263,5 +245,4 @@ We were able to beat the baseline by more than 30% with our SFT trained model.
 - Ruiz-Dolz, Ramon, and John Lawrence. “Detecting Argumentative Fallacies in the Wild: Problems and Limitations of Large Language Models.” Proceedings of the 10th Workshop on Argument Mining, Association for Computational Linguistics, 2023, pp. 1–10. DOI.org (Crossref), https://doi.org/10.18653/v1/2023.argmining-1.1.
 - Sellam, Thibault, et al. “BLEURT: Learning Robust Metrics for Text Generation.” Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, Association for Computational Linguistics, 2020, pp. 7881–92. DOI.org (Crossref), https://doi.org/10.18653/v1/2020.acl-main.704.
 - Rafailov, Rafael, et al. Direct Preference Optimization: Your Language Model Is Secretly a Reward Model. arXiv:2305.18290, arXiv, 29 July 2024. arXiv.org, https://doi.org/10.48550/arXiv.2305.18290.
-
 ---
