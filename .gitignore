@@ -1,8 +1,2 @@
 #venv
 /.venv
-
-#Models
-/Models
-
-#Large dataset
-/Data/Raw/hotpot_train_v1.1.json
