@@ -34,56 +34,43 @@ Each question is generated for one of our question types.
 The used prompts are:
 ```` python
 schemas = {
-    "CauseToEffect": """'Cause to Effect' with the examples:
-    How strong is the generalisation that if <eventA> then <eventB>?
-    Are there other factors in this particular case that could have interfered with the event of‘<eventB>’?
+    "CauseToEffect": """Examples are:
+    What if the job is one that will cause their illness to manifest and affect their job performance?
+    If so, do you think the lack of any of the pieces influence the decisions they make about whether to create the digital widget or which digital widget to create?
+    If miners and the working class are such a small percentage of the population as to not make a difference in a straight up popular vote, then why do we let them have so much influence?
     """,
 
-    "ExpertOpinion": """'Expert Opinion' with the examples:
-    Is <expertE> a genuine expert in <domainD>?
-    Did <expertE> really assert that <eventA>? Is <expertE>’s pronouncement directly quoted? If not, is a reference to the original source given? Can it be checked?
-    If <expertE>’s advice is not quoted, does it look like important information or qualifications may have been left out?
-    Is what <expertE> said clear? Are there technical terms used that are not explained clearly?
-    Is <eventA> relevant to domain <domainD>?
-    Is <eventA> consistent with what other experts in <domainD> say?
-    Is <eventA> consistent with known evidence in <domainD>?
+    "ExpertOpinion": """'Examples are:
+    Do you have a scientific source that confirm that women only wants one partner to a greater degree than men?
+    If you are just stating facts, the surely you can point to some studies that show most women are narcissistic sociopaths?
+    Where in any scientific textbook or journal have you seen evidence of sex being described as a spectrum?
     """,
 
-    "Analogy": """'Analogy' with the examples:
-    Are <C1> and <C2> similar in the respect cited?
-    Is <eventA> true in <C1>?
-    Are there differences between <C1> and <C2> that would tend to undermine the force of the similarity cited?
-    Is there some other case that is also similar to <C1>, but in which <eventA> is false?
+    "Analogy": """Examples are:
+    If so, would these groups resemble what are commonly referred to as races?
+    If whites are guilty of enjoying the benefits of stolen land after being here for two generations, why would that not mean a 2nd generation American POC not have a similar benefit?
+    But why is the way her hair naturally grows from her head seen as less professional than chemically altering to mimic straight white European hair?
     """,
 
-    "FearAppeal": """'Fear Appeal' with the examples:
-    Is <eventB> bad? Why and to whom is it bad?
-    Is <eventA> away to prevent <eventB>?
-    Is it practically possible for <eventA> to happen?
-    Are there other consequences from <eventA>?
+    "FearAppeal": """'Examples are:
+    If he did such a great job making peace, why do we need sanctions to pressure North Korea into stopping its violent threats?
+    And if we should strive to stop all killings then why would the implement of this murder be spared if it causes a very large number of deaths but was intended to cause none?
+    If you say you can, then are you implying that you see Islam as being no worse?
     """
 }
 
-messages = [
-{"role": "system", "content": "You are a system designed to generate critical questions for a given argumentative context."},
-{"role": "user", "content": f"""Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.
 
-### Instruction:
-Generate one critical question addressing the given context following the schema:
+ "prompt": [
+    {
+        "role": "system",
+        "content": "You generate concise, critical, single-sentence questions for argumentative contexts, matching specified question schemas."
+    },
+     {
+        "role": "user",
+        "content": f"Generate one critical question addressing the provided context. Ensure it matches the schema:{schema_key}{schema_text}.\n\nContext: {context} Respond only with the question and nothing else."
+    }
 
-### Schema:
-{schema}
-
-Your answer is just the question without anything else.
-
-This is the given context to relate the question to:
-
-### Context:
-{input_text}
-
-### Response:
-"""}   
-]
+],
    
 ````
 

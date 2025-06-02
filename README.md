@@ -1,4 +1,4 @@
-# Critical Question Generation: A novel approach by Cédric & Rico
+# EICQE: Expert Independent Critical Question Evaluation
 
 We aim to generate useful critical questions for a given argumentative text.
 
@@ -96,6 +96,7 @@ This resulted in a new dataset with 3'069 datapoints in the following structure:
   }...
 ]
 ```
+Further information about prprocessing is in this [information](1_0_Information_preprocessing.md).
 
 ### 2. Baseline - [Notebook Question Generation](2_Question_Generation.ipynb)
 We generate baseline critical questions with a pretrained LLM for the validation dataset. To generate the baseline
@@ -104,7 +105,7 @@ questions we use:
 - LLama 3.1 8B Instruct
 
 Questions are generated for the interventions of the following dataset: [validation.json](Data/Raw/sharedTask/validation.json)
-
+Further information about question generation are in the following [information](2_0_Information_Question_Generation.md).
 ### 3. Training 
 
 To fine-tune our basemodel we have three approaches. First we started with a supervised fine-tuning approach to foster the basics of critical question generation. 
@@ -192,7 +193,7 @@ This notebook evaluates generated questions based on Walton's argumentation sche
 ## Setup Instructions
 - For all notebooks you need to create an access token for GitHub. This access token has to be placed in Google Colab as a secret with the name "GITHUB".
 - To access the baseline model `meta/Llama-3.1-8B-Instruct` you have to register for Meta Llama 3.1 Model Family on Hugging Face. Then create an access token in Hugging Face and place it in Google colab as secret with the name "HF_TOKEN"
-- All notebooks are running in google colab and therefore you do not need a requirements.txt to install
+- All notebooks are running in google colab, and therefore you do not need a requirements.txt to install
 
 ---
 
@@ -201,19 +202,24 @@ Follow these notebooks in order:
 ```
 1. 1_a_Preprocessing.ipynb                - Data preprocessing, ~4 hours
 2. 1_b_Generate_DPO_Dataset.ipynb.ipynb   - Generate preference dataset, ~3 hours 
-3. 2_Question_Generation.ipynb            - Establishing a baseline model, ~1 hour
+3. 2_Question_Generation.ipynb            - Generate questions with baseline model, ~1 hour
 4. 3_Evaluation.ipynb                     - Evaluation of baseline model, ~10 minutes
 5. 4_Training_1_SFT.ipynb                 - SFT fine-tuning, ~1 hour
 6. 3_Evaluation.ipynb                     - Evaluation of SFT model, ~10 minutes
-7. 4_Training_2_DPO.ipynb                 - DPO fine-tuning, ~1 hour
-8. 3_Evaluation.ipynb                     - Evaluation of DPO model, ~10 minutes
-9. 4_Training_3_DPO_from_SFT.ipynb        - DPO from SFT fine-tuning, ~1 hour
-10. 3_Evaluation.ipynb                    - Evaluation of DPO from SFT model, ~10 minutes
-11. 4_Training_4_ORPO.ipynb               - OPRO fine-tuning, ~1 hour
-12. 3_Evaluation.ipynb                    - Evaluation of ORPO model, ~10 minutes
-13. 4_Training_5_ORPO_from_SFT.ipynb      - ORPO from SFT fine-tuning, ~1 hour
-14. 3_Evaluation.ipynb                    - Evaluation of ORPO from SFT model, ~10 minutes
-15. 5_Evaluation_Analytics.ipynb          - Analyze all evaluation files, ~10 minutes
+7. 2_Question_Generation.ipynb            - Generate questions with SFT model,, ~1 hour
+8. 4_Training_2_DPO.ipynb                 - DPO fine-tuning, ~1 hour
+9. 3_Evaluation.ipynb                     - Evaluation of DPO model, ~10 minutes
+10. 2_Question_Generation.ipynb           - Generate questions with DPO model,, ~1 hour
+11. 4_Training_3_DPO_from_SFT.ipynb       - DPO from SFT fine-tuning, ~1 hour
+12. 3_Evaluation.ipynb                    - Evaluation of DPO from SFT model, ~10 minutes
+13. 2_Question_Generation.ipynb           - Generate questions with DPO from SFT model,, ~1 hour
+14. 4_Training_4_ORPO.ipynb               - OPRO fine-tuning, ~1 hour
+15. 3_Evaluation.ipynb                    - Evaluation of ORPO model, ~10 minutes
+16. 2_Question_Generation.ipynb           - Generate questions with ORPO, ~1 hour
+17. 4_Training_5_ORPO_from_SFT.ipynb      - ORPO from SFT fine-tuning, ~1 hour
+18. 3_Evaluation.ipynb                    - Evaluation of ORPO from SFT model, ~10 minutes
+19. 2_Question_Generation.ipynb           - Generate questions with ORPO from SFT model, ~1 hour
+20. 5_Evaluation_Analytics.ipynb          - Analyze all selected evaluation files, ~3 minutes
 ```
 
 
@@ -229,14 +235,15 @@ Follow these notebooks in order:
 ---
 
 ## Results & Evaluation
-
 We were able to beat the baseline by more than 30% with our SFT trained model. 
 
-| Metric              | Baseline | SFT     | DPO     |
-|---------------------|----------|---------|---------|
-| Scheme Accuracy     | 31.85%   | **65.32%** | 39.38%  |
-| Context Accuracy    | 63.44%   | 65.59%  | **72.44%** |
-| Scheme + Context    | 17.74%   | **37.77%** | 28.23%  |
+| Model    | Total Entries | Critical Count | % Critical | In Context Count | % In Context | Critical & In Context Count | % Critical & In Context |
+|----------|----------------|----------------|------------|------------------|--------------|-----------------------------|-------------------------|
+| Baseline | 744            | 237            | 31.9%      | 472              | 63.4%        | 132                         | 17.7%                   |
+| SFT      | 744            | **486**        | **65.3%**  | 488              | 65.6%        | **281**                     | **37.8%**               |
+| DPO      | 744            | 185            | 24.9%      | 536              | 72.0%        | 135                         | 18.1%                   |
+| DPO_SFT  | 744            | 229            | 30.8%      | 546              | 73.4%        | 154                         | 20.7%                   |
+| ORPO     | 744            | 210            | 28.2%      | **565**          | **75.9%**    | 154                         | 20.7%                   |
 
 ---
 

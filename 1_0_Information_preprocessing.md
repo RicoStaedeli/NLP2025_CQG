@@ -32,14 +32,14 @@ The output of this step is a json file:
     "Analogy":2.0,
     "ExpertOpinion":0.0,
     "FearAppeal":2
-  },
+  }...
 ]
 
 ````
 Found in Data/Final/scored/processed_train_data.json
 
 This generated JSON is used to create two new datasets for SFT Fine-tuning. 
-### 1. Filtered dataset with schema
+### 1. Filtered dataset with schema [CQ SFT Dataset](Data/Processed/CQ SFT Dataset.json)
 This dataset is in the structure of the original SocratiQ dataset with three columns:
 ```json
 [
@@ -57,45 +57,22 @@ This dataset is in the structure of the original SocratiQ dataset with three col
   }...
 ]
 ```
-Found in Data/Final/Categorised/categoriesed_filtered_train_data.json
 
-### 2. Complete SocraticQ dataset with schema 
-This dataset contains all entries from the original dataset but with additional columns. The columns are used during fine-tuning to give the model a better understanding of the relevance of the question.
 
-```json
-[
-  {
-    "id" : 1
-    "context": "reasons_evidence: If you are genuinely struggling and need help, someone is going to want to help you.",
-    "question": "How old are the kids who are screaming in public? ",
-    "schema": "Bias"
-  },
-  {
-    "id" : 2,
-    "context": "reasons_evidence: If you are genuinely struggling and need help, someone is going to want to help you.",
-    "question": "How old are the kids who are screaming in public? ",
-    "schema": ""
-  }...
-]
-```
-Found in Data/Final/Categorised/categoriesed_train_data.json
-
-If the question is marked as not critical the new column is empty.
-
-### 3. Complete SocraticQ dataset with scores
+### 2. Complete SocraticQ dataset with scores - [CQ FULL Dataset](Data/Processed/CQ FULL Dataset.json)
 This dataset contains the complete SocratiQ dataset augmented with the scores generated with the evaluation script.
 ```json
 [
   {
-    "id" : 1,
-    "context": "reasons_evidence: If you are genuinely struggling and need help, someone is going to want to help you.",
-    "question": "How old are the kids who are screaming in public? ",
-    "scores":    {
-        "cause to effect" : 2,
-        "Analogy": 5,
-        "Expert Opinion": 12,
-        "Fear": 3
-    }
+    "id":1,
+    "context":"alternate_viewpoints_perspectives: A parallel argument would state that England is worse off because America passed them as the dominant economic power in the world. Is the argument remotely true? Not at all - England has become far wealthier from trade with America. I'm typing this reply on a Samsung phone, made in Korea, which was an undeveloped country in the not too distant past. Who knows, maybe Vietnam has some kids now who will figure out a better smartphone. I'd love it if they became wealthy enough to actually make one. Your argument is essentially mercantilist, by thinking that trade is zero-sum, but actually trade improves income for all nations.",
+    "question":"What about nations who have nothing?",
+    "context_token_len":139,
+    "is_Critical":false,
+    "CauseToEffect":0.0,
+    "Analogy":2.0,
+    "ExpertOpinion":0.0,
+    "FearAppeal":2
   }...
 ]
 ```
