@@ -27,11 +27,12 @@ task: [CQG shared task](https://hitz-zentroa.github.io/shared-task-critical-ques
 
 ### 1. Data Preprocessing - [Notebook Data Preprocessing](1_a_Preprocessing.ipynb)
 
+#### 1.1 Combine chunks and preprocess
 First step of the project is the creation of a valid dataset for training the model.
 For this we use the dataset SocraticQ: [SocraticQ](https://github.com/NUS-IDS/eacl23_soqg/tree/main)
 The dataset includes short intervention texts and corresponding human-authored questions
 
-#### Sample from the raw SocratiQ datest(`train_chunk_1.csv`)
+##### Sample from the raw SocratiQ datest(`train_chunk_1.csv`)
 
 | **input**                                                                                              | **target (Question)**                                                               |
 |--------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
@@ -39,10 +40,10 @@ The dataset includes short intervention texts and corresponding human-authored q
 | reasons_evidence: If you are genuinely struggling and need help, someone is going to want to help you. | How old are the kids who are screaming in public?                                   |
 
 
-#### Scoring
-
-#### Sample from the processed dataset (`categoriesed_filtered_train_data.json`)
-This dataset is filtered according a defined treshold during the scoring process.
+#### 1. 2 Scoring
+We generate a dataset containing only entries with critical questions. To generate this dataset we have defined an evaluation pipeline described in [Evaluation](3_Evaluation.ipynb).
+The result is a dataset with 3346 qualitative context-question pairs. 
+##### Below an excerpt of this filtered [dataset](Data/Processed/CQ%20SFT%20Dataset.json).
 ```json
 [
   {
@@ -59,11 +60,11 @@ This dataset is filtered according a defined treshold during the scoring process
   }...
 ]
 ```
-#### Preference Dataset for Reinforcement Learning -  [Notebook Data Preprocessing](1_a_Preprocessing.ipynb)
+#### 1.3 Preference Dataset for Reinforcement Learning -  [Notebook Data Preprocessing](1_a_Preprocessing.ipynb)
 We generated a second dataset to train the model with direct preferences. This dataset needs two columns, one is the chosen and one is the rejected answer. In our case question.
 The generation was done with `gpt-3.5-turbo` and the defined scoring pipeline. 
 
-<img src="Doc/Assets/DPO%20dataset%20generation.png" alt="DPO dataset generation" style="width:25%;"/>
+<img src="Doc/Assets/DPO%20dataset%20generation.png" alt="DPO dataset generation" style="width:35%;"/>
 
 This resulted in a new dataset with 3'069 datapoints in the following structure:
 ```json
@@ -198,21 +199,21 @@ This notebook evaluates generated questions based on Walton's argumentation sche
 ## Running the Project
 Follow these notebooks in order:
 ```
-1. 1_a_Preprocessing.ipynb                      - Data preprocessing, ~4 hours
-2. 1_b_Generate_DPO_Dataset.ipynb.ipynb         - Generate preference dataset, ~3 hours 
-3. 2_Question_Generation.ipynb                  - Establishing a baseline model, ~1 hour
-4. 3_Evaluation.ipynb                           - Evaluation of baseline model, ~10 minutes
-5. 4_Training_1_SFT.ipynb                       - SFT fine-tuning, ~1 hour
-6. 3_Evaluation.ipynb                           - Evaluation of SFT model, ~10 minutes
-7. 4_Training_2_DPO.ipynb                       - DPO fine-tuning, ~1 hour
-8. 3_Evaluation.ipynb                           - Evaluation of DPO model, ~10 minutes
-9. 4_Training_3_DPO_from_SFT.ipynb              - DPO from SFT fine-tuning, ~1 hour
-10. 3_Evaluation.ipynb                          - Evaluation of DPO from SFT model, ~10 minutes
-11. 4_Training_4_ORPO.ipynb                     - OPRO fine-tuning, ~1 hour
-12. 3_Evaluation.ipynb                          - Evaluation of ORPO model, ~10 minutes
-13. 4_Training_5_ORPO_from_SFT.ipynb            - ORPO from SFT fine-tuning, ~1 hour
-14. 3_Evaluation.ipynb                          - Evaluation of ORPO from SFT model, ~10 minutes
-15. 5_Evaluation_Analytics.ipynb                - Analyze all evaluation files, ~10 minutes
+1. 1_a_Preprocessing.ipynb                - Data preprocessing, ~4 hours
+2. 1_b_Generate_DPO_Dataset.ipynb.ipynb   - Generate preference dataset, ~3 hours 
+3. 2_Question_Generation.ipynb            - Establishing a baseline model, ~1 hour
+4. 3_Evaluation.ipynb                     - Evaluation of baseline model, ~10 minutes
+5. 4_Training_1_SFT.ipynb                 - SFT fine-tuning, ~1 hour
+6. 3_Evaluation.ipynb                     - Evaluation of SFT model, ~10 minutes
+7. 4_Training_2_DPO.ipynb                 - DPO fine-tuning, ~1 hour
+8. 3_Evaluation.ipynb                     - Evaluation of DPO model, ~10 minutes
+9. 4_Training_3_DPO_from_SFT.ipynb        - DPO from SFT fine-tuning, ~1 hour
+10. 3_Evaluation.ipynb                    - Evaluation of DPO from SFT model, ~10 minutes
+11. 4_Training_4_ORPO.ipynb               - OPRO fine-tuning, ~1 hour
+12. 3_Evaluation.ipynb                    - Evaluation of ORPO model, ~10 minutes
+13. 4_Training_5_ORPO_from_SFT.ipynb      - ORPO from SFT fine-tuning, ~1 hour
+14. 3_Evaluation.ipynb                    - Evaluation of ORPO from SFT model, ~10 minutes
+15. 5_Evaluation_Analytics.ipynb          - Analyze all evaluation files, ~10 minutes
 ```
 
 
