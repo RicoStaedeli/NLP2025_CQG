@@ -25,7 +25,7 @@ task: [CQG shared task](https://hitz-zentroa.github.io/shared-task-critical-ques
 
 ![Project Architecture](Doc/Assets/Project%20Architecture.png)
 
-### 1. Data Preprocessing - [Notebook Data Preprocessing](1_Preprocessing.ipynb)
+### 1. Data Preprocessing - [Notebook Data Preprocessing](1_a_Preprocessing.ipynb)
 
 First step of the project is the creation of a valid dataset for training the model.
 For this we use the dataset SocraticQ: [SocraticQ](https://github.com/NUS-IDS/eacl23_soqg/tree/main)
@@ -73,7 +73,7 @@ Questions are generated for the interventions of the following dataset: [validat
 To fine-tune our basemodel we have two approaches. First we started with a supervised fine-tuning approach to foster the basics of critical question generation. 
 Second we used this SFT trained model to train it with a reinforcement learning approach called Direct Preference Optimization. 
 
-#### 3.1 Supervised Fine-tuning [Notebook SFT Training](Training/3_Training_1_SFT.ipynb)
+#### 3.1 Supervised Fine-tuning [Notebook SFT Training](4_Training_1_SFT.ipynb)
 
 - **Base Model**: `unsloth/Llama-3.1-8B-Instruct`, a lightweight version of LLaMA tailored for instruction-following
   tasks.
@@ -94,11 +94,11 @@ Second we used this SFT trained model to train it with a reinforcement learning 
 
 ![Training Workflow](Doc/Assets/Training%20Workflow.jpg)
 
-#### 3.2 Direct Preference Optimization Training [Notebook DPO Training](Training/3_Training_2_DPO.ipynb)
+#### 3.2 Direct Preference Optimization Training [Notebook DPO Training](4_Training_2_DPO.ipynb)
 Direct Preference Optimization is a reinforcement learning strategy. As described in the paper [Direct Preference Optimization:
 Your Language Model is Secretly a Reward Model](https://arxiv.org/pdf/2305.18290).
 
-**Dataset** [DPO Dataset Generation](1_a_Generate_DPO_Dataset.ipynb)
+**Dataset** [DPO Dataset Generation](1_b_Generate_DPO_Dataset.ipynb)
 
 We generated a new dataset to train the model with direct preferences. This dataset needs two columns, one is the chosen and one is the rejected answer. In our case question.
 The generation was done with `gpt-3.5-turbo` and the defined scoring pipeline. 
