@@ -141,8 +141,7 @@ Optimization. And third we use Odds Ratio Preference Optimization which is as we
 
 > First step is to use supervised fine-tuning to train the model to generate schema aligning critical questions.
 
-- **Base Model**: `unsloth/Llama-3.1-8B-Instruct`, a lightweight version of LLaMA tailored for instruction-following
-  tasks.
+- **Base Model**: `meta-llama/Llama-3.1-8B-Instruct`
 - **Frameworks Used**:
     - `unsloth` for efficient QLoRA fine-tuning
     - `transformers` & `trl` (SFTTrainer) for training and evaluation pipeline
@@ -168,9 +167,9 @@ Optimization. And third we use Odds Ratio Preference Optimization which is as we
 > paper [Direct Preference Optimization:
 Your Language Model is Secretly a Reward Model](https://arxiv.org/pdf/2305.18290).
 
+- **Base Model**: `meta-llama/Llama-3.1-8B-Instruct`
 - **Dataset**
     - [Preference Dataset](Data/Processed/CQ%20DPO%20Dataset.json)
-
 - **Setup**
     - **Training Strategy**: DPO fine-tuning with QLoRA adapters
 - **Precision**:  `bfloat16`
@@ -186,10 +185,9 @@ Your Language Model is Secretly a Reward Model](https://arxiv.org/pdf/2305.18290
 #### 3.3 ORPO Training [Notebook ORPO Training](4_Training_4_ORPO.ipynb)
 
 > Odds Ratio Preference Optimization is a reinforcement learning training performed with a preference dataset.
-
-- **Input_**
+- **Base Model**: `meta-llama/Llama-3.1-8B-Instruct`
+- **Dataset**
     - [Preference Dataset](Data/Processed/CQ%20DPO%20Dataset.json)
-
 - **Setup**
     - **Training Strategy**: ORPO fine-tuning with QLoRA adapters
 - **Precision**:  `float16`
