@@ -198,8 +198,8 @@ This notebook evaluates generated questions based on Walton's argumentation sche
 combination of rule-based and model-based metrics.
 
 - **Frameworks Used**:
-    - `spaCy`: – NLP pipeline for linguistic features
-    - `nltk`_ – Tokenization and preprocessing, framenet and wordnet
+    - `spaCy`: NLP pipeline for linguistic features
+    - `nltk`: Tokenization and preprocessing, framenet and wordnet
 
 The evaluation is further enhanced with an [analytical notebook](5_Evaluation_Analytics.ipynb).
 
