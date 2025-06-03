@@ -233,16 +233,16 @@ The evaluation is further enhanced with an [analytical notebook](5_Evaluation_An
 ## Setup Instructions
 
 - For all notebooks you need to create an access token for GitHub. This access token has to be placed in Google Colab as
-  a secret with the name "GITHUB".
+  a secret with the name `GITHUB`.
 - To access the baseline model `meta/Llama-3.1-8B-Instruct` you have to register for Meta Llama 3.1 Model Family on
-  Hugging Face. Then create an access token in Hugging Face and place it in Google colab as secret with the name "
-  HF_TOKEN"
+  Hugging Face. Then create an access token in Hugging Face and place it in Google colab as secret with the name `
+  HF_TOKEN`.
 - Some Training notebooks have a connection to Weights & Biases to log the trainings. For these notebooks you need an
-  additional API key from a Weights & Biases account. Place this API key in Google colab as a secret with the name "
-  wandb".
+  additional API key from a Weights & Biases account. Place this API key in Google colab as a secret with the name `
+  wandb`.
 - The notebook [1_b_Generate_DPO_Dataset.ipynb](1_b_Generate_DPO_Dataset.ipynb) needs also an API key from OpenAI. Place
-  this key as a secret in Google colab with the name "OPENAI_API_KEY"
-- All notebooks are running in google colab, and therefore you do not need a requirements.txt to install
+  this key as a secret in Google colab with the name `OPENAI_API_KEY`.
+- All notebooks are running in google colab, and therefore you do not need a `requirements.txt` to install.
 
 ---
 
