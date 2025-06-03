@@ -45,6 +45,9 @@ chunks and needs to be combined.
 | implication_consequences: I'm referring only to aesthetics.                                            | Are they obligated to make clothes that are as beautiful as possible? |
 | reasons_evidence: If you are genuinely struggling and need help, someone is going to want to help you. | How old are the kids who are screaming in public?                     |
 
+
+<br>
+
 #### 1. 2 Scoring
 
 We generate a dataset containing only entries with critical questions. To generate this dataset we have defined an
@@ -70,6 +73,9 @@ The result is a dataset with 3'346 qualitative context-question pairs.
   ...
 ]
 ```
+
+<br>
+<br>
 
 #### 1.3 Preference Dataset for Reinforcement Learning -  [Notebook Data Preprocessing](1_a_Preprocessing.ipynb)
 
