@@ -35,7 +35,8 @@ the [CQG Shared Task](https://hitz-zentroa.github.io/shared-task-critical-questi
 
 First step of the project is the creation of a valid dataset for training the model.
 For this we use the dataset [SocraticQ](https://github.com/NUS-IDS/eacl23_soqg/tree/main) as a foundation. The dataset
-includes short intervention texts and corresponding human-authored questions. This dataset is originally split into 3 chunks and needs to be combined.
+includes short intervention texts and corresponding human-authored questions. This dataset is originally split into 3
+chunks and needs to be combined.
 
 ##### Sample from the raw SocratiQ datest(`train_chunk_1.csv`)
 
@@ -74,7 +75,8 @@ The result is a dataset with 3'346 qualitative context-question pairs.
 
 We generated a second dataset to train the model with direct preferences. This dataset needs two columns, one is the
 chosen and one is the rejected answer (In our case question).
-The generation was done with `gpt-3.5-turbo` and the defined scoring pipeline from the [Evaluation](3_Evaluation.ipynb) notebook.
+The generation was done with `gpt-3.5-turbo` and the defined scoring pipeline from the [Evaluation](3_Evaluation.ipynb)
+notebook.
 
 <img src="Doc/Assets/DPO%20dataset%20generation.png" alt="DPO dataset generation" style="width:35%;"/>
 
@@ -114,13 +116,14 @@ Further information about preprocessing is in this [information](1_0_Information
 
 ### 2. Question Generation - [Notebook Question Generation](2_Question_Generation.ipynb)
 
-We create a generation script to generate question for the validation dataset. This script is used to generate critical 
+We create a generation script to generate question for the validation dataset. This script is used to generate critical
 questions for all our trained models as well as for the baseline model.
 
 - **Baseline Model**: `LLama 3.1 8B Instruct`
 - **Validation Dataset**: [validation.json](Data/Raw/sharedTask/validation.json)
 
-Further information about question generation are in the following [information](2_0_Information_Question_Generation.md).
+Further information about question generation are in the
+following [information](2_0_Information_Question_Generation.md).
 
 ### 3. Training
 
@@ -136,7 +139,7 @@ Optimization. And third we use Odds Ratio Preference Optimization which is as we
 
 #### 3.1 Supervised Fine-tuning [Notebook SFT Training](4_Training_1_SFT.ipynb)
 
-> Supervised fine-tuning 
+> First step is to use supervised fine-tuning to train the model to generate schema aligning critical questions.
 
 - **Base Model**: `unsloth/Llama-3.1-8B-Instruct`, a lightweight version of LLaMA tailored for instruction-following
   tasks.
@@ -162,10 +165,11 @@ Optimization. And third we use Odds Ratio Preference Optimization which is as we
 #### 3.2 Direct Preference Optimization Training [Notebook DPO Training](4_Training_2_DPO.ipynb)
 
 > Direct Preference Optimization is a reinforcement learning strategy. As described in the
-paper [Direct Preference Optimization:
+> paper [Direct Preference Optimization:
 Your Language Model is Secretly a Reward Model](https://arxiv.org/pdf/2305.18290).
 
-**Dataset** [DPO Dataset](Data/Processed/CQ%20DPO%20Dataset.json)
+- **Dataset**
+    - [Preference Dataset](Data/Processed/CQ%20DPO%20Dataset.json)
 
 - **Setup**
     - **Training Strategy**: DPO fine-tuning with QLoRA adapters
@@ -180,10 +184,11 @@ Your Language Model is Secretly a Reward Model](https://arxiv.org/pdf/2305.18290
 <br>
 
 #### 3.3 ORPO Training [Notebook ORPO Training](4_Training_4_ORPO.ipynb)
-> Odds Ratio Preference Optimization is a reinforcement learning performed on a preference dataset. 
+
+> Odds Ratio Preference Optimization is a reinforcement learning training performed with a preference dataset.
 
 - **Input_**
-    - [DPO Dataset](Data/Processed/CQ%20DPO%20Dataset.json)
+    - [Preference Dataset](Data/Processed/CQ%20DPO%20Dataset.json)
 
 - **Setup**
     - **Training Strategy**: ORPO fine-tuning with QLoRA adapters
