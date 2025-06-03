@@ -129,7 +129,14 @@ the basics of critical question generation.
 Second we used this SFT trained model to train it with a reinforcement learning approach called Direct Preference
 Optimization. And third we use Odds Ratio Preference Optimization which is as well a reinforcement learning approach.
 
+<img src="Doc/Assets/Training%20Workflow.png" alt="DPO dataset generation" style="width:60%;"/>
+
+<br>
+<br>
+
 #### 3.1 Supervised Fine-tuning [Notebook SFT Training](4_Training_1_SFT.ipynb)
+
+> Supervised fine-tuning 
 
 - **Base Model**: `unsloth/Llama-3.1-8B-Instruct`, a lightweight version of LLaMA tailored for instruction-following
   tasks.
@@ -149,11 +156,12 @@ Optimization. And third we use Odds Ratio Preference Optimization which is as we
     - **LoRA Adapter**: Adapter weights separately saved on
       Huggingface [ricostaedeli/Meta-Llama-3.1-1B-Instruct_SFT-lora](https://huggingface.co/ricostaedeli/Meta-Llama-3.1-8B-Instruct_SFT-lora)
 
-<img src="Doc/Assets/Training%20Workflow.png" alt="DPO dataset generation" style="width:60%;"/>
+<br>
+<br>
 
 #### 3.2 Direct Preference Optimization Training [Notebook DPO Training](4_Training_2_DPO.ipynb)
 
-Direct Preference Optimization is a reinforcement learning strategy. As described in the
+> Direct Preference Optimization is a reinforcement learning strategy. As described in the
 paper [Direct Preference Optimization:
 Your Language Model is Secretly a Reward Model](https://arxiv.org/pdf/2305.18290).
 
@@ -168,7 +176,11 @@ Your Language Model is Secretly a Reward Model](https://arxiv.org/pdf/2305.18290
     - **LoRA Adapter**: Adapter weights separately saved on
       Huggingface [ricostaedeli/Meta-Llama-3.1-8B-Instruct_DPO-lora](https://huggingface.co/ricostaedeli/Meta-Llama-3.1-8B-Instruct_DPO-lora)
 
+<br>
+<br>
+
 #### 3.3 ORPO Training [Notebook ORPO Training](4_Training_4_ORPO.ipynb)
+> Odds Ratio Preference Optimization is a reinforcement learning performed on a preference dataset. 
 
 - **Input_**
     - [DPO Dataset](Data/Processed/CQ%20DPO%20Dataset.json)
